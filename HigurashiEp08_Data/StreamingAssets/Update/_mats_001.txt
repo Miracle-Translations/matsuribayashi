@@ -11,17 +11,17 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　父さんと母さんが死んだ。",
-		   NULL, "My father and mother died.", Line_Normal);
+		   NULL, "Meu pai e minha mãe morreram.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　享年が何歳だったかも、よくわからない。",
-		   NULL, "I don't know exactly how old they were.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eu não sei exatamente quantos anos eles tinham.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私はそれくらいに幼かったから。",
-		   NULL, "I was too young to remember.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eu era muito jovem para lembrar.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -29,12 +29,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私ひとりを留守番に残し、両親の二人だけでお出掛けをしたからバチに当たったに違いない。",
-		   NULL, "They went shopping without me, and that must be why they were punished.", Line_Normal);
+		   NULL, "Eles foram às compras sem mim e deve ser por isso que foram punidos.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　鉄道の事故だったという。",
-		   NULL, "It was a train accident.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Foi um acidente de trem.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -42,7 +42,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ひどい惨事だったという。",
-		   NULL, "What a terrible disaster.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Que desastre terrível.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -50,14 +50,14 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　大勢の人が犠牲になったという。",
-		   NULL, "A lot of people died in that incident.", Line_Normal);
+		   NULL, "Muitas pessoas morreram nesse incidente.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "black", 400 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でも、まだ父さんは幸運な方だったかもしれない。",
-		   NULL, "But maybe my father was one of the lucky ones.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Mas talvez meu pai tenha tido sorte.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -65,7 +65,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……生きて病院に担ぎ込まれて、私にいくつかの言葉を残すことができたのだから。",
-		   NULL, "He was still alive when he arrived at the hospital, so he was able to share his final words with me.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ele ainda estava vivo quando chegou ao hospital, então pôde compartilhar suas últimas palavras comigo.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -73,7 +73,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　お母さんなど、原型を留めてもいなかったらしいから。",
-		   NULL, "My mother died instantly.", Line_Normal);
+		   NULL, "Minha mãe morreu instantaneamente.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "background/flashback/sinryou_sinsatu4", 1000 );
@@ -81,41 +81,41 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#efd4a3>美代子</color>", NULL, "<color=#efd4a3>Miyoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 48, "ps3/s13/48/550100040", 128, TRUE);
 	OutputLine(NULL, "「……お、…お父さん、",
-		   NULL, "\"...Daddy, Daddy ", Line_WaitForInput);
+		   NULL, "\"...Papai, papai ", Line_WaitForInput);
 	ModPlayVoiceLS(4, 48, "ps3/s13/48/550100041", 128, TRUE);
 	OutputLine(NULL, "お父さんお父さんお父さん…！！」",
-			NULL, "...Daddy, Daddy, Daddy, Daddy!!\"", Line_Normal);
+			NULL, "...Papai, papai, papai, papai!!\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その、あまりに憐れな変わり果てた姿を、私は父さんだと認めたくなかった。",
-		   NULL, "I didn't want to admit that this person I could hardly recognize was my father.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eu não queria admitir que essa pessoa que mal conseguia reconhecer era meu pai.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　父さんと呼びながら、それが違う人であって欲しいと願った。",
-		   NULL, "As I called out to him, I hoped that it was someone else instead.", Line_Normal);
+		   NULL, "Enquanto eu chamava por ele, eu esperava que fosse outra pessoa.", Line_Normal);
 	ClearMessage();
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが、",
-		   NULL, "But", Line_ContinueAfterTyping);
+		   NULL, "Mas", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
 	Wait( 800 );
 	SetValidityOfInput( TRUE );
 	OutputLine(NULL, "…無情にも、",
-		   NULL, " unfortunately", Line_ContinueAfterTyping);
+		   NULL, " infelizmente", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
 	Wait( 800 );
 	SetValidityOfInput( TRUE );
 	OutputLine(NULL, "…それは父さんだった。",
-		   NULL, " it was my father.", Line_Normal);
+		   NULL, " era meu pai.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　本当は父さんを起こすべきではなかっただろう。",
-		   NULL, "Maybe I shouldn't have woken him.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Talvez eu não devesse tê-lo acordado.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -123,15 +123,15 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…父さんは、私にまどろみを破られることによって、",
-		   NULL, "Because when I woke him up, he was reminded", Line_ContinueAfterTyping);
+		   NULL, "Porque quando eu o acordei, ele se lembrou", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
 	Wait( 1000 );
 	SetValidityOfInput( TRUE );
 	OutputLine(NULL, "ようやく忘れかけていた苦痛を思い出してしまったのだから。",
-		   NULL, " of the miserable agony that he had forgotten.", Line_Normal);
+		   NULL, " da agonia miserável que ele havia esquecido.", Line_Normal);
 	ClearMessage();
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>美代子の父</color>", NULL, "<color=#f5e6d3>Miyoko's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>美代子の父</color>", NULL, "<color=#f5e6d3>Pai da Miyoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s13/00/550400001", 128, TRUE);
 	OutputLine(NULL, "「………うぅうぅ………。",
 		   NULL, "\"Oooh...", Line_Continue);
@@ -143,20 +143,20 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#efd4a3>美代子</color>", NULL, "<color=#efd4a3>Miyoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 48, "ps3/s13/48/550100042", 128, TRUE);
 	OutputLine(NULL, "「お父さん、",
-		   NULL, "\"Daddy,", Line_WaitForInput);
+		   NULL, "\"Papai,", Line_WaitForInput);
 	ModPlayVoiceLS(4, 48, "ps3/s13/48/550100043", 128, TRUE);
 	OutputLine(NULL, "お父さん",
-		   NULL, " Daddy,", Line_Continue);
+		   NULL, " papai,", Line_Continue);
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 700 );
 	// (backup) SetValidityOfInput( TRUE );
 	OutputLine(NULL, "お父さん",
-		   NULL, " Daddy,", Line_Continue);
+		   NULL, " papai,", Line_Continue);
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 700 );
 	// (backup) SetValidityOfInput( TRUE );
 	OutputLine(NULL, "お父さん！！」",
-		   NULL, " Daddy!!\"", Line_Continue);
+		   NULL, " papai!!\"", Line_Continue);
 	OutputLineAll(NULL, "", Line_Normal);
 
 	ClearMessage();
@@ -164,9 +164,9 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　父さんはきっと、泣きじゃくる私の頭を撫でたかったのだろうと思う。",
-		   NULL, "He tried to move his right arm", Line_WaitForInput);
+		   NULL, "Ele tentou mover o braço direito", Line_WaitForInput);
 	OutputLine(NULL, "…だって、右の腕を動かそうとしたから。",
-		   NULL, " so he could pat my head.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " para que ele pudesse acariciar minha cabeça.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -174,46 +174,46 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でも、その腕は包帯でぐるぐる巻きにされていて、",
-		   NULL, "But his arm was wrapped in bandages", Line_ContinueAfterTyping);
+		   NULL, "Mas seu braço estava envolto em bandagens", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
 	Wait( 800 );
 	SetValidityOfInput( TRUE );
 	OutputLine(NULL, "……しかも肘から先がなくなっていた。",
-		   NULL, " and his hand was no longer there.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " e sua mão já não estava mais lá.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私の頭に被せるべき手の平は、ベッドの上には見当たらなかった。",
-		   NULL, "I couldn't find his hand anywhere on the bed.", Line_Normal);
+		   NULL, "Não consegui encontrar a mão dele em nenhum lugar da cama.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "black", 400 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　父さんの右手は、本当は怖い思い出しかない。",
-		   NULL, "I only had scary memories of his right hand.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eu só tinha lembranças assustadoras da mão direita dele.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私がいたずらや嘘をついた時、平手で打つのが主な役割だったから。",
-		   NULL, "Its main job was to slap me when I did something bad.", Line_Normal);
+		   NULL, "Sua principal função era me dar um tapa quando eu fazia algo ruim.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でも、だからといって、なくなって欲しいなんて願ったことは一度もない。",
-		   NULL, "But I never wished it to be gone.", Line_Normal);
+		   NULL, "Mas eu nunca desejei que ela desaparecesse.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それに、平手で打たれた回数に比べたら本当に微々たるものだけど…、",
-		   NULL, "Besides, that hand also patted my head...", Line_WaitForInput);
+		   NULL, "Além disso, aquela mão também acariciava minha cabeça...", Line_WaitForInput);
 	OutputLine(NULL, "……たまには私の頭を撫でてくれた。",
-		   NULL, " even though that only happened a few times.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " mesmo que isso tenha acontecido apenas algumas vezes.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　大きな手の平で、それ自体がご褒美であるように、…私の頭をやさしく撫でてくれたんだ。",
-		   NULL, "It was a big, warm hand, and it stroked my head very gently.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Era uma mão grande e quente que acariciava minha cabeça com muita delicadeza.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -221,42 +221,42 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私がどんなにちゃんと早起きをしても、",
-		   NULL, "But no matter what good deeds I did", Line_ContinueAfterTyping);
+		   NULL, "Mas não importa quais boas ações eu tenha feito", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
 	Wait( 800 );
 	SetValidityOfInput( TRUE );
 	OutputLine(NULL, "ちゃんとおつかいを出来ても、",
-		   NULL, " he could no longer", Line_ContinueAfterTyping);
+		   NULL, " ela não podia mais", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
 	Wait( 900 );
 	SetValidityOfInput( TRUE );
 	OutputLine(NULL, "もう父さんは私の頭を撫でることができないのだ。",
-		   NULL, " rub my head...", Line_Normal);
+		   NULL, " acariciar minha cabeça...", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　いや、",
-		   NULL, "No...", Line_ContinueAfterTyping);
+		   NULL, "Não...", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
 	Wait( 1000 );
 	SetValidityOfInput( TRUE );
 	OutputLine(NULL, "……本当はそれすらも微々たる問題だった。",
-		   NULL, " his hand was the least of his worries.", Line_Normal);
+		   NULL, " a mão dele era o menor dos problemas.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　緊急手術の時間は迫っていた。",
-		   NULL, "He had to go into emergency surgery.", Line_Normal);
+		   NULL, "Ele teve que passar por uma cirurgia de emergência.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　手術の成功率は高くないと、予めお医者様には釘を刺されていた。",
-		   NULL, "The doctors already warned me that the chance of him surviving was very low.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Os médicos já me avisaram que a chance dele sobreviver era muito baixa.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　本当なら面会謝絶なのに、会わせてくれたのもそういう意味なのだ。",
-		   NULL, "That was why I was allowed to see him, regardless of his condition.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Foi por isso que tive permissão para vê-lo, independentemente de sua condição.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -264,12 +264,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　父さんは、私の頭を二度と撫でられないどころか、",
-		   NULL, "Not only could he no longer rub my head,", Line_ContinueAfterTyping);
+		   NULL, "Ele não só conseguia mais acariciar minha cabeça,", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
 	Wait( 1000 );
 	SetValidityOfInput( TRUE );
 	OutputLine(NULL, "……私の前から永遠にいなくなってしまうかもしれない瀬戸際にいたのだから…。",
-		   NULL, " he might be gone forever...", Line_Normal);
+		   NULL, " como também ele pode ir embora para sempre...", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "background/flashback/sinryou_sinsatu4", "maskup", 1, 0, 300 );
@@ -277,49 +277,49 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#efd4a3>美代子</color>", NULL, "<color=#efd4a3>Miyoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 48, "ps3/s13/48/550100044", 128, TRUE);
 	OutputLine(NULL, "「…お父さん、手術できっと良くなるよね？！",
-		   NULL, "\"Daddy, the surgery will make you better, right?", Line_WaitForInput);
+		   NULL, "\"Papai, a cirurgia vai te deixar melhor, né?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 48, "ps3/s13/48/550100045", 128, TRUE);
 	OutputLine(NULL, "　お父さん、きっと元気になれるよね？！",
-		   NULL, " Daddy, you'll get better, right?", Line_WaitForInput);
+		   NULL, " Papai, você vai melhorar, né?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 48, "ps3/s13/48/550100046", 128, TRUE);
 	OutputLine(NULL, "　なれるよね？！」",
-		   NULL, " Right?!\"", Line_Normal);
+		   NULL, " Né?!\"", Line_Normal);
 	ClearMessage();
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>美代子の父</color>", NULL, "<color=#f5e6d3>Miyoko's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>美代子の父</color>", NULL, "<color=#f5e6d3>Pai da Miyoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s13/00/550400002", 128, TRUE);
 	OutputLine(NULL, "「………よ、よく聞きなさい。",
-		   NULL, "\"......L-Listen carefully.", Line_WaitForInput);
+		   NULL, "\"......O-Ouça atentamente.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s13/00/550400003", 128, TRUE);
 	OutputLine(NULL, "…お父さんは駄目かもしれない。",
-		   NULL, " ...Your daddy might not make it.", Line_WaitForInput);
+		   NULL, " ...O papai talvez não consiga sobreviver.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s13/00/550400004", 128, TRUE);
 	OutputLine(NULL, "もしもお父さんが死んでも、お前はしっかり生きるんだよ。」",
-		   NULL, " Even if I die, you have to be strong, okay?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Mesmo se eu morrer, você tem que ser forte, ok?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#efd4a3>美代子</color>", NULL, "<color=#efd4a3>Miyoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 48, "ps3/s13/48/550100047", 128, TRUE);
 	OutputLine(NULL, "「嫌だ嫌だ！",
-		   NULL, "\"No, no!!", Line_Continue);
+		   NULL, "\"Não, não!!", Line_Continue);
 	OutputLine(NULL, "　お父さんは元気になるよ！",
-		   NULL, " You'll get better!!", Line_WaitForInput);
+		   NULL, " Você vai ficar melhor!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 48, "ps3/s13/48/550100048", 128, TRUE);
 	OutputLine(NULL, "　お医者様がちゃんと手術してくれるもん！！",
-		   NULL, " The doctor is going to make you better!!", Line_WaitForInput);
+		   NULL, " O médico vai fazer você melhorar!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 48, "ps3/s13/48/550100049", 128, TRUE);
 	OutputLine(NULL, "　だから死んだりなんかしないんだよ！！」",
-		   NULL, " So you're not going to die!!\"", Line_Normal);
+		   NULL, " Você não vai morrer!!\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　古い時代の人らしい頑固な父さんだった。",
-		   NULL, "He was a stubborn and old-fashioned father.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ele era um pai teimoso e ultrapassado.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　痩せ我慢が美徳で、絶対に辛いとは口にしない人だった。",
-		   NULL, "He believed endurance was a virtue, and he never complained about anything.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ele acreditava que a resistência era uma virtude e nunca reclamava de nada.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -327,14 +327,14 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だから、自分が死ぬかもしれないなんて弱気な言葉がその口から出て来ることが信じられなくて……、",
-		   NULL, "That was why I couldn't believe he actually said he might not make it.", Line_WaitForInput);
+		   NULL, "Foi por isso que não pude acreditar que ele realmente disse que poderia não sobreviver.", Line_WaitForInput);
 	OutputLine(NULL, "私は必死にそれを否定しようとした。",
-		   NULL, " I tried desperately to deny his words.", Line_Normal);
+		   NULL, " Eu tentei desesperadamente negar suas palavras.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……だが、私の願いごときでは、父さんの残された時間を延ばすことはできない。",
-		   NULL, "But even that wish wouldn't prolong his life.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Mas mesmo esse desejo não prolongaria sua vida.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -342,12 +342,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　父さんは、自分が言葉を残せる時間がすでに限られていることを知っていて、私に、本当に大切なことを伝えようとしていた。",
-		   NULL, "My father, knowing his time was limited, tried to tell me some important things.", Line_Normal);
+		   NULL, "Meu pai, sabendo que seu tempo era limitado, tentou me contar algumas coisas importantes.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そんな父さんの必死の努力を、私は否定するように泣きじゃくって掻き消す。",
-		   NULL, "But I interrupted his efforts by crying like a baby.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Mas eu interrompi seus esforços chorando como um bebê.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -355,7 +355,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…いっそのこと、そんな私を平手打ちしてほしかった。",
-		   NULL, "I just wanted him to slap me.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eu só queria que ele me desse um tapa.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -363,48 +363,48 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　泣いてわがままを言う私に、いつも父さんがそうしたように。",
-		   NULL, "Just like he used to do every time I cried like a baby.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Assim como ele fazia toda vez que eu chorava como um bebê.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……でも、父さんは私に平手打ちをすることはもう二度とない…。",
-		   NULL, "But he would never slap me again.", Line_Normal);
+		   NULL, "Mas ele nunca mais me daria um tapa.", Line_Normal);
 	ClearMessage();
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>美代子の父</color>", NULL, "<color=#f5e6d3>Miyoko's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>美代子の父</color>", NULL, "<color=#f5e6d3>Pai da Miyoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s13/00/550400005", 128, TRUE);
 	OutputLine(NULL, "「よ……、",
-		   NULL, "\"L...", Line_Continue);
+		   NULL, "\"O...", Line_Continue);
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 1200 );
 	// (backup) SetValidityOfInput( TRUE );
 	OutputLine(NULL, "よく聞きなさい。",
-		   NULL, " Listen well.", Line_WaitForInput);
+		   NULL, " Ouça bem.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s13/00/550400006", 128, TRUE);
 	OutputLine(NULL, "……お父さんもお母さんもな、",
-		   NULL, " Your mother and I both", Line_Continue);
+		   NULL, " Sua mãe e eu", Line_Continue);
 	OutputLine(NULL, "戦争で親類をみんな失ってしまった。",
-		   NULL, " lost all of our family in the war.", Line_WaitForInput);
+		   NULL, " perdemos toda a nossa família na guerra.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s13/00/550400007", 128, TRUE);
 	OutputLine(NULL, "だから…、",
-		   NULL, " So...", Line_Continue);
+		   NULL, " Então...", Line_Continue);
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 1300 );
 	// (backup) SetValidityOfInput( TRUE );
 	OutputLine(NULL, "お父さんが死んだら、",
-		   NULL, " after I'm dead,", Line_Continue);
+		   NULL, " depois que eu morrer,", Line_Continue);
 	OutputLine(NULL, "お前の世話をしてくれる人は誰もいない…。」",
-		   NULL, " there won't be anyone left to take care of you...\"", Line_Normal);
+		   NULL, " não haverá mais ninguém para cuidar de você...\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それを改めて言われる必要はなかった。",
-		   NULL, "He didn't need to tell me that.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ele não precisava me dizer isso.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　父さんも母さんも日頃からそれを口にしていたから私はそれをよく知っていた。",
-		   NULL, "My parents used to tell me that all the time, so I was aware of that fact.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Meus pais costumavam dizer isso o tempo todo, então eu estava ciente disso.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -412,29 +412,29 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……つまり、私にとって、父さんはこの世に唯一残る肉親なのだ。",
-		   NULL, "In other words, my father was the only relative I had left in this entire world.", Line_Normal);
+		   NULL, "Em outras palavras, meu pai era o único parente que me restava neste mundo inteiro.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "black", 400 );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>美代子の父</color>", NULL, "<color=#f5e6d3>Miyoko's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>美代子の父</color>", NULL, "<color=#f5e6d3>Pai da Miyoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s13/00/550400008", 128, TRUE);
 	OutputLine(NULL, "「もしもな、",
-		   NULL, "\"If, if", Line_Continue);
+		   NULL, "\"Se, se", Line_Continue);
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 1800 );
 	// (backup) SetValidityOfInput( TRUE );
 	OutputLine(NULL, "お父さんが死んだら、",
-		   NULL, " I die", Line_WaitForInput);
+		   NULL, " eu morrer", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s13/00/550400009", 128, TRUE);
 	OutputLine(NULL, "高野先生を頼りなさい。",
-		   NULL, " you can count on Dr. Takano.", Line_WaitForInput);
+		   NULL, " você deve ligar para o Dr. Takano.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s13/00/550400010", 128, TRUE);
 	OutputLine(NULL, "高野一二三先生だよ。",
-		   NULL, " Doctor Hifumi Takano.", Line_WaitForInput);
+		   NULL, " O doutor Hifumi Takano.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s13/00/550400011", 128, TRUE);
 	OutputLine(NULL, "言ってみなさい。」",
-		   NULL, " Can you say it?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Você pode fazer isso?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	SetSpeedOfMessage( TRUE, 128 );
@@ -451,38 +451,38 @@ void main()
 	ClearMessage();
 	SetSpeedOfMessage( FALSE, 0 );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>美代子の父</color>", NULL, "<color=#f5e6d3>Miyoko's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>美代子の父</color>", NULL, "<color=#f5e6d3>Pai da Miyoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s13/00/550400012", 128, TRUE);
 	OutputLine(NULL, "「そうだ。",
-		   NULL, "\"That's right.", Line_Continue);
+		   NULL, "\"Exatamente.", Line_Continue);
 	OutputLine(NULL, "高野一二三先生だよ。",
-		   NULL, " Doctor Hifumi Takano.", Line_WaitForInput);
+		   NULL, " Doutor Hifumi Takano.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s13/00/550400013", 128, TRUE);
 	OutputLine(NULL, "…高野先生はお父さんの恩師なんだ。",
-		   NULL, " He is my former teacher.", Line_WaitForInput);
+		   NULL, " Ele é meu ex-professor.", Line_WaitForInput);
 	SetSpeedOfMessage( TRUE, 128 );
 	ModPlayVoiceLS(4, 0, "ps3/s13/00/550400014", 128, TRUE);
 	OutputLine(NULL, "きっと、",
-		   NULL, " He will", Line_Continue);
+		   NULL, " Ele irá", Line_Continue);
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 1000 );
 	// (backup) SetValidityOfInput( TRUE );
 	OutputLine(NULL, "お前を助け、",
-		   NULL, " help you...", Line_WaitForInput);
+		   NULL, " te ajudar...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s13/00/550400015", 128, TRUE);
 	OutputLine(NULL, "けっ、",
-		   NULL, " cough", Line_Continue);
+		   NULL, " cof", Line_Continue);
 	OutputLine(NULL, "げほッ！！",
-		   NULL, " cough!!", Line_Continue);
+		   NULL, " cof!!", Line_Continue);
 	OutputLine(NULL, "　げへがはッ！！」",
-		   NULL, " Cough!!\"", Line_Normal);
+		   NULL, " cof!!\"", Line_Normal);
 	ClearMessage();
 	SetSpeedOfMessage( FALSE, 0 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#efd4a3>美代子</color>", NULL, "<color=#efd4a3>Miyoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 48, "org/s13/48/550100051_org", 128, TRUE);
 	OutputLine(NULL, "「お父さん、お父さんお父さんお父さん！！！」",
-		   NULL, "\"Daddy, Daddy, Daddy, Daddy!!!\"", Line_Normal);
+		   NULL, "\"Papai, papai, papai, papai!!!\"", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 0, "s_door", 128, 64 );
@@ -490,7 +490,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　お医者様たちが大慌てでなだれ込んで来る。",
-		   NULL, "Many doctors came into the room in a hurry.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Muitos médicos entraram na sala com pressa.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -498,7 +498,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　お父さんはまだ何かを伝えようとしていたが、それはしゃべらないようにと制止するお医者様たちのせいで聞き取ることはできなかった。",
-		   NULL, "He wanted to tell me something else, but the doctors stopped him from talking, so I wasn't able to hear him.", Line_Normal);
+		   NULL, "Ele queria me contar mais alguma coisa, mas os médicos o impediram de falar, então não consegui ouvi-lo.", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "black", "maskleft", 1, 0, 300 );
@@ -506,12 +506,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私は弾き飛ばされて病室を追い出される。",
-		   NULL, "I was kicked out of the room.", Line_Normal);
+		   NULL, "Fui expulsa da sala.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして病院の廊下でおろおろするばかり。",
-		   NULL, "I didn't know what to do.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eu não sabia o que fazer.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -519,17 +519,17 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……父さんがどういう状態なのか、手術はいつ始まるのか、誰も教えてはくれなかった。",
-		   NULL, "Nobody told me how my father was doing or when the surgery was going to start.", Line_Normal);
+		   NULL, "Ninguém me contou como meu pai estava ou quando a cirurgia iria começar.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして、父さんともう永遠に言葉を交わすことができなくなることも、",
-		   NULL, "And nobody told me...", Line_ContinueAfterTyping);
+		   NULL, "E ninguém me contou...", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
 	Wait( 1000 );
 	SetValidityOfInput( TRUE );
 	OutputLine(NULL, "…誰も教えてはくれなかった…。",
-		   NULL, " that was going to be the last conversation I ever had with my father.", Line_Normal);
+		   NULL, " que essa seria a última conversa que eu tive com meu pai.", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM( 0, 1000, FALSE );
@@ -540,39 +540,39 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……父さんの言い残した「高野先生」の名前を、お役所の人とか色々な人に言ったと思う。",
-		   NULL, "I think I asked people at the government office about Dr. Takano.", Line_Normal);
+		   NULL, "Acho que perguntei às pessoas do escritório do governo sobre o Dr. Takano.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そうすると必ず、連絡先は？",
-		   NULL, "They'd asked me if I knew his phone number.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eles me perguntaram se eu sabia o número de telefone dele.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　と聞かれた。",
-		   NULL, "I said I didn't.", Line_Normal);
+		   NULL, "Eu disse que não.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私は、知らないと答える他なかった。",
-		   NULL, "Then they didn't ask me anything further.", Line_WaitForInput);
+		   NULL, "Então eles não me perguntam mais nada.", Line_WaitForInput);
 	OutputLine(NULL, "　すると決まって、その話はそれで終わってしまい、",
-		   NULL, " Sometimes they told me they'd look into it, but nothing led to anything.", Line_Normal);
+		   NULL, " Às vezes eles me dizem que vão procurar, mas nunca levou a nada.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "あるいはたまに「調べておく」という返事がもらえたが、それでも結果は大して変わらなかった。",
-		   NULL, "They couldn't find me a guardian, so I ended up going to an orphanage.", Line_Normal);
+		   NULL, "Eles não conseguiram encontrar um guardião para mim, então acabei indo para um orfanato.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私の後見人は現れず、私は社会的な権利を享受するため、施設へ生活の場を移すことになった。",
-		   NULL, "At the time, there were plenty of orphans from the war, so although there were many orphanages around, they were all full.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Na época, havia muitos órfãos de guerra, por isso, embora houvesse muitos orfanatos por perto, todos estavam lotados.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　当時は、まだ戦災孤児が少なくなく、公立の施設もたくさんあったがどこも満員の状態だった。",
-		   NULL, "There were also some orphanages run by civilians.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Havia também alguns orfanatos administrados por civis.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -580,14 +580,14 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　また、善意の個人による民間の施設も多く存在していた。",
-		   NULL, "I was sent to one of those civilian orphanages.", Line_Normal);
+		   NULL, "Fui enviado para um daqueles orfanatos civis.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "black", 400 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私が送られたのも、そんな民間の施設だった。",
-		   NULL, "There was no profit to be had in taking in an orphan in the first place.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Em primeiro lugar, não havia lucro em acolher um órfão.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -595,7 +595,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そもそも、孤児を引き取っても何の儲けにもならない。",
-		   NULL, "So, I thought, those civilians who were running orphanages must have been very good people.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Então, pensei, aqueles civis que administravam orfanatos deviam ser pessoas muito boas.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -604,27 +604,27 @@ void main()
 	SetSpeedOfMessage( TRUE, 128 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だから、敢えてそれをやろうという人間には、私財を投げ出しても孤児を救おうという、尊敬に値する博愛の精神があったに違いない。",
-		   NULL, "I was sure", Line_ContinueAfterTyping);
+		   NULL, "Eu tinha certeza", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
 	Wait( 800 );
 	SetValidityOfInput( TRUE );
 	OutputLine(NULL, "　…そして、",
-		   NULL, " they hoped that the children", Line_ContinueAfterTyping);
+		   NULL, " que eles esperavam que os filhos", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
 	Wait( 900 );
 	SetValidityOfInput( TRUE );
 	OutputLine(NULL, "そんな愛に触れ、",
-		   NULL, " would grow", Line_ContinueAfterTyping);
+		   NULL, " cresceriam", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
 	Wait( 900 );
 	SetValidityOfInput( TRUE );
 	OutputLine(NULL, "子供たちが健やかに育ち、",
-		   NULL, " in this loving environment", Line_ContinueAfterTyping);
+		   NULL, " em um ambiente amoroso", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
 	Wait( 800 );
 	SetValidityOfInput( TRUE );
 	OutputLine(NULL, "感謝の言葉を述べて社会へ巣立っていくことを期待したに違いないだろう。",
-		   NULL, " and enter into society with a sense of gratitude.", Line_ContinueAfterTyping);
+		   NULL, " e entrariam na sociedade com um sentimento de gratidão.", Line_ContinueAfterTyping);
 	OutputLineAll(NULL, "", Line_Normal);
 
 	ClearMessage();
@@ -632,7 +632,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが、そんなに世の中は甘くない。",
-		   NULL, "But reality isn't so kind.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Mas a realidade não é tão gentil.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -640,17 +640,17 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　親に自分を育ててくれた恩を、自分が幼い内に示せる子供が一体、世の中に何人いるというのか…？",
-		   NULL, "How many children in this world can actually express their gratitude towards their parents in the first place?", Line_Normal);
+		   NULL, "Quantas crianças nesse mundo podem realmente expressar sua gratidão aos pais em primeiro lugar?", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　子供は両親の愛で育てられるようにできている。",
-		   NULL, "Children are supposed to be nurtured by their parents' love.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Os filhos devem ser nutridos pelo amor dos pais.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だから、そんな環境を引き裂かれた子供たちは皆、心に深い傷を負っていた。",
-		   NULL, "Therefore, when that environment is destroyed, their hearts are wounded.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Portanto, quando esse ambiente é destruído, seus corações ficam feridos.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -658,24 +658,24 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　増してや、子供の個性など子供の数だけあるのだ。",
-		   NULL, "Every child has his or her own personality.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Cada criança tem sua própria personalidade.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……等しく慈愛を受けたからといって、誰もが天使のように育つわけじゃない。",
-		   NULL, "Receiving affection doesn't guarantee that a child will become someone angelic.", Line_WaitForInput);
+		   NULL, "Receber carinho não garante que uma criança se tornará alguém angelical.", Line_WaitForInput);
 	OutputLine(NULL, "全員の心の傷が癒せるわけじゃない。",
-		   NULL, " Not everyone's heart can be healed.", Line_Normal);
+		   NULL, " Nem o coração de todos podem ser curado.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だから、子供たちの中には少なからず問題児もいた。",
-		   NULL, "That was why there were some problem kids at the orphanage.", Line_Normal);
+		   NULL, "Foi por isso que havia algumas crianças problemáticas no orfanato.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……いや、問題児と呼ぶのが適当だったかどうかもわからない。",
-		   NULL, "Maybe I shouldn't call them problem kids, though.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Talvez eu não devesse chamá-las de crianças problemáticas, no entanto.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -683,9 +683,9 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それは、両親を失ってしまったことへの悲しみであったり、",
-		   NULL, "The sadness and despair of losing their parents", Line_WaitForInput);
+		   NULL, "A tristeza e o desespero de perder os pais", Line_WaitForInput);
 	OutputLine(NULL, "その悲しみを覆い隠すためのやり場のない怒りであったり。",
-		   NULL, " and the anger at having to hide such feelings filled those kids' hearts.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " e a raiva por ter que esconder tais sentimentos encheu o coração daquelas crianças.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -693,18 +693,18 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……ひとりひとりと向かい合って話をすれば、きっと分かり合えることだったに違いない。",
-		   NULL, "Spending time individually with the children could have solved their problems.", Line_Normal);
+		   NULL, "Passar algum tempo individualmente com as crianças poderia ter resolvido seus problemas.", Line_Normal);
 	ClearMessage();
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが、…少なくとも私のいた施設では、そこまでの時間を職員が割いて、理解しようとする努力はしていなかった。",
-		   NULL, "But at the orphanage where I was, none of the staff members even tried to spend time with them or put in an effort to understand them.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Mas no orfanato onde eu estava, nenhum dos funcionários sequer tentou passar tempo com elas ou se esforçou para entendê-las.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　少ない人数の職員が、規律に反しないよう見張り、統制するので精一杯だった。",
-		   NULL, "All they could do was make sure that the kids followed the rules.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Tudo o que podiam fazer era garantir que as crianças seguissem as regras.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -712,13 +712,13 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だから、子供たちが心の傷の痛みに呻くのを、問題行為としてしか括れなかった。",
-		   NULL, "Therefore, they could only see the children's emotional pleas for help... as problems.", Line_Normal);
+		   NULL, "Portanto, eles só podiam ver os pedidos emocionais das crianças por ajuda... Como problemas.", Line_Normal);
 	ClearMessage();
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　見返りを求めない愛など、この世に存在しない。",
-		   NULL, "In this world, nobody expresses love without expecting something in return.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Nesse mundo, ninguém expressa amor sem esperar algo em troca.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -726,7 +726,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　この施設を創設した人間も、結局は見返りを求めていたのだ。",
-		   NULL, "The person who founded that orphanage was expecting something in return as well.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "A pessoa que fundou aquele orfanato também esperava algo em troca.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -736,19 +736,19 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…子供たちの感謝という見返りを。",
-		   NULL, "He wanted the children to appreciate him.", Line_Normal);
+		   NULL, "Ele queria que as crianças o valorizassem.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "background/flashback/aka1", 400 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だから、そんな淡い夢は現実にあっさりと引き裂かれた。",
-		   NULL, "That was why such a faint dream was destroyed by cruel reality.", Line_Normal);
+		   NULL, "Foi por isso que um sonho tão fraco foi destruído pela realidade cruel.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　子供たちは、施設を収容所呼ばわりし、職員たちの献身的努力に一切感謝せず、不満ばかりをぶつけた。",
-		   NULL, "The children called the orphanage a prison, and nobody appreciated the staff at all. In fact, all they did was complain.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "As crianças chamavam o orfanato de prisão e ninguém apreciava a equipe. Na verdade, tudo o que fizeram foi reclamar.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -756,16 +756,16 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　………だから、次第に職員たちも夢が醒め、慈愛だけではやっていけないことを悟ったに違いない。",
-		   NULL, "That made the staff slowly realize that love alone couldn't run a facility like that.", Line_Normal);
+		   NULL, "Isso fez com que a equipe percebesse lentamente que o amor sozinho não poderia administrar uma instalação como aquela.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　子供たちが収容所呼ばわりするように。",
-		   NULL, "Just like how the children called it a prison,", Line_WaitForInput);
+		   NULL, "Assim como as crianças chamavam de prisão,", Line_WaitForInput);
 	OutputLine(NULL, "…職員たちも次第に、収容所であろうとするようになっていった。",
-		   NULL, " the staff started to recognize the facility as a prison, too.", Line_WaitForInput);
+		   NULL, " a equipe começou a reconhecer a instalação também como uma prisão.", Line_WaitForInput);
 	OutputLine(NULL, "相互の不信感による悲しい連鎖だった。",
-		   NULL, " It was a chain reaction resulting from mistrust on both sides.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Foi uma relação em cadeia resultante da desconfiança de ambos os lados.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -773,12 +773,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして、子供たちを規律で縛りつけ、問題行為を抑圧する体制へとなっていく…。",
-		   NULL, "The staff bound the children with rules so they could suppress problem behavior.", Line_Normal);
+		   NULL, "A equipe impôs regras às crianças para que pudessem suprimir comportamentos problemáticos.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　この施設の設立者の額縁は飾られているが、その顔が訪れたのを見たことはない。",
-		   NULL, "There was a framed picture of the founder of this orphanage, but I had never seen him in person.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Havia uma foto emoldurada do fundador deste orfanato, mas eu nunca o tinha visto pessoalmente.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -786,12 +786,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　彼は、施設に対して私財を投入しているだけで社会奉仕の悦に浸っているのか、",
-		   NULL, "Was he satisfied with the fact that he put his own money into this social service? ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ele ficou satisfeito com o fato de ter investido seu próprio dinheiro neste serviço social? ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…それとも、天使のように育った子供たちに囲まれて祝福されるという現実感のない夢がようやく醒めたのか。",
-		   NULL, "Or maybe he finally realized his dream of being surrounded by angelic children and being celebrated for what he did was simply that, a dream?", Line_WaitForInput);
+		   NULL, "Ou talvez ele finalmente tenha percebido que seu sonho de estar cercado por crianças angelicais e ser celebrado pelo que fez, foi simplesmente isso, um sonho?", Line_WaitForInput);
 	OutputLine(NULL, "…どちらかはわからない。",
-		   NULL, " I don't know.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Eu não sei.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -799,30 +799,30 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　とにかくひとつ言えることは。",
-		   NULL, "But there's one thing I'm certain of.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Mas há uma coisa da qual tenho certeza.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DrawScene( "black", 200 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私がいた施設は、そんな夢はとうの昔に醒めてしまっていたということだった。",
-		   NULL, "Such a dream didn't exist at the orphanage.", Line_Normal);
+		   NULL, "Tal sonho não existia no orfanato.", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "background/ke5", "maskc", 1, 0, 1300 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　規律はたくさんあり、もっともらしいことをいくつも定めていたが、",
-		   NULL, "There were so many rules, and several plausible standards outlined for us,", Line_WaitForInput);
+		   NULL, "Havia tantas regras e vários padrões plausíveis delineados para nós,", Line_WaitForInput);
 	OutputLine(NULL, "何よりも尊ばれているのは、沈黙だった。",
-		   NULL, " but the most valued one was silence.", Line_Normal);
+		   NULL, " mas o mais valorizado foi o silêncio.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　子供のおしゃべりは、近付けあったマイクのように、互いが互いを増幅して大きくなる一方。",
-		   NULL, "Children's chatter tends to increase each other's volume, just like mics drawing closer.", Line_WaitForInput);
+		   NULL, "A conversa das crianças é como microfones que foram colocados próximos uns dos outros, amplificando um ao outro e ficando mais alto.", Line_WaitForInput);
 	OutputLine(NULL, "その挙句に喧嘩などが起こり、規律が乱れる。",
-		   NULL, " And sometimes that leads to fights, and the disturbance of order.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " E às vezes isso leva a brigas e à perturbação da ordem.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -830,9 +830,9 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そのため、子供たちの間での私語は禁止された。",
-		   NULL, "So children were forbidden from speaking with each other.", Line_WaitForInput);
+		   NULL, "Então as crianças foram proibidas de falar umas com as outras.", Line_WaitForInput);
 	OutputLine(NULL, "私語さえなければ、全てはうまく行くと思ったのだろう。",
-		   NULL, " With those disallowed, they must have thought things would go smoothly.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Eles achavam que, desde que não conversassem em particular, tudo ficaria bem..", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -840,35 +840,35 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　にもかかわらず、施設にはいつも人の声が聞こえていたと思う。",
-		   NULL, "However, I think I always heard people's voices at the orphanage.", Line_Normal);
+		   NULL, "No entanto, acho que sempre ouvi as vozes das pessoas no orfanato.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "black", 400 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その聞こえる声は概ね、二つ。",
-		   NULL, "There were two kinds of voices.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Haviam dois tipos de vozes.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　職員の怒鳴る声か、子供の泣き声かのどちらかだった…。",
-		   NULL, "One was the staff yelling, and the other was the children crying.", Line_Normal);
+		   NULL, "Um deles era a equipe gritando e o outro eram as crianças chorando.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　施設の中を自由に歩き回ることは許されていなかったから、どこで誰が泣いているのかを知ることもできない。",
-		   NULL, "We were not allowed to walk around inside of the orphanage freely, so we never knew who it was that was crying.", Line_Normal);
+		   NULL, "Não tínhamos permissão para andar livremente dentro do orfanato, então nunca sabíamos quem estava chorando.", Line_Normal);
 	ClearMessage();
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　泣き声と怒声に混じって聞こえる、ガンガンと叩きつける金属音。",
-		   NULL, "One time, along with the crying and yelling, we heard the noise of metallic things being smashed against each other.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Uma vez, junto com o choro e a gritaria, ouvimos o barulho de coisas metálicas sendo esmagadas umas nas outras.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…何かしらの仕置きを受けているに違いないが、それがどんなものなのか想像もつかず、私たちは震えながら俯いて、聞こえないふりをしながら漢字ドリルを続けるしかない。",
-		   NULL, "We knew it was some kind of punishment, but there was no way for us to even imagine what it was. We trembled, pretended we didn't hear anything, and kept working on our assignments.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Sabíamos que era algum tipo de punição, mas não tínhamos como imaginar o que era. Trememos, fingimos que não ouvimos nada e continuamos trabalhando em nossas tarefas.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -876,14 +876,14 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　同室の誰かがそれを、「棺桶の刑」だと教えてくれたが、",
-		   NULL, "One of my roommates told me it was the \"Casket Punishment\"", Line_WaitForInput);
+		   NULL, "Uma das minhas colegas de quarto me disse que era o \"Castigo do caixão\"", Line_WaitForInput);
 	OutputLine(NULL, "それ以上を教えてはくれなかったし、私もそれ以上を知りたいとは思わなかった…。",
-		   NULL, " but she didn't tell me any further, and I didn't want to know either.", Line_Normal);
+		   NULL, " mas ela não me contou mais nada, e eu também não queria saber.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　昨日までとまったく同じに過ごしていても、職員の機嫌が悪ければ何にケチをつけられるかわからない。",
-		   NULL, "Even if we behaved exactly the same way as yesterday, if the staff were in a bad mood, they might pick on us.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Mesmo que nos compartássemos exatamente da mesma maneira que ontem, se a equipe estivesse de mau humor, eles poderiam implicar conosco.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -891,27 +891,27 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…だから、私が知ろうとしなくても、「棺桶の刑」がどのようなものか身をもって知らされてしまう日が、突然訪れるかもしれないのだから…。",
-		   NULL, "So, even if I didn't want to know, I might suddenly find out what the Casket Punishment is one day.", Line_Normal);
+		   NULL, "Então, mesmo que eu não quisesse saber, um dia poderia descobrir de repente o que é o castigo do caixão.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　廊下を職員の足音が近付いてくる。",
-		   NULL, "The footsteps of a staff member were getting closer.", Line_Normal);
+		   NULL, "Os passos de um membro da equipe estavam se aproximando.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それに私たちは気付き、背筋を伸ばし、より一層、勉強に集中している風を装った。",
-		   NULL, "We noticed them, so we straightened our backs and pretended we were studying hard.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Nós os notamos, então endireitamos as costas e fingimos que estávamos estudando muito.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　実際に勉強しているかどうかより、職員が見て勉強しているように見えるかどうかが重要だったからだ。",
-		   NULL, "It was more important that the staff saw us doing so than us actually getting any work done.", Line_Normal);
+		   NULL, "Era mais importante que a equipe nos visse fazendo isso do que realmente realizando qualquer trabalho.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私の隣の子がうつらうつらとしていたのに気付き、私は肘で小突く。",
-		   NULL, "I noticed the girl next to me was falling asleep, so I poked her with my elbow.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Percebi que a garota ao meu lado estava adormecendo, então cutuquei ela com o cotovelo.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -919,26 +919,26 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…それだけの合図でその子は気付き、周りの子と同じように背筋を伸ばすのだった。",
-		   NULL, "She noticed my signal and straightened her back like the other children.", Line_Normal);
+		   NULL, "Ela notou meu sinal e endireitou as costas como as outras crianças.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　夕方が近い。",
-		   NULL, "It was almost evening.", Line_WaitForInput);
+		   NULL, "Já era quase meia noite.", Line_WaitForInput);
 	OutputLine(NULL, "……この時間が一番眠くて辛くて、",
-		   NULL, " This was the hardest time for us to keep ourselves awake", Line_ContinueAfterTyping);
+		   NULL, " Este era o momento mais difícil para nos mantermos acordados", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
 	Wait( 800 );
 	SetValidityOfInput( TRUE );
 	OutputLine(NULL, "…そして危険な時間だったのだ。",
-		   NULL, " and the most dangerous time.", Line_Normal);
+		   NULL, " e o momento mais perigoso.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 0, "s_M_Door8k", 128, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ガチャリと私たちのグループ室の扉が開き、不機嫌そうな形相をした職員が姿を現す。",
-		   NULL, "The door to our room opened, and a mean-looking man showed up.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "A porta do nosso quarto se abriu e um homem cruel apareceu.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -946,13 +946,13 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして、全員が居眠りをしていないかをジロリと見回すのだ。",
-		   NULL, "Then he looked around to make sure none of us were falling asleep.", Line_Normal);
+		   NULL, "Então ele olhou em volta para se certificar de que nenhum de nós estava dormindo.", Line_Normal);
 	ClearMessage();
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　例え、本当に真面目に勉強していたとしても、職員が居眠りをしていると感じたら駄目だ。",
-		   NULL, "Even if we were actually studying hard, if he thought we were asleep, we were out.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Mesmo que estivéssemos estudando muito, se ele pensasse que estávamos dormindo, estaríamos em apuros.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -960,12 +960,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…だから私たちは、必要以上に真剣さをアピールしなければならない。",
-		   NULL, "That was why we had to make sure we appeared to be studying very hard.", Line_Normal);
+		   NULL, "Foi por isso que tivemos que ter certeza de que parecíamos estar estudando muito.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私たちの席の間を職員が見回る。",
-		   NULL, "The man walked around our desks.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "O homem andou em volta de nossas mesas.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -973,7 +973,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…その足音が自分の脇をすんなりと通り抜けてほしい……。",
-		   NULL, "I hoped he would just walk by me.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eu esperava que ele simplesmente passasse por mim.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -981,22 +981,22 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私たちはそれだけを祈りながら、同じ漢字を何度も何度も何度も繰り返し書き続ける。",
-		   NULL, "That was what we all prayed, as we kept working on our homework.", Line_Normal);
+		   NULL, "Foi por isso que todos nós oramos, enquanto continuávamos trabalhando em nossa atividade.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そうやって勉強のふりをすればするほど、どこかの誰かの気の毒な仕置きの金属音がより一層耳に染み込んで来るのだった。",
-		   NULL, "The more we pretended to study hard, the more we could hear the sound of metal objects.", Line_Normal);
+		   NULL, "Quanto mais fingimos estudar muito, mais podíamos ouvir o som de objetos de metal.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ガンガンと金属と金属をぶつけ合うような嫌な音と、その度に聞こえる金切り声のような悲鳴…。",
-		   NULL, "The sound of metal objects crashing into each other, along with screams.", Line_Normal);
+		   NULL, "O som de objetos de metal colidindo uns com os outros, junto com gritos.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　一体どんな目に遭っているのか。そしてそれはどれほど恐ろしいことなのか。",
-		   NULL, "We couldn't even imagine what the poor subject of that punishment was going through.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Não podíamos nem imaginar o que o pobre sujeito daquele castigo estava passando.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1004,7 +1004,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…そして、「棺桶の刑」以上に恐ろしい刑罰がまだまだあるのではないか。",
-		   NULL, "...Maybe there was something even worse than the Casket Punishment.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Talvez houvesse algo ainda pior do que o castigo do caixão.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1012,12 +1012,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私たちはその恐ろしい想像を少しでも紛らわすために、より一層、画数の多い漢字を何度も何度も繰り返し書くのだった。",
-		   NULL, "To erase such fears, we tried to concentrate even harder on our work.", Line_Normal);
+		   NULL, "Para apagar esses medos, tentamos nos concentrar ainda mais em nossa atividade.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　かりかり、かりかりかりかり…………。",
-		   NULL, "We kept working...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Seguimos trabalhando...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1025,7 +1025,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…金属音と悲鳴が、いつまでも聞こえていた。",
-		   NULL, "As the metal sounds and the screams went on forever.", Line_Normal);
+		   NULL, "Enquanto o metal soa e os gritos duram para sempre.", Line_Normal);
 	ClearMessage();
 
 
