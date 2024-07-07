@@ -30,7 +30,7 @@ Veja o progresso da tradução [aqui](https://docs.google.com/spreadsheets/d/1DJ
 
 [Cap. 6 - Tsumihoroboshi](https://github.com/0Mateus/tsumihoroboshi)
 
-[Cap. 7 - Minagoroshi](https://github.com/TechHero1/minagoroshi)
+[Cap. 7 - Minagoroshi](https://github.com/Miracle-Translations/minagoroshi)
 
 Cap. 8 - Matsuribayashi
 
