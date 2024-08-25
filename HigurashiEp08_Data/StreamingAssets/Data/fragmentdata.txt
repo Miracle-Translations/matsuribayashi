@@ -1,8 +1,8 @@
 [
 	{
 		"Id":1,
-		"Title":"C103 dose experiment",
-		"Description":"Satoko Houjou's detailed test result is required.\nKyousuke Irie's decision is required.",
+		"Title":"Experimento da dose de C103",
+		"Description":"São necessários os resultados detalhados do teste de Satoko Houjou.\nÉ necessária a decisão de Kyousuke Irie.",
 		"TitleJp":"C103投与実験",
 		"DescriptionJp":"北条沙都子の精密検査結果が必要です。\n入江京介の決意が必要です。",
 		"Script":"_kakera01",
@@ -442,8 +442,8 @@
 	},
 	{
 		"Id":50,
-		"Title":"A Fragment of Matsuribayashi",
-		"Description":"Seven Fragments are required.",
+		"Title":"Um Fragmento de Matsuribayashi",
+		"Description":"São necessários sete Fragmentos.",
 		"TitleJp":"祭囃し編のカケラ",
 		"DescriptionJp":"７つのカケラが必要です。",
 		"Script":"_kakera50",
