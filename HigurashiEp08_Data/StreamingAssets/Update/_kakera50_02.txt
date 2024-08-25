@@ -11,9 +11,9 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……長かった。",
-		   NULL, "Demorou muito.", Line_WaitForInput);
+		   NULL, "......Demorou demais.", Line_WaitForInput);
 	OutputLine(NULL, "…本当に長かった。",
-		   NULL, " Realmente demorou muito.", Line_Normal);
+		   NULL, " ...Demorou muito mesmo.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -25,36 +25,36 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　これで、私たちが欲しい駒は全てゲーム盤に並んだのかしら。",
-		   NULL, "Temos todas as peças que queremos alinhadas no tabuleiro do jogo?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Já temos todas as peças que queremos alinhadas no tabuleiro?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　昭和５８年６月を巡る、運命のゲームで、鷹野たちに勝てるだけの駒が並んだのかしら。",
-		   NULL, "Isso é tudo o que temos que para enfrentar Takano e seus subordinados no jogo do destino em junho de 1983?", Line_Normal);
+		   NULL, "Já temos o suficiente para enfrentar Takano e seus subordinados no jogo do destino de junho de 1983?", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……私は、",
-		   NULL, "Eu acho que,", Line_WaitForInput);
+		   NULL, "Acho que...", Line_WaitForInput);
 	OutputLine(NULL, "多分、",
-		   NULL, " talvez,", Line_ContinueAfterTyping);
+		   NULL, " talvez...", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
 	Wait( 800 );
 	SetValidityOfInput( TRUE );
 	OutputLine(NULL, "並んだと思ってる。",
-		   NULL, " nós temos tudo.", Line_Normal);
+		   NULL, " nós conseguimos tudo.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あとは、羽入。",
-		   NULL, "E por fim, mas não menos importante, Hanyuu,", Line_WaitForInput);
+		   NULL, "E por último, Hanyuu...", Line_WaitForInput);
 	OutputLine(NULL, "…あなただけね。",
-		   NULL, " é você.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " temos você.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あなたが駒として登場できる時間は、もう相当に制限されている。",
-		   NULL, "O tempo que lhe resta para ser uma peça é limitado.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "O tempo que você tem para ser uma peça é limitado.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -67,7 +67,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　………さぁ、始めましょう？",
-		   NULL, "...Vamos começar?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Então, vamos começar?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
