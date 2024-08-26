@@ -11,7 +11,7 @@
 	{
 		"Id":2,
 		"Title":"H170",
-		"Description":"The discontinuation of Satoko Houjou's dissection plan is required.\nKyousuke Irie's motive to become a doctor is required.",
+		"Description":"É necessária a descontinuação dos planos de autópsia de Satoko Houjou.\nÉ necessário o motivo de Kyousuke Irie para se tornar um médico.",
 		"TitleJp":"H170",
 		"DescriptionJp":"北条沙都子解剖計画の中止が必要です。\n入江京介の医者になる動機が必要です。",
 		"Script":"_kakera02",
