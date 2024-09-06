@@ -32,8 +32,8 @@ Veja o progresso da tradução [aqui](https://docs.google.com/spreadsheets/d/1DJ
 
 [Cap. 7 - Minagoroshi](https://github.com/Miracle-Translations/minagoroshi)
 
-Cap. 8 - Matsuribayashi
+*Cap. 8 - Matsuribayashi*
 
 ### Gratidão ( 礼 / Rei )
 
-Epílogo - Saikoroshi (em breve)
+Epílogo - Saikoroshi ***(em breve)***
