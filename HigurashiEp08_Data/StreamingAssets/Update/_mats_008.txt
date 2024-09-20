@@ -19,7 +19,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "『ひぐらしのなく頃に〜祭囃し編〜』の世界へ。",
-		   NULL, "ao mundo de Higurashi no Naku Koro ni Cap. 8 - Matsuribayashi!", Line_Normal);
+		   NULL, "ao mundo de Higurashi no Naku Koro ni Cap. 8 - Matsuribayashi.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
