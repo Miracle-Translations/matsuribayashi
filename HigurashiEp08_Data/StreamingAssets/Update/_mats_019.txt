@@ -239,7 +239,7 @@ void main()
 		   NULL, "\"Major, our observation system is perfect.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s13/00/vt4a_yamaa1020", 128, TRUE);
 	OutputLine(NULL, "古手梨花は間違いなく現在、あの家です。",
-		   NULL, " Rika Furude is there at the house.", Line_WaitForInput);
+		   NULL, " Furude Rika is there at the house.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s13/00/vt4a_yamaa1021", 128, TRUE);
 	OutputLine(NULL, "監視体制が布かれて以来、彼女が外出したことはただの一度もありません。",
 		   NULL, " Ever since we started, she hasn't even stepped out of the house once.", Line_WaitForInput);
@@ -949,7 +949,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>番犬</color>", NULL, "<color=#f5e6d3>Bloodhound</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s13/00/vt4a_adog1048", 128, TRUE);
 	OutputLine(NULL, "「収容されていた身元不明死体の身元が古手梨花だった、というものです。",
-		   NULL, "\"Supposedly, an unidentified body turned out to be Rika Furude.", Line_WaitForInput);
+		   NULL, "\"Supposedly, an unidentified body turned out to be Furude Rika.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s13/00/vt4a_adog1049", 128, TRUE);
 	OutputLine(NULL, "死後４８時間を経過しているとか。",
 		   NULL, " They say she died over 48 hours ago.", Line_WaitForInput);
@@ -2084,7 +2084,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…ここで簡単に古手梨花の死が偽装だったと暴かれたら、その時点でこの作戦は終わってしまう。",
-		   NULL, "...If Ootaka found out that Rika Furude's death had been faked, the operation was finished.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...If Ootaka found out that Furude Rika's death had been faked, the operation was finished.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -2092,7 +2092,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　古手梨花の死が拭えない今だけが、敵に揺さぶりをかけることができるのだ。",
-		   NULL, "They're only able to shake up the enemy now, while Rika Furude's death is still on the books.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "They're only able to shake up the enemy now, while Furude Rika's death is still on the books.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2102,7 +2102,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だから、彼が尻尾を掴む前に古手梨花の死が偽装だとバレれば、敵はその時点で体制を立て直してしまう。",
-		   NULL, "So if the truth about Rika Furude's death was exposed before Tomitake had that chance, the enemy would recover.", Line_Normal);
+		   NULL, "So if the truth about Furude Rika's death was exposed before Tomitake had that chance, the enemy would recover.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2112,7 +2112,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……今回は、古手梨花が奇跡的な勘で陰謀を看破したようだが、",
-		   NULL, "...Rika Furude had detected the conspiracy ahead of time...", Line_ContinueAfterTyping);
+		   NULL, "...Furude Rika had detected the conspiracy ahead of time...", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
 	Wait( 1000 );
 	SetValidityOfInput( TRUE );
@@ -2839,7 +2839,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　自分の意思で築いた（と思い込んでいる）情報網から、バーターを求められて、古手梨花の死体の確認を頼まれただけ、のつもりなのだ。",
-		   NULL, "He probably thought he was just filling the request to confirm Rika Furude's body as a favor from someone in the information network (he assumed) he built himself.", Line_Normal);
+		   NULL, "He probably thought he was just filling the request to confirm Furude Rika's body as a favor from someone in the information network (he assumed) he built himself.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -3404,7 +3404,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>大高</color>", NULL, "<color=#f5e6d3>Ootaka</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s13/00/vt4a_ootaka1067", 128, TRUE);
 	OutputLine(NULL, "何しろ、古手梨花は雛見沢ではただの少女じゃない。",
-		   NULL, "Rika Furude isn't just any girl in Hinamizawa.", Line_WaitForInput);
+		   NULL, "Furude Rika isn't just any girl in Hinamizawa.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s13/00/vt4a_ootaka1068", 128, TRUE);
 	OutputLine(NULL, "特別な意味を持つ少女です。",
 		   NULL, " She's a very special little girl.", Line_WaitForInput);
@@ -3459,7 +3459,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>老婆</color>", NULL, "<color=#f5e6d3>Old Woman</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s13/00/vt4a_roubaa1001", 128, TRUE);
 	OutputLine(NULL, "「ふ、古手の梨花ちゃまが亡くなったってのは本当なのかい…？！」",
-		   NULL, "\"Is it true that Rika Furude-chama is dead?\"", Line_Normal);
+		   NULL, "\"Is it true that Furude Rika-chama is dead?\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>大高</color>", NULL, "<color=#f5e6d3>Ootaka</color>", NULL, Line_ContinueAfterTyping); }
@@ -4020,7 +4020,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6bd09f>茜</color>", NULL, "<color=#6bd09f>Akane</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 16, "ps3/s14/16/222200110", 128, TRUE);
 	OutputLine(NULL, "　鹿骨の鬼姫、園崎茜ッ！！",
-		   NULL, "I am the Demon Princess of Shishibone, Akane Sonozaki!!", GetGlobalFlag(GLinemodeSp));
+		   NULL, "I am the Demon Princess of Shishibone, Sonozaki Akane!!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6bd09f>茜</color>", NULL, "<color=#6bd09f>Akane</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 16, "ps3/s14/16/222200111", 128, TRUE);
 	OutputLine(NULL, "　売られた喧嘩は値引かないのだけが自慢さぁ！！！」",
@@ -4078,13 +4078,13 @@ void main()
 		   NULL, "\"...Ah, let me introduce them.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s13/11/ds41110456", 128, TRUE);
 	OutputLine(NULL, "こちらは園崎茜さん。",
-		   NULL, " This is Akane Sonozaki-san.", Line_WaitForInput);
+		   NULL, " This is Sonozaki Akane-san.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s13/11/ds41110457", 128, TRUE);
 	OutputLine(NULL, "鹿骨市婦人剣友会の副会長さんです。",
 		   NULL, " She's the vice president of the Shishibone City women's kendo club.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s13/11/ds41110458", 128, TRUE);
 	OutputLine(NULL, "こちらは園崎三郎さん。",
-		   NULL, " And this is Saburou Sonozaki-san. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " And this is Sonozaki Saburou-san. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s13/11/ds41110459", 128, TRUE);
 	OutputLine(NULL, "県剣道連盟の名誉理事さんです。",

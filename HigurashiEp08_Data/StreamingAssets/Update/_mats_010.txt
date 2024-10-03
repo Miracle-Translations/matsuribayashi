@@ -803,7 +803,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　赤坂衛が現部署へ配属されてすでに短くない年数が経過している。",
-		   NULL, "It had been a while since Mamoru Akasaka was transferred to this department.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "It had been a while since Akasaka Mamoru was transferred to this department.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1223,7 +1223,7 @@ void main()
 	OutputLine(NULL, "　名前は、……そう。",
 		   NULL, "Her name was... yes,", Line_WaitForInput);
 	OutputLine(NULL, "古手梨花。",
-		   NULL, " Rika Furude.", Line_WaitForInput);
+		   NULL, " Furude Rika.", Line_WaitForInput);
 	OutputLine(NULL, "そうだそうだ、思い出した。",
 		   NULL, " That was it.", Line_WaitForInput);
 	OutputLine(NULL, "あれから何年経っただろう。",
@@ -1326,7 +1326,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　つまり、……古手梨花の予言は当たっていたのだ。",
-		   NULL, "In other words... Rika Furude's prediction had been correct.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "In other words... Furude Rika's prediction had been correct.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1336,7 +1336,7 @@ void main()
 	OutputLine(NULL, "　根拠は何もない。",
 		   NULL, "There was no proof.", Line_WaitForInput);
 	OutputLine(NULL, "でも、私は彼女の予言によって救えたと、そう信じている。",
-		   NULL, " But Akasaka still believed that he was able to save Yukie only because of Rika Furude's prediction.", Line_Normal);
+		   NULL, " But Akasaka still believed that he was able to save Yukie only because of Furude Rika's prediction.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1470,7 +1470,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……つまり、大石氏に電話を一本掛けるだけで、古手梨花が本当に殺されるのかどうかを確認できるのだ。",
-		   NULL, "...In other words, he could confirm if Rika Furude was going to be killed or not with a phone call to Ooishi.", Line_Normal);
+		   NULL, "...In other words, he could confirm if Furude Rika was going to be killed or not with a phone call to Ooishi.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1554,7 +1554,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 13, "ps3/s13/13/ds41120046", 128, TRUE);
 	OutputLine(NULL, "「すみません、そちらの捜査課に、現在も大石蔵人氏は在籍されておりますでしょうか？",
-		   NULL, "\"Hello, is a Kuraudo Ooishi still working in your investigation department?", Line_WaitForInput);
+		   NULL, "\"Hello, is a Ooishi Kuraudo still working in your investigation department?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 13, "ps3/s13/13/ds41120047", 128, TRUE);
 	OutputLine(NULL, "　もしもいらっしゃったならお願いしたいのですが。」",
 		   NULL, " If he is, may I talk with him, please?\"", GetGlobalFlag(GLinemodeSp));

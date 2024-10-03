@@ -431,7 +431,7 @@ void main()
 		   NULL, " você deve ligar para o Dr. Takano.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s13/00/550400010", 128, TRUE);
 	OutputLine(NULL, "高野一二三先生だよ。",
-		   NULL, " O doutor Hifumi Takano.", Line_WaitForInput);
+		   NULL, " O doutor Takano Hifumi.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s13/00/550400011", 128, TRUE);
 	OutputLine(NULL, "言ってみなさい。」",
 		   NULL, " Você pode fazer isso?\"", GetGlobalFlag(GLinemodeSp));
@@ -456,7 +456,7 @@ void main()
 	OutputLine(NULL, "「そうだ。",
 		   NULL, "\"Exatamente.", Line_Continue);
 	OutputLine(NULL, "高野一二三先生だよ。",
-		   NULL, " Doutor Hifumi Takano.", Line_WaitForInput);
+		   NULL, " Doutor Takano Hifumi.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s13/00/550400013", 128, TRUE);
 	OutputLine(NULL, "…高野先生はお父さんの恩師なんだ。",
 		   NULL, " Ele é meu ex-professor.", Line_WaitForInput);

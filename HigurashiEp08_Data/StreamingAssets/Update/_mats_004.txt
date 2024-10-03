@@ -1368,7 +1368,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして、このような研究がすでに戦時中から行なわれていて、",
-		   NULL, "And they will learn about Hifumi Takano, who began his research during the war.", Line_WaitForInput);
+		   NULL, "And they will learn about Takano Hifumi, who began his research during the war.", Line_WaitForInput);
 	OutputLine(NULL, "誰の理解も得られずに孤独に研究に生涯を捧げた高野一二三の生涯を知り、",
 		   NULL, " They will know that nobody understood him, and that he ended up devoting his lonely life to his research. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

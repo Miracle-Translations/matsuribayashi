@@ -25,7 +25,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私、前原伊知郎は今、極めて絶好調に素晴らしく、",
-		   NULL, "My name is Ichirou Maebara, and I am", Line_ContinueAfterTyping);
+		   NULL, "My name is Maebara Ichirou, and I am", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
 	Wait( 800 );
 	SetValidityOfInput( TRUE );

@@ -2216,7 +2216,7 @@ void main()
 		   NULL, "\"......I know.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s13/05/ds41050055", 128, TRUE);
 	OutputLine(NULL, "鷹野三四でしょう？",
-		   NULL, " Miyo Takano, right?", Line_WaitForInput);
+		   NULL, " Takano Miyo, right?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s13/05/ds41050056", 128, TRUE);
 	OutputLine(NULL, "　入江診療所の。」",
 		   NULL, " From the Irie Clinic.\"", GetGlobalFlag(GLinemodeSp));
@@ -2279,7 +2279,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　古手梨花は、",
-		   NULL, "Rika Furude", Line_ContinueAfterTyping);
+		   NULL, "Furude Rika", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
 	Wait( 800 );
 	SetValidityOfInput( TRUE );

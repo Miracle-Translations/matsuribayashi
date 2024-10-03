@@ -72,7 +72,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　前原圭一たちが、雛見沢症候群などという下らないものに惑わされ、惨劇に踊ることは、二度とない…。",
-		   NULL, "Keiichi Maebara and our other friends won't be led astray by something as pathetic as the Hinamizawa Syndrome and dance in tragedy any longer.", Line_Normal);
+		   NULL, "Maebara Keiichi and our other friends won't be led astray by something as pathetic as the Hinamizawa Syndrome and dance in tragedy any longer.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

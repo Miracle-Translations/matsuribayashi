@@ -579,7 +579,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	OutputLine(NULL, "　この事件について園崎お魎が、神主はオヤシロさまに祟られて当然だった旨の発言をし、雛見沢村連続怪死事件、通称オヤシロさまの祟りに神主の事件を組み込むことを決定するのだった。",
-		   NULL, "Oryou Sonozaki said something like, \"it was natural for that priest to be cursed by Oyashiro-sama,\" and so the priest's case was lumped together with the mysterious Hinamizawa deaths, otherwise known as Oyashiro-sama's curse.", Line_Normal);
+		   NULL, "Sonozaki Oryou said something like, \"it was natural for that priest to be cursed by Oyashiro-sama,\" and so the priest's case was lumped together with the mysterious Hinamizawa deaths, otherwise known as Oyashiro-sama's curse.", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "black", "maskdown", 1, 0, 300 );

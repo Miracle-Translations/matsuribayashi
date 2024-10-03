@@ -2235,7 +2235,7 @@ void main()
 	Wait( 800 );
 	// (backup) SetValidityOfInput( TRUE );
 	OutputLine(NULL, "…それの幕を降ろすのは、故高野先生の遺族、",
-		   NULL, " Miyo Takano, who considers herself a family member of the late Dr. Takano,", Line_Continue);
+		   NULL, " Takano Miyo, who considers herself a family member of the late Dr. Takano,", Line_Continue);
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 1000 );
 	// (backup) SetValidityOfInput( TRUE );

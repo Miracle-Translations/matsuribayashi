@@ -382,7 +382,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　古手梨花が、夏になったらプールに行きたいと言い出したのだ。",
-		   NULL, "Rika Furude said that she wants to go to a pool in the summer.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Furude Rika said that she wants to go to a pool in the summer.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -416,7 +416,7 @@ void main()
 	OutputLine(NULL, "　…そう。",
 		   NULL, "...Right.", Line_WaitForInput);
 	OutputLine(NULL, "古手梨花は初めて、…昭和５８年６月以降の予定を建てたのだ。",
-		   NULL, " Rika Furude, for the first time, is making plans for after June 1983.", Line_Normal);
+		   NULL, " Furude Rika, for the first time, is making plans for after June 1983.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -431,7 +431,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　古手梨花は今、沙都子よりも早く朝を起き、昭和５８年６月を越えた日捲りカレンダーを破くのを一番の楽しみにしているという。",
-		   NULL, "Rika Furude is looking forward to waking up before Satoko to rip the page off the calendar at the end of June.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Furude Rika is looking forward to waking up before Satoko to rip the page off the calendar at the end of June.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -439,7 +439,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　古手梨花の前に広がるのは、無限の未来。",
-		   NULL, "Rika Furude's infinite future has begun.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Furude Rika's infinite future has begun.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -459,7 +459,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　古手梨花と共に戦った他の人間たちにも触れよう。",
-		   NULL, "Let's talk for a moment about the people who fought with Rika Furude.", Line_Normal);
+		   NULL, "Let's talk for a moment about the people who fought with Furude Rika.", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(0, 3, "sprite/me1b_def_a1_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 9, 0, FALSE );
@@ -467,7 +467,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　園崎魅音は、夏休みが終わったら進学のための勉強に専念するように誓わされているらしい。",
-		   NULL, "Mion Sonozaki has vowed to study hard so she can continue her education after the summer break.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Sonozaki Mion has vowed to study hard so she can continue her education after the summer break.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -483,7 +483,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　もっとも、稀代の名将、園崎魅音がまさか進学で失敗することなんてあるまい。",
-		   NULL, "However, how can the legendary club leader, Mion Sonozaki, fail an entrance exam?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "However, how can the legendary club leader, Sonozaki Mion, fail an entrance exam?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -529,7 +529,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　前原圭一は、魅音と知恵先生から次の委員長を打診されているという。",
-		   NULL, "Keiichi Maebara has been asked by Mion and Chie-sensei to be their next class president.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Maebara Keiichi has been asked by Mion and Chie-sensei to be their next class president.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -599,7 +599,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　竜宮レナもまた、ますます元気になっていく。",
-		   NULL, "Rena Ryuugu is growing more energetic every day too.", Line_Normal);
+		   NULL, "Ryuugu Rena is growing more energetic every day too.", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(0, 4, "sprite/sa1a_def_a1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 9, 0, FALSE );
@@ -672,7 +672,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　北条沙都子だって、ますますに元気が止まらなくなっていく。",
-		   NULL, "Satoko Houjou is as lively as ever.", Line_Normal);
+		   NULL, "Houjou Satoko is as lively as ever.", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(0, 4, "sprite/sa2b_yareyare_b1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 9, 0, FALSE );
@@ -759,7 +759,7 @@ void main()
 	Wait( 900 );
 	SetValidityOfInput( TRUE );
 	OutputLine(NULL, "北条悟史は、まだ帰ってこない。",
-		   NULL, " Satoshi Houjou has yet to return home.", Line_WaitForInput);
+		   NULL, " Houjou Satoshi has yet to return home.", Line_WaitForInput);
 	OutputLine(NULL, "何の変化もない。",
 		   NULL, " His condition is unchanged.", Line_Normal);
 	ClearMessage();
@@ -770,7 +770,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　変化があったといえば、園崎詩音の方か。",
-		   NULL, "If there's been any change, it's in Shion Sonozaki.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "If there's been any change, it's in Sonozaki Shion.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -827,7 +827,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　入江京介は相変わらず、落ち着きある医師とメイドの伝道師の二束のわらじを履いている。",
-		   NULL, "Kyousuke Irie has two jobs now. On one hand, he is a respected doctor, and on the other hand, he is an evangelist for maids.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Irie Kyousuke has two jobs now. On one hand, he is a respected doctor, and on the other hand, he is an evangelist for maids.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -883,7 +883,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして、その論文の引用元には、故高野一二三と、鷹野三四の名が含まれていたという。",
-		   NULL, "The deceased Hifumi Takano and Miyo Takano's names will be mentioned in that article.", Line_Normal);
+		   NULL, "The deceased Takano Hifumi and Takano Miyo's names will be mentioned in that article.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "black", 1000 );
@@ -892,7 +892,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　富竹ジロウは相変わらず季節の度に雛見沢を訪れている。",
-		   NULL, "Jirou Tomitake still visits Hinamizawa every season.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Tomitake Jirou still visits Hinamizawa every season.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -925,7 +925,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…そして、その連れの鷹野三四は、あの日以来、姿を見掛けない。",
-		   NULL, "Miyo Takano hasn't been seen since that day.", Line_Normal);
+		   NULL, "Takano Miyo hasn't been seen since that day.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -945,7 +945,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　赤坂衛は、…彼のエピソードがとても笑える。",
-		   NULL, "As for Mamoru Akasaka... what happened to him was pretty funny.", Line_Normal);
+		   NULL, "As for Akasaka Mamoru... what happened to him was pretty funny.", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(0, 13, "sprite/aks1_warai_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 9, 0, FALSE );
@@ -1030,7 +1030,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　大石蔵人は、一度は醒めた麻雀熱が再び再発。",
-		   NULL, "Kuraudo Ooishi has gotten back into playing mahjong.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ooishi Kuraudo has gotten back into playing mahjong.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1041,7 +1041,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　しかも、その卓にどういうわけか園崎茜が加わっているらしく、一時期、雀荘の前に機動隊が出動しそうになったとかならないとか云々。",
-		   NULL, "For whatever reason, Akane Sonozaki has joined his table too, and there's rumors a riot squad almost got dispatched to the mahjong parlor one time.", Line_Normal);
+		   NULL, "For whatever reason, Sonozaki Akane has joined his table too, and there's rumors a riot squad almost got dispatched to the mahjong parlor one time.", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "black", "maskright", 1, 0, 300 );
@@ -1086,7 +1086,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　葛西辰由は、他の大勢と比べると一番変化がなかった。",
-		   NULL, "Tatsuyoshi Kasai hasn't changed much, compared to the others.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Kasai Tatsuyoshi hasn't changed much, compared to the others.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1147,7 +1147,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　罰ゲーム常連から徐々に抜け出しつつあり、かつて前原圭一に与えられていたダークホースの称号は今や羽入に与えられていた。",
-		   NULL, "I'm finally getting better at playing games, and now I'm taking the role of the club's dark horse, a position formerly reserved for Keiichi Maebara.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "I'm finally getting better at playing games, and now I'm taking the role of the club's dark horse, a position formerly reserved for Maebara Keiichi.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }

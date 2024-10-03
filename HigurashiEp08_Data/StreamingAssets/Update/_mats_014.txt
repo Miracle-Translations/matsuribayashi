@@ -1765,7 +1765,7 @@ void main()
 		   NULL, "\"Let me introduce myself.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 13, "ps3/s13/13/ds41120152", 128, TRUE);
 	OutputLine(NULL, "私は赤坂衛。",
-		   NULL, " I'm Mamoru Akasaka.", Line_WaitForInput);
+		   NULL, " I'm Akasaka Mamoru.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 13, "ps3/s13/13/ds41120153", 128, TRUE);
 	OutputLine(NULL, "警視庁公安部の資料室第７室に勤めています。」",
 		   NULL, " I work in Case Records Room 7 of the Tokyo Metropolitan Police Department's Public Security Bureau.\"", Line_Normal);
@@ -2116,7 +2116,7 @@ void main()
 		   NULL, " It also lists that the head of the Irie Institute is a lieutenant colonel from the SDF,", Line_WaitForInput);
 	ModPlayVoiceLS(4, 13, "ps3/s13/13/ds41120173", 128, TRUE);
 	OutputLine(NULL, "入江京介氏とも。」",
-		   NULL, " Kyousuke Irie.\"", Line_Normal);
+		   NULL, " Irie Kyousuke.\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -2926,11 +2926,11 @@ void main()
 		   NULL, " that's not right.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s13/11/ds41110169", 128, TRUE);
 	OutputLine(NULL, "…そいつぁ、皆さんに協力した勇気ある大石蔵人に教えてやってください。",
-		   NULL, " ...You can tell the brave Kuraudo Ooishi about it, the one who found the courage to help you. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...You can tell the brave Ooishi Kuraudo about it, the one who found the courage to help you. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s13/11/ds41110170", 128, TRUE);
 	OutputLine(NULL, "………退職金が欲しくて保身に走る見っとも無い大石蔵人にゃ、過ぎたもんです…。」",
-		   NULL, "The cowardly Kuraudo Ooishi, the one who didn't want to lose his pension, doesn't deserve to hear the truth.\"", Line_Normal);
+		   NULL, "The cowardly Ooishi Kuraudo, the one who didn't want to lose his pension, doesn't deserve to hear the truth.\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -4997,7 +4997,7 @@ void main()
 		   NULL, " I don't know how you and Rika know each other, but if you're Rika's ally, then you're mine too.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/s13/04/ds41040103", 128, TRUE);
 	OutputLine(NULL, "北条沙都子と申しますわ！」",
-		   NULL, " You may call me Satoko Houjou!\"", Line_Normal);
+		   NULL, " You may call me Houjou Satoko!\"", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "background/hu_r1", 200 );

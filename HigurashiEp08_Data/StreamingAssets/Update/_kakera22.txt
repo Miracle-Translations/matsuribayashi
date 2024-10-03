@@ -176,12 +176,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　高野先生は確か、フルネームが高野一二三だ。",
-		   NULL, "Dr. Takano's full name was Hifumi Takano.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Dr. Takano's full name was Takano Hifumi.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…そして鷹野さんは、鷹野三四。",
-		   NULL, "...Takano-san's full name is Miyo Takano.", Line_Normal);
+		   NULL, "...Takano-san's full name is Takano Miyo.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -224,7 +224,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 8, "ps3/s20/08/440800028", 128, TRUE);
 	OutputLine(NULL, "「いや、鷹野さんが尊敬しているその先生の名前が確か、高野一二三。",
-		   NULL, "\"Well, the name of the researcher you look up to is 'Hifumi Takano', right? ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Well, the name of the researcher you look up to is 'Takano Hifumi', right? ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 8, "ps3/s20/08/440800029", 128, TRUE);
 	OutputLine(NULL, "そして、鷹野さんの名前が三四。",
@@ -287,7 +287,7 @@ void main()
 	OutputLine(NULL, "「そんなことはないわよ。",
 		   NULL, "\"No, that's not so.", Line_Continue);
 	OutputLine(NULL, "鷹野三四は本名よ。",
-		   NULL, " Miyo Takano is my real name.", Line_Continue);
+		   NULL, " Takano Miyo is my real name.", Line_Continue);
 	OutputLine(NULL, "……もっとも、鷹野のタカは、鳥の鷹じゃなくて、高い低いの高が正しいけれど。」",
 		   NULL, " ...You write my family name differently, though.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -303,7 +303,7 @@ void main()
 	OutputLine(NULL, "　しかも三四が本名とは…。",
 		   NULL, " And Miyo is your real name too...", Line_Continue);
 	OutputLine(NULL, "高野一二三の研究を高野三四が継ぐ…。",
-		   NULL, " Miyo Takano continuing Hifumi Takano's life's work...", Line_Continue);
+		   NULL, " Takano Miyo continuing Takano Hifumi's life's work...", Line_Continue);
 	OutputLine(NULL, "何だか運命的偶然を感じるね…！」",
 		   NULL, " What a fateful coincidence!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }

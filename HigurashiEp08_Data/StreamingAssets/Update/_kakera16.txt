@@ -50,7 +50,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　恐らく、…北条悟史。",
-		   NULL, "It's probably... Satoshi Houjou.", Line_WaitForInput);
+		   NULL, "It's probably... Houjou Satoshi.", Line_WaitForInput);
 	OutputLine(NULL, "あの純朴そうな少年だ。",
 		   NULL, " That innocent-looking kid.", Line_Normal);
 	ClearMessage();
@@ -117,7 +117,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……北条悟史がゲロしてくれればそれで解決。",
-		   NULL, "...A confession from Satoshi Houjou would end it.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...A confession from Houjou Satoshi would end it.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -153,12 +153,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　連中が黒幕なら、北条悟史にうまいこと犯行を唆して実行犯に仕立てたに違いないのだ。",
-		   NULL, "If they are the ones pulling the strings, they must have instigated Satoshi Houjou into committing this crime.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "If they are the ones pulling the strings, they must have instigated Houjou Satoshi into committing this crime.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　………だが、そうならば連中にとって北条悟史は、知り過ぎた人物になる。",
-		   NULL, "......If so, Satoshi Houjou is someone who knows way too much about them.", Line_Normal);
+		   NULL, "......If so, Houjou Satoshi is someone who knows way too much about them.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -173,7 +173,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　北条悟史が妹思いな点を突いて叔母殺しを唆し、四年目の祟りを執行させた…。",
-		   NULL, "Satoshi Houjou is a loving brother who cares very much for his sister, and they set him up to kill his aunt as the fourth year's curse.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Houjou Satoshi is a loving brother who cares very much for his sister, and they set him up to kill his aunt as the fourth year's curse.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -186,7 +186,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…………北条悟史は単なる犯人じゃない。",
-		   NULL, "......Satoshi Houjou is not just a simple criminal.", Line_WaitForInput);
+		   NULL, "......Houjou Satoshi is not just a simple criminal.", Line_WaitForInput);
 	OutputLine(NULL, "…仕立て上げられた道化なのかもしれない。",
 		   NULL, " He was set up.", Line_Normal);
 	ClearMessage();
@@ -242,12 +242,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして北条悟史は、綿流しから数日後に蒸発。",
-		   NULL, "Then Satoshi Houjou disappeared a few days after the festival.", Line_Normal);
+		   NULL, "Then Houjou Satoshi disappeared a few days after the festival.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　………北条悟史と事件を結び付けたくない何者かが暗躍していることは明白だ。",
-		   NULL, "......It's obvious someone doesn't want Satoshi Houjou to be connected to this incident.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "......It's obvious someone doesn't want Houjou Satoshi to be connected to this incident.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -255,7 +255,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私には上層部から、事件の捜査を終了させるようにと圧力が掛かり、",
-		   NULL, "My boss put pressure on me to close the investigation and to file Satoshi Houjou's disappearance as a separate incident.", Line_WaitForInput);
+		   NULL, "My boss put pressure on me to close the investigation and to file Houjou Satoshi's disappearance as a separate incident.", Line_WaitForInput);
 	OutputLine(NULL, "北条悟史失踪事件は、単品扱いとなって担当部署までもが変わることになったのだから。",
 		   NULL, " He even handed the case over to a different section.", Line_Normal);
 	ClearMessage();
@@ -287,7 +287,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　情報屋経由だが、園崎お魎は四年目の祟りについて親族会議にて言及し、自らが黒幕であることを仄めかしたという。",
-		   NULL, "According to my informant, Oryou Sonozaki mentioned the fourth year's curse at the family meeting and hinted that she was the one behind it all.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "According to my informant, Sonozaki Oryou mentioned the fourth year's curse at the family meeting and hinted that she was the one behind it all.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -295,7 +295,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……仄めかすだけでは証拠にはならないが、とにかく、黒幕の一番上に園崎お魎がいることだけは間違いないのだ…。",
-		   NULL, "...Hinting isn't strong enough evidence, but there is no mistaking that Oryou Sonozaki is the one pulling the strings.", Line_Normal);
+		   NULL, "...Hinting isn't strong enough evidence, but there is no mistaking that Sonozaki Oryou is the one pulling the strings.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -324,7 +324,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……もっとも、北条悟史が消えたように、その主犯格もすでに消されているだろう。",
-		   NULL, "...However, just like how Satoshi Houjou disappeared, it's possible the principal offender has already been eliminated.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...However, just like how Houjou Satoshi disappeared, it's possible the principal offender has already been eliminated.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

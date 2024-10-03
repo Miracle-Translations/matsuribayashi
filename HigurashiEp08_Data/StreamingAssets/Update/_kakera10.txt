@@ -88,7 +88,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そのため、入江機関は雛見沢症候群を研究するという使命に匹敵する最大の任務として、女王感染者、古手梨花の身柄の保護を掲げる必要があった。",
-		   NULL, "That's why the Irie Institute has to protect Rika Furude, the queen carrier. It's the most important mission of the Hinamizawa Syndrome research project.", Line_Normal);
+		   NULL, "That's why the Irie Institute has to protect Furude Rika, the queen carrier. It's the most important mission of the Hinamizawa Syndrome research project.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

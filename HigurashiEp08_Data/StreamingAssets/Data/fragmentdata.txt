@@ -2,7 +2,7 @@
 	{
 		"Id":1,
 		"Title":"Experimento da dose de C103",
-		"Description":"São necessários os resultados detalhados do teste de Satoko Houjou.\nÉ necessária a decisão de Kyousuke Irie.",
+		"Description":"São necessários os resultados detalhados do teste de Houjou Satoko.\nÉ necessária a decisão de Irie Kyousuke.",
 		"TitleJp":"C103投与実験",
 		"DescriptionJp":"北条沙都子の精密検査結果が必要です。\n入江京介の決意が必要です。",
 		"Script":"_kakera01",
@@ -11,7 +11,7 @@
 	{
 		"Id":2,
 		"Title":"H170",
-		"Description":"É necessária a descontinuação dos planos de autópsia de Satoko Houjou.\nÉ necessário o motivo de Kyousuke Irie para se tornar um médico.",
+		"Description":"É necessária a descontinuação dos planos de autópsia de Houjou Satoko.\nÉ necessário o motivo de Irie Kyousuke para se tornar um médico.",
 		"TitleJp":"H170",
 		"DescriptionJp":"北条沙都子解剖計画の中止が必要です。\n入江京介の医者になる動機が必要です。",
 		"Script":"_kakera02",
@@ -47,7 +47,7 @@
 	{
 		"Id":6,
 		"Title":"The second sacrifice",
-		"Description":"The death of the construction site manager is required.\nThe hospitalization of Satoko Houjou is required.",
+		"Description":"The death of the construction site manager is required.\nThe hospitalization of Houjou Satoko is required.",
 		"TitleJp":"生贄第二号",
 		"DescriptionJp":"北条沙都子の殺意が必要です。\n北条沙都子の入院が必要です。",
 		"Script":"_kakera06",
@@ -65,7 +65,7 @@
 	{
 		"Id":8,
 		"Title":"The fourth sacrifice",
-		"Description":"The death of Satoko Houjou's aunt is required.",
+		"Description":"The death of Houjou Satoko's aunt is required.",
 		"TitleJp":"生贄第四号",
 		"DescriptionJp":"北条沙都子の叔母の死が必要です。",
 		"Script":"_kakera08",
@@ -119,7 +119,7 @@
 	{
 		"Id":14,
 		"Title":"An accident at the Shirakawa park",
-		"Description":"Satoshi Houjou's sister must refuse his visit at the clinic.\nSatoshi Houjou's sense of responsibility as a big brother is required.",
+		"Description":"Houjou Satoshi's sister must refuse his visit at the clinic.\nHoujou Satoshi's sense of responsibility as a big brother is required.",
 		"TitleJp":"白川公園転落事故",
 		"DescriptionJp":"北条悟史の見舞いの謝絶が必要です。\n北条悟史の兄としての使命感が必要です。",
 		"Script":"_kakera14",
@@ -128,7 +128,7 @@
 	{
 		"Id":15,
 		"Title":"Mysterious death of the Furude couple",
-		"Description":"An execution order for the third year's curse is required.\nA declaration of war from Kuraudo Ooishi is required.",
+		"Description":"An execution order for the third year's curse is required.\nA declaration of war from Ooishi Kuraudo is required.",
 		"TitleJp":"古手夫妻怪死事件",
 		"DescriptionJp":"三年目の祟りの実行命令が必要です。\n大石蔵人の宣戦布告が必要です。",
 		"Script":"_kakera15",
@@ -146,7 +146,7 @@
 	{
 		"Id":17,
 		"Title":"Irie's background",
-		"Description":"Kyousuke Irie's reminiscence is required.",
+		"Description":"Irie Kyousuke's reminiscence is required.",
 		"TitleJp":"入江の生い立ち",
 		"DescriptionJp":"入江京介の過去の回想が必要です。",
 		"Script":"_kakera17",
@@ -154,7 +154,7 @@
 	},
 	{
 		"Id":18,
-		"Title":"Kyousuke Irie",
+		"Title":"Irie Kyousuke",
 		"Description":"This Fragment is required first.",
 		"TitleJp":"入江京介",
 		"DescriptionJp":"まずはこのカケラが必要です。",
@@ -191,7 +191,7 @@
 	{
 		"Id":22,
 		"Title":"One, two, three, four",
-		"Description":"Rika Furude's high fever is required.\nJirou Tomitake's slight fever is required.",
+		"Description":"Furude Rika's high fever is required.\nTomitake Jirou's slight fever is required.",
 		"TitleJp":"一二三四",
 		"DescriptionJp":"古手梨花の高熱が必要です。\n富竹ジロウの微熱が必要です。",
 		"Script":"_kakera22",
@@ -199,7 +199,7 @@
 	},
 	{
 		"Id":23,
-		"Title":"Jirou Tomitake",
+		"Title":"Tomitake Jirou",
 		"Description":"This Fragment is required first.",
 		"TitleJp":"富竹ジロウ",
 		"DescriptionJp":"まずはこのカケラが必要です。",
@@ -218,7 +218,7 @@
 	{
 		"Id":25,
 		"Title":"A roll of a one",
-		"Description":"A bottle of wine for a toast is required.\nJirou Tomitake's promise is required.\nThe draft of an emergency manual is required.",
+		"Description":"A bottle of wine for a toast is required.\nTomitake Jirou's promise is required.\nThe draft of an emergency manual is required.",
 		"TitleJp":"サイコロの１",
 		"DescriptionJp":"祝杯のワインが必要です。\n富竹ジロウの約束が必要です。\n緊急マニュアル草案が必要です。",
 		"Script":"_kakera25",
@@ -245,7 +245,7 @@
 	{
 		"Id":28,
 		"Title":"Suffering of a big brother",
-		"Description":"Rock candy as a treat is required.\nSatoko Houjou's detailed test result is required.",
+		"Description":"Rock candy as a treat is required.\nHoujou Satoko's detailed test result is required.",
 		"TitleJp":"兄の苦悩",
 		"DescriptionJp":"お駄賃の金平糖が必要です。\n北条沙都子の精密検査結果が必要です。",
 		"Script":"_kakera28",
@@ -254,7 +254,7 @@
 	{
 		"Id":29,
 		"Title":"The Houjou siblings",
-		"Description":"A conflict between the Houjou family and the Sonozaki family is required.\nThe self-introduction of Satoko Houjou is required.",
+		"Description":"A conflict between the Houjou family and the Sonozaki family is required.\nThe self-introduction of Houjou Satoko is required.",
 		"TitleJp":"北条兄妹",
 		"DescriptionJp":"北条家と園崎家の対立が必要です。\n北条沙都子の自己紹介が必要です。",
 		"Script":"_kakera29",
@@ -262,7 +262,7 @@
 	},
 	{
 		"Id":30,
-		"Title":"Satoshi Houjou",
+		"Title":"Houjou Satoshi",
 		"Description":"This Fragment is required first.",
 		"TitleJp":"北条悟史",
 		"DescriptionJp":"まずはこのカケラが必要です。",
@@ -272,7 +272,7 @@
 	{
 		"Id":31,
 		"Title":"A notice of leave of absence",
-		"Description":"Satoshi Houjou's part-time job is required.\nFootsteps following Houjou Satoshi are required.",
+		"Description":"Houjou Satoshi's part-time job is required.\nFootsteps following Houjou Satoshi are required.",
 		"TitleJp":"休部届け",
 		"DescriptionJp":"北条悟史にバイト斡旋が必要です。\n北条悟史に背中の足音が必要です。",
 		"Script":"_kakera31",
@@ -281,7 +281,7 @@
 	{
 		"Id":32,
 		"Title":"Footsteps in the fourth year",
-		"Description":"Satoshi Houjou's awareness of his sins is required.\nThe forgiveness of Rena Ryuugu's sins is required.",
+		"Description":"Houjou Satoshi's awareness of his sins is required.\nThe forgiveness of Ryuugu Rena's sins is required.",
 		"TitleJp":"四年目の足音",
 		"DescriptionJp":"北条悟史に罪の意識が必要です。\n竜宮レナに罪を許すナニカが必要です。",
 		"Script":"_kakera32",
@@ -308,7 +308,7 @@
 	{
 		"Id":35,
 		"Title":"Formation of a club",
-		"Description":"Satoshi Houjou's awareness of his sins is required.\nThe mysterious death of the Furude couple is required.",
+		"Description":"Houjou Satoshi's awareness of his sins is required.\nThe mysterious death of the Furude couple is required.",
 		"TitleJp":"部活結成",
 		"DescriptionJp":"北条悟史に罪の意識が必要です。\n古手夫妻の怪死事件が必要です。",
 		"Script":"_kakera35",
@@ -316,8 +316,8 @@
 	},
 	{
 		"Id":36,
-		"Title":"Keiichi Maebara",
-		"Description":"The tea set on the veranda being put away is required.\nIchirou Maebara inspecting a vacant lot is required.",
+		"Title":"Maebara Keiichi",
+		"Description":"The tea set on the veranda being put away is required.\nMaebara Ichirou inspecting a vacant lot is required.",
 		"TitleJp":"前原圭一",
 		"DescriptionJp":"縁側のお茶の片付けが必要です。\n前原伊知郎の下見が必要です。",
 		"Script":"_kakera36",
@@ -325,7 +325,7 @@
 	},
 	{
 		"Id":37,
-		"Title":"Rena Ryuugu",
+		"Title":"Ryuugu Rena",
 		"Description":"A red capsule is required.",
 		"TitleJp":"竜宮レナ",
 		"DescriptionJp":"赤いカプセル薬が必要です。",
@@ -334,7 +334,7 @@
 	},
 	{
 		"Id":38,
-		"Title":"Mion Sonozaki",
+		"Title":"Sonozaki Mion",
 		"Description":"Strawberry milk candy is required.",
 		"TitleJp":"園崎魅音",
 		"DescriptionJp":"苺ミルクの飴が必要です。",
@@ -343,7 +343,7 @@
 	},
 	{
 		"Id":39,
-		"Title":"Satoko Houjou",
+		"Title":"Houjou Satoko",
 		"Description":"This Fragment is required first.",
 		"TitleJp":"北条沙都子",
 		"DescriptionJp":"まずはこのカケラが必要です。",
@@ -352,7 +352,7 @@
 	},
 	{
 		"Id":40,
-		"Title":"Rika Furude",
+		"Title":"Furude Rika",
 		"Description":"A conflict between the Houjou family and the Sonozaki family is required.",
 		"TitleJp":"古手梨花",
 		"DescriptionJp":"北条家と園崎家の対立が必要です。",
@@ -362,7 +362,7 @@
 	{
 		"Id":41,
 		"Title":"June 1983",
-		"Description":"The revenge of Miyo Takano is required.\nKeiichi Maebara changing schools is required.",
+		"Description":"The revenge of Takano Miyo is required.\nMaebara Keiichi changing schools is required.",
 		"TitleJp":"昭和５８年６月",
 		"DescriptionJp":"鷹野三四の復讐が必要です。\n前原圭一の転校が必要です。",
 		"Script":"_kakera41",

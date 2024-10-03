@@ -361,7 +361,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　クールになれ、鷹野三四。",
-		   NULL, "Be calm, Miyo Takano.", Line_Normal);
+		   NULL, "Be calm, Takano Miyo.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -785,7 +785,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#3e5745>小此木</color>", NULL, "<color=#3e5745>Okonogi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 14, "ps3/s20/14/vtk1_okonogi1014", 128, TRUE);
 	OutputLine(NULL, "「消すのは、古手梨花の母親だけでいいですんね？」",
-		   NULL, "\"So did you just want Rika Furude's mother to disappear?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"So did you just want Furude Rika's mother to disappear?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
@@ -803,7 +803,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　古手梨花の母親“だけ”でいいかって？",
-		   NULL, "Does he mean \"only\" Rika Furude's mother?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Does he mean \"only\" Furude Rika's mother?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

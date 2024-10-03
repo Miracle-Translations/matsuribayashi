@@ -29,7 +29,7 @@ void main()
 	OutputLine(NULL, "　このカケラでは気付きにくいことだけど。",
 		   NULL, "É difícil de perceber só com este Fragmento...", Line_WaitForInput);
 	OutputLine(NULL, "…ルールＸに囚われた園崎詩音が、ルールＹに勘違いして翻弄されながら、",
-		   NULL, " mas este é um Fragmento complicado onde Shion Sonozaki, enquanto confunde a Regra X com a Y e, por isso, ficando a mercê da Regra X,", Line_WaitForInput);
+		   NULL, " mas este é um Fragmento complicado onde Sonozaki Shion, enquanto confunde a Regra X com a Y e, por isso, ficando a mercê da Regra X,", Line_WaitForInput);
 	OutputLine(NULL, "ルールＺの存在に気付いていくややこしいカケラ。",
 		   NULL, " percebe a existência da Regra Z.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -48,7 +48,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…そう言えば、園崎詩音という駒も、ゲーム盤の見地からは、外から来た駒という扱いになるのかもしれない。",
-		   NULL, "...A propósito, a peça chamada Shion Sonozaki vem do lado de fora, no ponto de vista do jogo.", Line_Normal);
+		   NULL, "...A propósito, a peça chamada Sonozaki Shion vem do lado de fora, no ponto de vista do jogo.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

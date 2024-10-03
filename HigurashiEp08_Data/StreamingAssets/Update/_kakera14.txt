@@ -239,7 +239,7 @@ void main()
 		   NULL, "\"Well,", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/vtk1_oishi1013", 128, TRUE);
 	OutputLine(NULL, "北条沙都子さんの言う、事故当時は車で眠っていたっていう話。",
-		   NULL, " Satoko Houjou-san said she was asleep in the car at the time of the accident.", Line_WaitForInput);
+		   NULL, " Houjou Satoko-san said she was asleep in the car at the time of the accident.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/vtk1_oishi1014", 128, TRUE);
 	OutputLine(NULL, "…ちょいと話がおかしいんじゃないかなぁって、そう思うんです。」",
 		   NULL, " ...I think that story sounds a little off, doesn't it?\"", Line_Normal);
@@ -286,7 +286,7 @@ void main()
 		   NULL, "\"That's right.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/vtk1_oishi1016", 128, TRUE);
 	OutputLine(NULL, "北条沙都子さんは眠ってなんかいなかった。",
-		   NULL, " Satoko Houjou-san was never asleep.", Line_WaitForInput);
+		   NULL, " Houjou Satoko-san was never asleep.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/vtk1_oishi1017", 128, TRUE);
 	OutputLine(NULL, "両親と一緒に車を降りて展望台へ行ったんです。」",
 		   NULL, " She got out of the car with her parents and went to the viewing platform.\"", Line_Normal);
@@ -325,7 +325,7 @@ void main()
 		   NULL, "\"That's just it.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/vtk1_oishi1019", 128, TRUE);
 	OutputLine(NULL, "なぜ北条沙都子さんは嘘をつかなければならないのか。",
-		   NULL, " Why would Satoko Houjou-san lie?", Line_WaitForInput);
+		   NULL, " Why would Houjou Satoko-san lie?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/vtk1_oishi1020", 128, TRUE);
 	OutputLine(NULL, "それの本当のところを教えていただけないと、",
 		   NULL, " That's why I need to talk to her.", Line_Continue);
@@ -363,7 +363,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/vtk1_oishi1023", 128, TRUE);
 	OutputLine(NULL, "「北条沙都子さんの主張によるならば、",
-		   NULL, "\"According to Satoko Houjou-san's statement,", Line_WaitForInput);
+		   NULL, "\"According to Houjou Satoko-san's statement,", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/vtk1_oishi1024", 128, TRUE);
 	OutputLine(NULL, "彼女は両親に展望台へ行こうと誘われたが、眠かったのでそれを断り車を降りなかったという。",
 		   NULL, " her parents asked her to come with them to the viewing platform, but she was sleepy, so she didn't get out of the car.", Line_WaitForInput);

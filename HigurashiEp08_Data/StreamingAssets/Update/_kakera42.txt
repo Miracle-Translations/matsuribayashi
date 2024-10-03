@@ -139,7 +139,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　鷹野、",
-		   NULL, "Didn't Miyo Takano...", Line_ContinueAfterTyping);
+		   NULL, "Didn't Takano Miyo...", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
 	Wait( 800 );
 	SetValidityOfInput( TRUE );
@@ -226,7 +226,7 @@ void main()
 	Wait( 600 );
 	SetValidityOfInput( TRUE );
 	OutputLine(NULL, "…もっとも重要なことなのに、無視されたことが、古手梨花という女王感染者が村の命運を握っているという事実。",
-		   NULL, " the most important thing they ignored is the fact that Rika Furude, the queen carrier, holds the fate of the village in her hands.", Line_ContinueAfterTyping);
+		   NULL, " the most important thing they ignored is the fact that Furude Rika, the queen carrier, holds the fate of the village in her hands.", Line_ContinueAfterTyping);
 	OutputLineAll(NULL, "", Line_Normal);
 
 	ClearMessage();
@@ -247,12 +247,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　古手梨花が死んだ後にしか確認できず、そして死んだ時にはもう手遅れなのだから。",
-		   NULL, "It can only be confirmed after Rika Furude's death, and if she dies, it'll be too late.", Line_Normal);
+		   NULL, "It can only be confirmed after Furude Rika's death, and if she dies, it'll be too late.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…しかし、古手梨花が女王感染者という特殊な存在であるのは客観的事実として間違いないし、",
-		   NULL, "But there's no mistake that Rika Furude is the queen carrier, and a very special existence.", Line_WaitForInput);
+		   NULL, "But there's no mistake that Furude Rika is the queen carrier, and a very special existence.", Line_WaitForInput);
 	OutputLine(NULL, "彼女がその他の一般感染者に対し、何か特殊な影響を与えていることも数々の実験から明らかになっている。",
 		   NULL, " It's clear from the various experiments we've performed that she has a special influence on the infected villagers.", Line_Normal);
 	ClearMessage();
@@ -696,7 +696,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>黒服</color>", NULL, "<color=#f5e6d3>Man in Black</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/gurada44001", 128, TRUE);
 	OutputLine(NULL, "「入江機関副所長、鷹野三四三等陸佐でありますね？」",
-		   NULL, "\"Are you the vice administrator of the Irie Institute, Major Miyo Takano?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Are you the vice administrator of the Irie Institute, Major Takano Miyo?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
@@ -1318,7 +1318,7 @@ void main()
 	OutputLine(NULL, "どうですか？",
 		   NULL, " What do you think?", Line_Continue);
 	OutputLine(NULL, "　高野三四さん？」",
-		   NULL, " Miyo Takano-san?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Takano Miyo-san?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }

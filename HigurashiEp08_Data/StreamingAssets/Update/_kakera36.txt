@@ -557,7 +557,7 @@ void main()
 		   NULL, " Nice to meet you!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s20/01/vtk2_keiichi2016", 128, TRUE);
 	OutputLine(NULL, "　前原圭一ってんだ。",
-		   NULL, " I'm Keiichi Maebara.", Line_WaitForInput);
+		   NULL, " I'm Maebara Keiichi.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s20/01/vtk2_keiichi2017", 128, TRUE);
 	OutputLine(NULL, "今度の月曜から来ることになると思うぜ。",
 		   NULL, " I'm starting next Monday.", Line_WaitForInput);
@@ -664,7 +664,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　俺は前原圭一。",
-		   NULL, "My name is Keiichi Maebara.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "My name is Maebara Keiichi.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }

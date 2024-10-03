@@ -22,7 +22,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが、入江が並外れた集中力で実験に没頭した結果、北条沙都子が実験途中に錯乱、もしくは廃人になるということは回避され、",
-		   NULL, "Porém, a atenção e o foco extraordinário de Irie ao experimento evitou que Satoko Houjou alucinasse ou entrasse em estado vegatativo durante o experimento ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Porém, a atenção e o foco extraordinário de Irie ao experimento evitou que Houjou Satoko alucinasse ou entrasse em estado vegatativo durante o experimento ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "……なんと、Ｌ５に至りながら社会生活に復帰できる目処さえ立ちつつあった。",
 		   NULL, "...e, surpreendentemente, nós vemos indícios de que ela possa retornar à vida normal, mesmo tendo alcançado o N5.", Line_Normal);
@@ -52,7 +52,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　甘えたヒューマニズムに苛まれ、両手を汚すことに未だ抵抗があるからこそ、北条沙都子を死すべき運命から救いたいという使命感に直結したのだろう。",
-		   NULL, "Ele estava sendo atormentado por seu humanismo tolo e não queria cometer erros, por isso ele se sentiu obrigado a curar Satoko Houjou.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ele estava sendo atormentado por seu humanismo tolo e não queria cometer erros, por isso ele se sentiu obrigado a curar Houjou Satoko.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -174,7 +174,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私は、北条沙都子が憎いわけじゃない。",
-		   NULL, "Eu não tenho nada contra Satoko Houjou.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eu não tenho nada contra Houjou Satoko.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -342,7 +342,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　この危険な試薬は、北条沙都子の脳を支配する病原体が、如何にして宿主を疑心暗鬼や錯乱に駆り立てていくかのメカニズムを解き明かす過程で作られたものだ。",
-		   NULL, "Este reagente perigoso foi desenolvido durante o processo de descobrir o mecanismo pelo qual o patógeno que controlava o cérebro de Satoko Houjou levava o portador à perturbação e à paranoia.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Este reagente perigoso foi desenolvido durante o processo de descobrir o mecanismo pelo qual o patógeno que controlava o cérebro de Houjou Satoko levava o portador à perturbação e à paranoia.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }

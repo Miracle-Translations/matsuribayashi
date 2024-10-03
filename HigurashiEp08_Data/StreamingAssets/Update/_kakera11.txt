@@ -189,7 +189,7 @@ void main()
 	OutputLine(NULL, "　実際、私は厚生省に電話を掛けてみたが、そんな事実はないとあっさり言われてしまった。",
 		   NULL, "In fact, I called the Ministry of Health, and was told that wasn't true at all.", Line_WaitForInput);
 	OutputLine(NULL, "私が古手梨花の母だと名乗ってもだ。",
-		   NULL, " Even after I told them I'm Rika Furude's mother.", Line_Normal);
+		   NULL, " Even after I told them I'm Furude Rika's mother.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

@@ -702,7 +702,7 @@ void main()
 		   NULL, "We'll call you Hanyuu!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s13/03/ds41030011", 128, TRUE);
 	OutputLine(NULL, "　私はクラス委員長の園崎魅音！",
-		   NULL, " I'm Mion Sonozaki, the class president!", Line_WaitForInput);
+		   NULL, " I'm Sonozaki Mion, the class president!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s13/03/ds41030012", 128, TRUE);
 	OutputLine(NULL, "　魅音でいいからねー！」",
 		   NULL, " Call me Mion, okay?\"", GetGlobalFlag(GLinemodeSp));
@@ -717,7 +717,7 @@ void main()
 		   NULL, "\"Oh ho ho ho!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/s13/04/ds41040008", 128, TRUE);
 	OutputLine(NULL, "　北条沙都子でございますわよ？",
-		   NULL, " I am Satoko Houjou.", Line_WaitForInput);
+		   NULL, " I am Houjou Satoko.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/s13/04/ds41040009", 128, TRUE);
 	OutputLine(NULL, "　よろしくですわよ羽入さん！」",
 		   NULL, " Very pleased to meet you, Hanyuu-san!\"", Line_Normal);
@@ -729,14 +729,14 @@ void main()
 	OutputLine(NULL, "「あ、あの！",
 		   NULL, "\"Ah, um!!", Line_WaitForInput);
 	OutputLine(NULL, "　富田大樹です！",
-		   NULL, " I'm Daiki Tomita!", Line_WaitForInput);
+		   NULL, " I'm Tomita Daiki!", Line_WaitForInput);
 	OutputLine(NULL, "　豆腐屋なんで、よかったら来てください！」",
 		   NULL, " My parents run a tofu shop! Please come by anytime!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#7a7e7d>岡村</color>", NULL, "<color=#7a7e7d>Okamura</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「お、お、岡村傑です！",
-		   NULL, "\"I, I, I'm Suguru Okamura!", Line_WaitForInput);
+		   NULL, "\"I, I, I'm Okamura Suguru!", Line_WaitForInput);
 	OutputLine(NULL, "　何かわからないことがあったら聞いてください…！」",
 		   NULL, " Please ask me if you don't know anything...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }

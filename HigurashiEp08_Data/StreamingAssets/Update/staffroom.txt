@@ -105,7 +105,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　これを重ね合わせれば、高野一二三が記した緊急マニュアルの根拠の、４８時間以内に全員が末期発症する、が真実でないことが明白です。",
-		   NULL, "Se você juntar essas duas coisas, obviamente a base do manual de emergência que Hifumi Takano escreveu, de que todos desenvolverão sintomas terminais em 48 horas, não é verdade.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Se você juntar essas duas coisas, obviamente a base do manual de emergência que Takano Hifumi escreveu, de que todos desenvolverão sintomas terminais em 48 horas, não é verdade.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }

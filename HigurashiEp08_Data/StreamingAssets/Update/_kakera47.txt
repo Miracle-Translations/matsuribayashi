@@ -18,7 +18,7 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ルールＸに狂う園崎詩音のカケラ。",
-		   NULL, "This is the piece of Shion Sonozaki, who goes mad after being taken in by Rule X.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "This is the piece of Sonozaki Shion, who goes mad after being taken in by Rule X.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -37,12 +37,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その鍵穴には、やがて前原圭一が自ら鍵となって抉じ開けるのだ。",
-		   NULL, "Keiichi Maebara becomes a key himself to pry open this padlock.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Maebara Keiichi becomes a key himself to pry open this padlock.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして、園崎魅音が望んでいたように、…村に立ち込める澱んだ空気を一掃する。",
-		   NULL, "And as Mion Sonozaki wished for, he becomes a wind that clears out the stagnant air filling the village.", Line_Normal);
+		   NULL, "And as Sonozaki Mion wished for, he becomes a wind that clears out the stagnant air filling the village.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "background/fure1", 1000 );
@@ -54,7 +54,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　園崎詩音はこのカケラで学び、以後、北条沙都子の心強い味方となっていく。",
-		   NULL, "Shion Sonozaki learns through this piece, and then becomes a strong ally for Satoko Houjou.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Sonozaki Shion learns through this piece, and then becomes a strong ally for Houjou Satoko.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -62,7 +62,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……そう言えば、北条沙都子とは、ルールＺの錠前そのものを示す駒なのかもしれない。",
-		   NULL, "In that way, maybe Satoko Houjou is a piece that represents the padlock for Rule Z.", Line_Normal);
+		   NULL, "In that way, maybe Houjou Satoko is a piece that represents the padlock for Rule Z.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -82,7 +82,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　園崎詩音が命を賭して学んだのは、それだけのこと。",
-		   NULL, "That's the only thing Shion Sonozaki learned by gambling her life.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "That's the only thing Sonozaki Shion learned by gambling her life.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }

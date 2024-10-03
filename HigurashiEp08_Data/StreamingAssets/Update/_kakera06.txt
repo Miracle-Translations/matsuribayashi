@@ -659,7 +659,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　やがて、北条沙都子の精密検査の結果が出た。",
-		   NULL, "Satoko Houjou's detailed test results came back.", Line_Normal);
+		   NULL, "Houjou Satoko's detailed test results came back.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

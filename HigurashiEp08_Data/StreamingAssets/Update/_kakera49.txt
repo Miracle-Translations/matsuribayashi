@@ -34,7 +34,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　かつて古手梨花に、もっともどうしようない運命と嘆かせたルールＺは、全てを学んだ前原圭一たちにとって、もはや敵ですらなかったということだ。",
-		   NULL, "Enquanto Rika Furude lamentava que a Regra Z era impossível de derrotar, Keiichi Maebara e as outras resolveram tudo facilmente assim que eles descobriram o que precisavam.", Line_Normal);
+		   NULL, "Enquanto Furude Rika lamentava que a Regra Z era impossível de derrotar, Maebara Keiichi e as outras resolveram tudo facilmente assim que eles descobriram o que precisavam.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "black", 400 );
@@ -54,7 +54,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして、前原圭一が私に示すのだ。",
-		   NULL, "Keiichi Maebara me ensinou uma lição.", Line_WaitForInput);
+		   NULL, "Maebara Keiichi me ensinou uma lição.", Line_WaitForInput);
 	OutputLine(NULL, "どんな運命にも屈服することはない。",
 		   NULL, " Não precisamos nos submeter a nenhum destino.", Line_WaitForInput);
 	OutputLine(NULL, "信じる力だけが打ち砕くのだ、と。",
@@ -63,7 +63,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…私を屈服させる運命もまた、鷹野三四の信じる力によって作られている。",
-		   NULL, "...O destino que eu sempre me submeti foi criado pela convicção de Miyo Takano.", Line_WaitForInput);
+		   NULL, "...O destino que eu sempre me submeti foi criado pela convicção de Takano Miyo.", Line_WaitForInput);
 	OutputLine(NULL, "……だからそれは、道理なのだ。",
 		   NULL, " ......Então o que ele disse está correto.", Line_Normal);
 	ClearMessage();
@@ -92,7 +92,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　個々の駒はよく奮闘したが、…鷹野三四を筆頭にする敵方の駒は圧倒的だった。",
-		   NULL, "Cada peça lutou o máximo que pôde, mas a força das peças inimigas, lideradas por Miyo Takano, era enorme.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Cada peça lutou o máximo que pôde, mas a força das peças inimigas, lideradas por Takano Miyo, era enorme.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

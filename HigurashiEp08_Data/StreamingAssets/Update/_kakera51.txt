@@ -172,7 +172,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　………古手梨花たちの物語が、いつもの通りに昭和５８年６月の袋小路に終わった後のこと。",
-		   NULL, "It's a time long after Rika Furude and her friends' stories tragically ended in June 1983.", Line_Normal);
+		   NULL, "It's a time long after Furude Rika and her friends' stories tragically ended in June 1983.", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM( 0, 1000, FALSE );
@@ -1945,7 +1945,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが、あの少女、古手梨花の死は違う。",
-		   NULL, "But, as for the girl... Rika Furude's death was different.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "But, as for the girl... Furude Rika's death was different.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1996,7 +1996,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　古手梨花という少女は、私の人生の分岐点だったのではないか。",
-		   NULL, "Rika Furude was the turning point in his life.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Furude Rika was the turning point in his life.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2037,7 +2037,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして、古手梨花を助けに駆けつけることができていた。",
-		   NULL, "And he could have been there to help Rika Furude.", Line_Normal);
+		   NULL, "And he could have been there to help Furude Rika.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

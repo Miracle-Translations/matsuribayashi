@@ -173,7 +173,7 @@ void main()
 		   NULL, " They say there might be a curse again this year.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s13/00/vt4a_elderc1010", 128, TRUE);
 	OutputLine(NULL, "……んで、北条家の沙都子ちゃんと梨花ちゃまだろ…？",
-		   NULL, " ...Besides, it's Satoko Houjou-chan and Rika-chama, you know...?", Line_WaitForInput);
+		   NULL, " ...Besides, it's Houjou Satoko-chan and Rika-chama, you know...?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s13/00/vt4a_elderc1011", 128, TRUE);
 	OutputLine(NULL, "　物騒な想像してる連中もいるらしいんだよ。」",
 		   NULL, " Some people are imagining some really horrible things.\"", Line_Normal);
@@ -1215,7 +1215,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　悪態をつくように笑いながら、園崎茜は紫陽花の花束を、娘の詩音に手渡した。",
-		   NULL, "Akane Sonozaki laughed as she handed a bouquet of hydrangeas to her daughter, Shion.", Line_Normal);
+		   NULL, "Sonozaki Akane laughed as she handed a bouquet of hydrangeas to her daughter, Shion.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1835,7 +1835,7 @@ void main()
 		   NULL, "\"Yeah, I guess.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s13/11/ds41110298", 128, TRUE);
 	OutputLine(NULL, "……あの鹿骨の鬼姫、園崎蒐に、いつの間にか説教をされるようになったんですから。」",
-		   NULL, " I can't believe I'm getting a talking-to from the Demon Princess of Shishibone, Akane Sonozaki...\"", Line_Normal);
+		   NULL, " I can't believe I'm getting a talking-to from the Demon Princess of Shishibone, Sonozaki Akane...\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6bd09f>茜</color>", NULL, "<color=#6bd09f>Akane</color>", NULL, Line_ContinueAfterTyping); }

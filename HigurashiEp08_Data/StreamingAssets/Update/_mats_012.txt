@@ -651,14 +651,14 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 13, "ps3/s14/13/211300032", 128, TRUE);
 	OutputLine(NULL, "「……それで、実はこちらに来たら、古手梨花という少女に会いたいと思っていたんです。」",
-		   NULL, "\"Anyway, I want to meet with Rika Furude.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Anyway, I want to meet with Furude Rika.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s13/11/ds41110051", 128, TRUE);
 	OutputLine(NULL, "「古手梨花って、古手家の忘れ形見の梨花ちゃまですか。」",
-		   NULL, "\"By Rika Furude, you mean the orphaned daughter of the Furude family?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"By Furude Rika, you mean the orphaned daughter of the Furude family?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
@@ -672,7 +672,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　古手梨花はかつて赤坂に、雛見沢で５年連続して起こるという奇怪な事件を予言している。",
-		   NULL, "Rika Furude had predicted that there would be an incident in Hinamizawa every year for the following five years.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Furude Rika had predicted that there would be an incident in Hinamizawa every year for the following five years.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -768,7 +768,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……恐ろしい殺され方をした後、体中をバラバラに引き裂かれて捨てられてしまいます。",
-		   NULL, "...Rika Furude had predicted that he'd be killed in a gruesome way, that his body would be dismembered.", Line_Normal);
+		   NULL, "...Furude Rika had predicted that he'd be killed in a gruesome way, that his body would be dismembered.", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "background/heya6", "maskup", 1, 0, 300 );
@@ -896,7 +896,7 @@ void main()
 		   NULL, "\"Yes.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s13/11/ds41110069", 128, TRUE);
 	OutputLine(NULL, "古手梨花のご両親がお亡くなりになります。",
-		   NULL, " Rika Furude's parents died.", Line_WaitForInput);
+		   NULL, " Furude Rika's parents died.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s13/11/ds41110070", 128, TRUE);
 	OutputLine(NULL, "…ですが、どうもこいつも今ひとつ腑に落ちない事件でしてねぇ。」",
 		   NULL, " ...But none of those incidents make sense.\"", Line_Normal);
@@ -1014,7 +1014,7 @@ void main()
 		   NULL, " In other words, this month.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 13, "ps3/s14/13/211300055", 128, TRUE);
 	OutputLine(NULL, "……古手梨花が、",
-		   NULL, " ...Rika Furude", Line_Continue);
+		   NULL, " ...Furude Rika", Line_Continue);
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 2100 );
 	// (backup) SetValidityOfInput( TRUE );
@@ -1146,7 +1146,7 @@ void main()
 		   NULL, "\"I'm telling you the truth.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 13, "ps3/s14/13/211300064", 128, TRUE);
 	OutputLine(NULL, "古手梨花は、昭和５３年６月に今の話を私に語ったんです。",
-		   NULL, " Rika Furude told me this in June 1978.", Line_WaitForInput);
+		   NULL, " Furude Rika told me this in June 1978.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 13, "ps3/s14/13/211300065", 128, TRUE);
 	OutputLine(NULL, "……ただ、当時の私はそれを重要な話とは思わず、それを大石さんに伝えませんでした。",
 		   NULL, " But at the time, I didn't think anything of it, so I didn't tell you about it.", Line_WaitForInput);
@@ -1206,10 +1206,10 @@ void main()
 	Wait( 2700 );
 	// (backup) SetValidityOfInput( TRUE );
 	OutputLine(NULL, "……古手梨花。",
-		   NULL, " ...Rika Furude.", Line_WaitForInput);
+		   NULL, " ...Furude Rika.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s13/11/ds41110086", 128, TRUE);
 	OutputLine(NULL, "……古手梨花がどうして。",
-		   NULL, " ...Why Rika Furude?", Line_WaitForInput);
+		   NULL, " ...Why Furude Rika?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s13/11/ds41110087", 128, TRUE);
 	OutputLine(NULL, "…………むむむむ…。」",
 		   NULL, " .........Hmmmmmm...\"", Line_Normal);
@@ -1252,7 +1252,7 @@ void main()
 		   NULL, " ...Ooishi-san, let me ask you...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 13, "ps3/s14/13/211300072", 128, TRUE);
 	OutputLine(NULL, "……今年、古手梨花が殺されるのは、ありえる流れだと思いますか？」",
-		   NULL, " Do you think it's possible for Rika Furude to be killed this year?\"", Line_Normal);
+		   NULL, " Do you think it's possible for Furude Rika to be killed this year?\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
@@ -1269,7 +1269,7 @@ void main()
 	Wait( 2200 );
 	// (backup) SetValidityOfInput( TRUE );
 	OutputLine(NULL, "………古手梨花殺しは…………。」",
-		   NULL, " ......that Rika Furude's death.........\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ......that Furude Rika's death.........\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
@@ -1287,7 +1287,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#797d8a>赤坂</color>", NULL, "<color=#797d8a>Akasaka</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 13, "ps3/s13/13/ds41120126", 128, TRUE);
 	OutputLine(NULL, "「………明日、古手梨花に接触を試みるつもりです。",
-		   NULL, "\"I'm going to try to get in touch with Rika Furude tomorrow.", Line_WaitForInput);
+		   NULL, "\"I'm going to try to get in touch with Furude Rika tomorrow.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 13, "ps3/s13/13/ds41120127", 128, TRUE);
 	OutputLine(NULL, "どうやら、彼女に直接話を聞くしかないようですからね。」",
 		   NULL, " I think the best thing to do is to talk to her directly.\"", GetGlobalFlag(GLinemodeSp));
@@ -1300,7 +1300,7 @@ void main()
 		   NULL, "\"Can I come with you, Akasaka-san?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s13/11/ds41110092", 128, TRUE);
 	OutputLine(NULL, "…古手梨花の話は、どうやら私にとっても重要なものになりそうです。」",
-		   NULL, " ...This story about Rika Furude sounds like something very important for me, too.\"", Line_Normal);
+		   NULL, " ...This story about Furude Rika sounds like something very important for me, too.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鑑識</color>", NULL, "<color=#f5e6d3>Forensic Investigator</color>", NULL, Line_ContinueAfterTyping); }
@@ -1928,7 +1928,7 @@ void main()
 		   NULL, " In that world, he came back.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/s13/12/ds41070083", 128, TRUE);
 	OutputLine(NULL, "北条鉄平が！」",
-		   NULL, " Teppei Houjou did!\"", Line_Normal);
+		   NULL, " Houjou Teppei did!\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }

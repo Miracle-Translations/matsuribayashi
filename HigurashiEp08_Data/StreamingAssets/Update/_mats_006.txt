@@ -1060,7 +1060,7 @@ void main()
 		   NULL, " Kill me!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 48, "ps3/s13/48/550100089", 128, TRUE);
 	OutputLine(NULL, "　田無美代子はここにいる！！",
-		   NULL, " Miyoko Tanashi is right here!!", Line_WaitForInput);
+		   NULL, " Tanashi Miyoko is right here!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 48, "ps3/s13/48/550100090", 128, TRUE);
 	OutputLine(NULL, "　私のお父さんとお母さんを奪ったように、私の命もここから奪えッ！！！」",
 		   NULL, " Just like you killed my parents, take my life too!!!\"", Line_Normal);
@@ -1726,7 +1726,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…今の自分は、田無美代子だと思い込んでいるだけで、別の存在なのではないか。",
-		   NULL, "I'd assumed I was still Miyoko Tanashi, but maybe I wasn't her at all.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "I'd assumed I was still Tanashi Miyoko, but maybe I wasn't her at all.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -2019,7 +2019,7 @@ void main()
 		   NULL, " turn to Dr. Takano.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s13/00/550400018", 128, TRUE);
 	OutputLine(NULL, "高野一二三先生だよ。",
-		   NULL, " Dr. Hifumi Takano.", Line_WaitForInput);
+		   NULL, " Dr. Takano Hifumi.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s13/00/550400019", 128, TRUE);
 	OutputLine(NULL, "言ってみなさい。」",
 		   NULL, " Say it for me.\"", Line_Normal);
@@ -2028,13 +2028,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#efd4a3>美代子</color>", NULL, "<color=#efd4a3>Miyoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 48, "ps3/s13/48/550100050", 128, TRUE);
 	OutputLine(NULL, "「高野、",
-		   NULL, "\"Hi", Line_Continue);
+		   NULL, "\"Takano", Line_Continue);
 	OutputLine(NULL, "ひ",
-		   NULL, " fu", Line_Continue);
+		   NULL, " Hi", Line_Continue);
 	OutputLine(NULL, "ふ",
-		   NULL, " mi", Line_Continue);
+		   NULL, " fu", Line_Continue);
 	OutputLine(NULL, "み…。」",
-		   NULL, " Takano.\"", Line_Normal);
+		   NULL, " mi...\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>美代子の父</color>", NULL, "<color=#f5e6d3>Miyoko's dad</color>", NULL, Line_ContinueAfterTyping); }
@@ -2043,7 +2043,7 @@ void main()
 		   NULL, "\"That's right.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s13/00/550400021", 128, TRUE);
 	OutputLine(NULL, "高野一二三先生だよ。",
-		   NULL, " Dr. Hifumi Takano.", Line_WaitForInput);
+		   NULL, " Dr. Takano Hifumi.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s13/00/550400022", 128, TRUE);
 	OutputLine(NULL, "…高野先生はお父さんの恩師なんだ。",
 		   NULL, " He's my former teacher.", Line_WaitForInput);
@@ -2158,7 +2158,7 @@ void main()
 	Wait( 800 );
 	SetValidityOfInput( TRUE );
 	OutputLine(NULL, "高野一二三先生。",
-		   NULL, " Dr. Hifumi Takano.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Dr. Takano Hifumi.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2502,7 +2502,7 @@ void main()
 		   NULL, " I'm Tanashi.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 48, "ps3/s13/48/550100104", 128, TRUE);
 	OutputLine(NULL, "田無美代子と申します。」",
-		   NULL, " Miyoko Tanashi.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Tanashi Miyoko.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>一二三</color>", NULL, "<color=#f5e6d3>Hifumi</color>", NULL, Line_ContinueAfterTyping); }
@@ -2801,7 +2801,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして、それが高野一二三先生なのだから。",
-		   NULL, "Dr. Hifumi Takano.", Line_Normal);
+		   NULL, "Dr. Takano Hifumi.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

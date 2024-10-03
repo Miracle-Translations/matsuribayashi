@@ -21,7 +21,7 @@ void main()
 		   NULL, " This is Major Takano.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob8f7041", 128, TRUE);
 	OutputLine(NULL, "……三佐、こちらは入江京介先生です。」",
-		   NULL, " Major, this is Dr. Kyousuke Irie.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Major, this is Dr. Irie Kyousuke.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -84,7 +84,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　入江京介という男の雰囲気を言い表すならば、典型的な小市民と言えただろう。",
-		   NULL, "\"A model, lower middle class citizen\" was a good way to describe Kyousuke Irie's demeanor.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"A model, lower middle class citizen\" was a good way to describe Irie Kyousuke's demeanor.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1325,7 +1325,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>官僚</color>", NULL, "<color=#f5e6d3>Bureaucrat</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/mob8f7055", 128, TRUE);
 	OutputLine(NULL, "「それでは入江機関の設立と、鷹野三四くんの今後ますますの発展を祈願して乾杯に移りたいと思います。",
-		   NULL, "\"Let's have a toast to wish the best of luck to Miyo Takano-kun, and also to the new Irie Institute!", Line_WaitForInput);
+		   NULL, "\"Let's have a toast to wish the best of luck to Takano Miyo-kun, and also to the new Irie Institute!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob8f7056", 128, TRUE);
 	OutputLine(NULL, "先生！",
 		   NULL, " Arai-sensei", Line_WaitForInput);

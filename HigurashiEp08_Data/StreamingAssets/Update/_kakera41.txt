@@ -49,7 +49,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　古手梨花は、……昭和５８年６月の運命を乗り越えるために、自分にできる全ての努力をする。",
-		   NULL, "Rika Furude did her best to overcome the fate of June 1983.", Line_Normal);
+		   NULL, "Furude Rika did her best to overcome the fate of June 1983.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "black", 400 );
@@ -116,7 +116,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　前原圭一は、…私を縛る鎖のひとつ、ルールＺを打ち破る重要な鍵。",
-		   NULL, "Keiichi Maebara is a very important key for breaking Rule Z, one of the chains that was binding me.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Maebara Keiichi is a very important key for breaking Rule Z, one of the chains that was binding me.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -152,12 +152,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　園崎魅音は、北条家や沙都子、悟史への理不尽な村八分に心を痛め、せめて自分だけは２人を守ってやろうと誓った。",
-		   NULL, "Mion Sonozaki vowed to herself to protect Satoko and Satoshi because she was very much bothered by how irrational the treatment of the Houjou family was.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Sonozaki Mion vowed to herself to protect Satoko and Satoshi because she was very much bothered by how irrational the treatment of the Houjou family was.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして、北条悟史が消えた夜、園崎お魎に怒りを爆発させ、その強い思いを伝えた。",
-		   NULL, "And on the night Satoshi Houjou disappeared, she exploded at Oryou Sonozaki and voiced her true feelings.", Line_Normal);
+		   NULL, "And on the night Houjou Satoshi disappeared, she exploded at Sonozaki Oryou and voiced her true feelings.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "black", 1000 );
@@ -165,7 +165,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その思いは、…園崎お魎に伝わる。",
-		   NULL, "Oryou Sonozaki understood.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Sonozaki Oryou understood.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -207,7 +207,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして、前原圭一に重要なきっかけをいくつも与える竜宮レナは、",
-		   NULL, "And Rena Ryuugu, who provided many important opportunities for Keiichi Maebara,", Line_WaitForInput);
+		   NULL, "And Ryuugu Rena, who provided many important opportunities for Maebara Keiichi,", Line_WaitForInput);
 	OutputLine(NULL, "両親の離婚で深く傷つき、末期発症を一度は迎えながらも、雛見沢に帰ってくることで救われる。",
 		   NULL, " was saved by returning to Hinamizawa, after the deep emotional trauma of her parents' divorce sent her into terminal condition.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -217,7 +217,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　引越し前の地でのことを、リセットして再びやり直したいという前原圭一の願いは、一年前に、竜宮レナも願っていたのだ。",
-		   NULL, "Keiichi Maebara's wish to restart his life was the same wish Rena Ryuugu had a year prior.", Line_Normal);
+		   NULL, "Maebara Keiichi's wish to restart his life was the same wish Ryuugu Rena had a year prior.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -256,7 +256,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　つまり竜宮レナは自覚せずして、このゲーム盤の駒の中で重要な働きをするのだ。",
-		   NULL, "In other words, Rena Ryuugu makes extremely important moves on this game board without realizing it.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "In other words, Ryuugu Rena makes extremely important moves on this game board without realizing it.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

@@ -13,7 +13,7 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　前原圭一が、みんなを率いる駒に成長してくれるために、…まず学ばなければならない、",
-		   NULL, "In order for Keiichi Maebara to become a game piece that can lead everyone, there's something he has to learn about first.", Line_WaitForInput);
+		   NULL, "In order for Maebara Keiichi to become a game piece that can lead everyone, there's something he has to learn about first.", Line_WaitForInput);
 	OutputLine(NULL, "痛く、辛く、悲しいカケラ。",
 		   NULL, " The piece that's very painful, pitiful, and sad.", Line_Normal);
 	ClearMessage();
@@ -48,7 +48,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　わずかの不信感から疑心暗鬼を育て、ルールＸに囚われる前原圭一。",
-		   NULL, "A slight mistrust grows into paranoia, and Keiichi Maebara is trapped within Rule X.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "A slight mistrust grows into paranoia, and Maebara Keiichi is trapped within Rule X.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }

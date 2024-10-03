@@ -65,7 +65,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>お手伝いさん</color>", NULL, "<color=#f5e6d3>Housekeeper</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「古手の梨花ちゃまですよ。」",
-		   NULL, "\"Rika Furude-chama.\"", Line_Normal);
+		   NULL, "\"Furude Rika-chama.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }

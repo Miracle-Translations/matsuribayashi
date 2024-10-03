@@ -581,7 +581,7 @@ void main()
 		   NULL, "\"B-But...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/vtk1_mion1017", 128, TRUE);
 	OutputLine(NULL, "私、……園崎家の魅音だよ…？",
-		   NULL, " I'm... Mion Sonozaki, you know?", Line_WaitForInput);
+		   NULL, " I'm... Sonozaki Mion, you know?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/vtk1_mion1018", 128, TRUE);
 	OutputLine(NULL, "　私なんかが無神経なことをやったら、かえって沙都子を傷つけるかも…。」",
 		   NULL, " If I do something insensitive, I might end up hurting Satoko even more...\"", GetGlobalFlag(GLinemodeSp));

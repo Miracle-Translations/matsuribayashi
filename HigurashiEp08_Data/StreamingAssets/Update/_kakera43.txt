@@ -59,7 +59,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　赤坂衛は、東京の警視庁に勤めていて、…大きな陰謀に立ち向かえる力を持っている。",
-		   NULL, "Mamoru Akasaka trabalha no escritório da polícia em Tóquio... Talvez ele tenha a força para bater de frente com uma conspiração tão ampla com essa.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Akasaka Mamoru trabalha no escritório da polícia em Tóquio... Talvez ele tenha a força para bater de frente com uma conspiração tão ampla com essa.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -72,7 +72,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　前原圭一が、ルールＺを爽快に打ち破ったように、彼もルールＹを爽快に打ち破ってくれるのではないか。",
-		   NULL, "Assim como Keiichi Maebara derrotou a Regra Z, será que ele conseguirá derrotar a Regra Y tão facilmente?", Line_Normal);
+		   NULL, "Assim como Maebara Keiichi derrotou a Regra Z, será que ele conseguirá derrotar a Regra Y tão facilmente?", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

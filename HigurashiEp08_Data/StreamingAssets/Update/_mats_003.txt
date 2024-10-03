@@ -919,7 +919,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そんな、シャドーガバメントの内のひとつの会合に、鷹野三四の姿はあった…。",
-		   NULL, "Miyo Takano was, in fact, attending a conference of such a shadow government.", Line_Normal);
+		   NULL, "Takano Miyo was, in fact, attending a conference of such a shadow government.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();

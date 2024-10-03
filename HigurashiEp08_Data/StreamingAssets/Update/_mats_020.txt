@@ -76,7 +76,7 @@ void main()
 	Wait( 900 );
 	// (backup) SetValidityOfInput( TRUE );
 	OutputLine(NULL, "……古手梨花が死んだなどと村に知れたら、大変な騒ぎになりますし…。」",
-		   NULL, " the whole village would go into a panic if they found out Rika Furude is dead...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " the whole village would go into a panic if they found out Furude Rika is dead...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -335,7 +335,7 @@ void main()
 		   NULL, "\"Like I said, it's possible they made some kind of mistake.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s13/00/vt4a_yamab1025", 128, TRUE);
 	OutputLine(NULL, "その後の情報では身元不明死体の検死はまだ終わっておらず、古手梨花であるというのは何者かの憶測に過ぎない可能性が高いと…。」",
-		   NULL, " The autopsy isn't done yet, and the body hasn't been confirmed to be Rika Furude. It could be just a rumor...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " The autopsy isn't done yet, and the body hasn't been confirmed to be Furude Rika. It could be just a rumor...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
@@ -709,7 +709,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>野村</color>", NULL, "<color=#f5e6d3>Nomura</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s13/00/vt4a_nomura1118", 128, TRUE);
 	OutputLine(NULL, "高野一二三と鷹野三四って何なのかしらぁ。",
-		   NULL, "Who in the world do Hifumi and Miyo Takano think they are?", Line_WaitForInput);
+		   NULL, "Who in the world do Takano Hifumi and Takano Miyo think they are?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s13/00/vt4a_nomura1119", 128, TRUE);
 	OutputLine(NULL, "おかしいおかしい、おっかしい、ふふふふふふはははははははははは……。」",
 		   NULL, " It's just too funny, heeheeheeheeheehahahahahahahahahahahahaha...\"", Line_Normal);
@@ -851,7 +851,7 @@ void main()
 		   NULL, " I don't care if we called ten minutes ago, call him again!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s13/09/ds41080216", 128, TRUE);
 	OutputLine(NULL, "　古手梨花の死体のわけないという裏付けと、",
-		   NULL, " Tell him to find proof that Rika Furude isn't dead,", Line_Continue);
+		   NULL, " Tell him to find proof that Furude Rika isn't dead,", Line_Continue);
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 800 );
 	// (backup) SetValidityOfInput( TRUE );
@@ -902,7 +902,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……一番手っ取り早いのはあの家にいる古手梨花の顔を私が見ること。",
-		   NULL, "...The quickest way for Takano to be certain of what was happening would be to see Rika Furude's face at her house.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...The quickest way for Takano to be certain of what was happening would be to see Furude Rika's face at her house.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -927,7 +927,7 @@ void main()
 	OutputLine(NULL, "　これじゃあ、あの家はもぬけの殻で、",
 		   NULL, "That meant the house was empty...", Line_WaitForInput);
 	OutputLine(NULL, "……古手梨花の死は本当だということになってしまう。",
-		   NULL, " and that Rika Furude's death was real.", Line_Normal);
+		   NULL, " and that Furude Rika's death was real.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

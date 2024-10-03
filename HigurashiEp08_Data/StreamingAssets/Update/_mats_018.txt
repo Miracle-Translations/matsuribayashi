@@ -1522,7 +1522,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　何が高野三四なのか。",
-		   NULL, "How can I call myself Miyo Takano?", Line_WaitForInput);
+		   NULL, "How can I call myself Takano Miyo?", Line_WaitForInput);
 	OutputLine(NULL, "祖父の一二三の後を継ぎ、三四を数えるどころか、",
 		   NULL, " Instead of inheriting the 1-2-3 from my grandfather and continuing the count to 3-4...", Line_WaitForInput);
 	OutputLine(NULL, "……零にしてしまっただけ。",

@@ -69,7 +69,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……それを、前原圭一は自らの経験を経て、学び取る。",
-		   NULL, "Keiichi Maebara learned that through his own experiences.", Line_Normal);
+		   NULL, "Maebara Keiichi learned that through his own experiences.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

@@ -617,7 +617,7 @@ void main()
 		   NULL, "\".........Vamos cancelar a autópsia.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 10, "ps3/s20/10/vtk1_irie1038", 128, TRUE);
 	OutputLine(NULL, "北条沙都子に対するC103投与実験に変更します。",
-		   NULL, " Nós vamos dar a Satoko Houjou uma dose de C103...", Line_WaitForInput);
+		   NULL, " Nós vamos dar a Houjou Satoko uma dose de C103...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 10, "ps3/s20/10/vtk1_irie1039", 128, TRUE);
 	OutputLine(NULL, "……せめて１％でもうまく行く確率があがるように、努力します。」",
 		   NULL, " Farei o meu melhor para aumentar a chance de sucesso em pelo menos 1%.\"", Line_Normal);

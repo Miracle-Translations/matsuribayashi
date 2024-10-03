@@ -302,13 +302,13 @@ void main()
 
 	ModPlayVoiceLS(4, 1, "ps3/s13/01/ds41010149", 128, TRUE);
 	OutputLine(NULL, "　へへ、真っ赤に燃える男、前原圭一！！",
-		   NULL, " Heh heh, the Burning Red Ranger, Keiichi Maebara!!", Line_WaitForInput);
+		   NULL, " Heh heh, the Burning Red Ranger, Maebara Keiichi!!", Line_WaitForInput);
 
 	PlaySE( 0, "s_Kyupiin", 128, 64 );
 
 	ModPlayVoiceLS(4, 1, "ps3/s13/01/ds41010150", 128, TRUE);
 	OutputLine(NULL, "　青く燃える女、竜宮レナ！",
-		   NULL, " The Burning Blue Ranger, Rena Ryuugu!", Line_WaitForInput);
+		   NULL, " The Burning Blue Ranger, Ryuugu Rena!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s13/01/ds41010151", 128, TRUE);
 	OutputLine(NULL, "　我が部にその人ありと天下に知らしめる絶好のチャンスだぜ！！",
 		   NULL, " This is our chance to show the world what we've got!!", Line_WaitForInput);
