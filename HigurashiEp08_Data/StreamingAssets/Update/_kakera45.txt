@@ -67,7 +67,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　このカケラで、ルールＸはほぼ完全に打ち破られた。",
-		   NULL, "Com este Fragmento, a Regra X foi quase completamente destruída.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Com este Fragmento, a Regra X foi quase completamente derrotada.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

@@ -26,7 +26,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…このカケラで、ルールＺが完膚なきまでに打ち破られたことを忘れてはならない。",
-		   NULL, "...Não podemos esquecer que este Fragmento também é o caminho para destruir a Regra Z.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Não podemos esquecer que este Fragmento também é o caminho para derrotar a Regra Z.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
