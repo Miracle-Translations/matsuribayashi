@@ -46,8 +46,8 @@
 	},
 	{
 		"Id":6,
-		"Title":"The second sacrifice",
-		"Description":"The death of the construction site manager is required.\nThe hospitalization of Houjou Satoko is required.",
+		"Title":"O segundo sacrifício",
+		"Description":"É necessária a morte do supervisor da construção.\nÉ necessária a hospitalização de Houjou Satoko.",
 		"TitleJp":"生贄第二号",
 		"DescriptionJp":"北条沙都子の殺意が必要です。\n北条沙都子の入院が必要です。",
 		"Script":"_kakera06",
@@ -55,8 +55,8 @@
 	},
 	{
 		"Id":7,
-		"Title":"The third sacrifice",
-		"Description":"Rika's father being marked as an opportunist is required.\nRika's mother's suspicion is required.",
+		"Title":"O terceiro sacrifício",
+		"Description":"É necessário que o pai de Rika seja visto como um oportunista.\nÉ necessário que a mãe de Rika suspeite da Clínica Irie.",
 		"TitleJp":"生贄第三号",
 		"DescriptionJp":"梨花の父に日和見主義者の烙印が必要です。\n梨花の母に入江機関への不信感が必要です。",
 		"Script":"_kakera07",
@@ -64,8 +64,8 @@
 	},
 	{
 		"Id":8,
-		"Title":"The fourth sacrifice",
-		"Description":"The death of Houjou Satoko's aunt is required.",
+		"Title":"O quarto sacrifício",
+		"Description":"É necessária a morte da tia de Houjou Satoko.",
 		"TitleJp":"生贄第四号",
 		"DescriptionJp":"北条沙都子の叔母の死が必要です。",
 		"Script":"_kakera08",
