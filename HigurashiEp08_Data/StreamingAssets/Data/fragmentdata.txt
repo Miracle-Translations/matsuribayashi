@@ -37,8 +37,8 @@
 	},
 	{
 		"Id":5,
-		"Title":"The first sacrifice",
-		"Description":"A live specimen for research is required.\nA tragedy at the dam construction site is required.",
+		"Title":"O primeiro sacrifício",
+		"Description":"É necessário um espécime vivo para a pesquisa.\nÉ necessária uma tragédia na construção da represa.",
 		"TitleJp":"生贄第一号",
 		"DescriptionJp":"研究には生きた検体が必要です。\nその検体は末期発症者であることが必要です。",
 		"Script":"_kakera05",
