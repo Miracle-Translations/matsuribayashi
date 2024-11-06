@@ -451,8 +451,8 @@
 	},
 	{
 		"Id":51,
-		"Title":"Leftover Fragments",
-		"Description":"Do you need the final miracle?",
+		"Title":"Fragmento Remanescente",
+		"Description":"Um milagre final é necessário?",
 		"TitleJp":"カケラ屑",
 		"DescriptionJp":"最後の奇跡が、必要ですか？",
 		"Script":"_kakera51",
@@ -460,8 +460,8 @@
 	},
 	{
 		"Id":52,
-		"Title":"Flags from kids' meals",
-		"Description":"...She needs to be rescued too.",
+		"Title":"Bandeiras das refeições infantis",
+		"Description":"...É necessário salvá-la também.",
 		"TitleJp":"お子様ランチの旗",
 		"DescriptionJp":"……彼女にだって救いが、必要です。",
 		"Script":"_kakera52",
