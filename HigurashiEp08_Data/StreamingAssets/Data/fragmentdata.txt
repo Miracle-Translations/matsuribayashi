@@ -83,7 +83,7 @@
 	{
 		"Id":10,
 		"Title":"Em uma pedreira de Yagouchi",
-		"Description":"É necessário que a portadora da rainha queria cooperar.",
+		"Description":"É necessário que a portadora da rainha queira cooperar.",
 		"TitleJp":"谷河内の採石場",
 		"DescriptionJp":"女王感染者の協力が必要です。",
 		"Script":"_kakera10",
