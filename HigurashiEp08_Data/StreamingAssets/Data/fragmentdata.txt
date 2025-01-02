@@ -361,7 +361,7 @@
 	},
 	{
 		"Id":41,
-		"Title":"Junnho de 1983",
+		"Title":"Junho de Showa 58 (1983)",
 		"Description":"É necessária a vingança de Takano Miyo.\nÉ necessário que Maebara Keiichi mude de escola.",
 		"TitleJp":"昭和５８年６月",
 		"DescriptionJp":"鷹野三四の復讐が必要です。\n前原圭一の転校が必要です。",

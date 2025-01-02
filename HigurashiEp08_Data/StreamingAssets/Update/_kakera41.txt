@@ -9,7 +9,7 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……………これで、集められる駒は全て昭和５８年に並んだのかしら。",
-		   NULL, "With this, do I have all the pieces lined up for 1983?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "With this, do I have all the pieces lined up for Showa 58 (1983)?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -34,7 +34,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　昭和５８年６月に、どれほどの思いがたくさん集まっていたのかがわかる。",
-		   NULL, "I realized just how many sentiments were intertwined around June 1983.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "I realized just how many sentiments were intertwined around June Showa 58 (1983).", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -49,7 +49,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　古手梨花は、……昭和５８年６月の運命を乗り越えるために、自分にできる全ての努力をする。",
-		   NULL, "Furude Rika did her best to overcome the fate of June 1983.", Line_Normal);
+		   NULL, "Furude Rika did her best to overcome the fate of June Showa 58 (1983).", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "black", 400 );
@@ -247,7 +247,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　駒は最善の動きを見せ、昭和５８年６月というゲームに勝てる可能性を飛躍的に高めるだろう。",
-		   NULL, "The game pieces will make their best moves, and the chances of winning this game of June 1983 will rapidly increase.", Line_Normal);
+		   NULL, "The game pieces will make their best moves, and the chances of winning this game of June Showa 58 (1983) will rapidly increase.", Line_Normal);
 	ClearMessage();
 
 	StopFragment(400);
@@ -370,7 +370,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　いくら戦おうとも、昭和５８年６月の運命が容易には揺るがないのは当り前。",
-		   NULL, "It's no wonder our fate in June 1983 has been so hard to shake no matter how hard we fought.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "It's no wonder our fate in June Showa 58 (1983) has been so hard to shake no matter how hard we fought.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -436,7 +436,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　昭和５８年の呪いは、雛見沢の呪いにも通じる。",
-		   NULL, "The curse of 1983 is tied to the curse of Hinamizawa.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "The curse of Showa 58 (1983) is tied to the curse of Hinamizawa.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

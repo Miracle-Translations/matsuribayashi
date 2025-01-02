@@ -30,7 +30,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　昭和５８年６月を巡る、運命のゲームで、鷹野たちに勝てるだけの駒が並んだのかしら。",
-		   NULL, "Já temos o suficiente para enfrentar Takano e seus subordinados no jogo do destino de junho de 1983?", Line_Normal);
+		   NULL, "Já temos o suficiente para enfrentar Takano e seus subordinados no jogo do destino de junho de Showa 58 (1983)?", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

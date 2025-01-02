@@ -25,7 +25,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それは、抗えない運命と諦めていた昭和５８年６月に、風穴を開けられるのではないかという可能性を初めて見せてくれたからだ。",
-		   NULL, "Ele nos mostrou pela primeira vez que era possível escapar do destino invencível de junho de 1983.", Line_Normal);
+		   NULL, "Ele nos mostrou pela primeira vez que era possível escapar do destino invencível de junho de Showa 58 (1983).", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

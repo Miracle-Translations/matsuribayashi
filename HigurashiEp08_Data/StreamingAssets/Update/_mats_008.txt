@@ -29,7 +29,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　最大の目的は、あなたにとっての理想である「昭和５８年６月」を作り上げることです。",
-		   NULL, "Seu objetivo é criar o seu \"junho de 1983\" ideal.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Seu objetivo é criar o seu \"junho de Showa 58 (1983)\" ideal.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -105,7 +105,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あなたの理想の「昭和５８年６月」は、この世界に散らばる５０個ものカケラを結び合わせることで組み立てていきます。",
-		   NULL, "Seu \"junho de 1983\" ideal pode ser criado ao juntar cinquenta Fragmentos que estão espalhados por este mundo.", Line_Normal);
+		   NULL, "Seu \"junho de Showa 58 (1983)\" ideal pode ser criado ao juntar cinquenta Fragmentos que estão espalhados por este mundo.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -178,7 +178,7 @@ void main()
 	OutputLine(NULL, "　そうして、５０個もの膨大な数のカケラ全てを結び合わせ、１つのカケラにした時、",
 		   NULL, "Quando você coletar todos os cinquenta, eles se tornarão um único Fragmento grande.", Line_WaitForInput);
 	OutputLine(NULL, "…そこには理想の「昭和５８年６月」が生まれるでしょう。",
-		   NULL, " Então você encontrará o seu \"junho de 1983\" ideal.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Então você encontrará o seu \"junho de Showa 58 (1983)\" ideal.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -264,7 +264,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　鷹野の組み上げた昭和５８年６月はあまりに強固です。",
-		   NULL, "O junho de 1983 que a Takano criou é quase invencível.", Line_Normal);
+		   NULL, "O junho de Showa 58 (1983) que a Takano criou é quase invencível.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

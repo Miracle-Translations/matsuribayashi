@@ -16,7 +16,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だって、昭和５８年６月より、もっと前のものだから。",
-		   NULL, "Isso porque ele é de bem antes de junho de 1983.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Isso porque ele é de bem antes de junho de Showa 58 (1983).", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
