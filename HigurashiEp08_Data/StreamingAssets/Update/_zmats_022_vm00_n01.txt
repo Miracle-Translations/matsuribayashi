@@ -7,16 +7,12 @@ void dialog000()
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…ナポレオンと組んでいたら今頃シベリアはフランス領。",
 		 NULL, "...Se ela se juntasse a Napoleão, a Sibéria seria território francês.", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "
-
-", Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ヒトラーと組んでたら今頃ヨーロッパは千年王国だ！！",
 		 NULL, "Se ela se juntasse a Hitler, a Europa pertenceria ao Terceiro Reich!!", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "
-
-", Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
 void dialog001()
