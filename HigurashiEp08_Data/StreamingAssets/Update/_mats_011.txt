@@ -432,7 +432,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そこに、羽入は、",
-		   NULL, "Hanyuu said that she--", Line_ContinueAfterTyping);
+		   NULL, "Hanyuu said that she......", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
 	Wait( 800 );
 	SetValidityOfInput( TRUE );
