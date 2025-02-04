@@ -59,7 +59,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>村人</color>", NULL, "<color=#f5e6d3>Morador do Vilarejo</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtk1_farmma1009", 128, TRUE);
 	OutputLine(NULL, "「言い訳など聞いちゃならんねぇ、いつ計画を中止するんか聞いとるんじゃい！！」",
-		   NULL, "\"A gente não quer ouvir suas desculpinhas!! A gente quer saber quando vocês vão parar a construção!!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"A gente não quer ouvir suas desculpinhas!! A gente quer saber quando que vocês vão parar essa construção!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>村人</color>", NULL, "<color=#f5e6d3>Morador do Vilarejo</color>", NULL, Line_ContinueAfterTyping); }
@@ -360,7 +360,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#d7e6de>お魎</color>", NULL, "<color=#d7e6de>Oryou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 17, "ps3/s20/17/vtk1_oryou1010", 128, TRUE);
 	OutputLine(NULL, "「あんじょう、すったらんわッ！！",
-		   NULL, "\"Quem se importa!!", Line_WaitForInput);
+		   NULL, "\"Não vou deixá essa passá batido!!", Line_WaitForInput);
 
 	PlaySE( 0, "s_daidageki", 128, 64 );
 	StartShakingOfWindow( 241, 40, 0, 0, 5*2, FALSE );
@@ -368,7 +368,7 @@ void main()
 
 	ModPlayVoiceLS(4, 17, "ps3/s20/17/vtk1_oryou1011", 128, TRUE);
 	OutputLine(NULL, "　ようも言ったん、抜かしよってからにこんの輩ぁああぁッ！！！」",
-		   NULL, " O que você falou, desgraçada?!!\"", Line_Normal);
+		   NULL, " O que você falô, desgraçado?!!\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>村人</color>", NULL, "<color=#f5e6d3>Morador do Vilarejo</color>", NULL, Line_ContinueAfterTyping); }
@@ -377,7 +377,7 @@ void main()
 		   NULL, "\"Ei, ei!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtk1_farmma1013", 128, TRUE);
 	OutputLine(NULL, "　てめぇお魎さんと知っててその口聞いとるんかいな、上等きっちゃら、おあああッ？！",
-		   NULL, " Você sabe com quem tá falando? Essa é a Oryou-san. Você se acha muito, heeein?!", Line_WaitForInput);
+		   NULL, " Você sabe com quem tá falano? Essa é a Oryou-san. Você se acha muito, heeein?!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtk1_farmma1014", 128, TRUE);
 	OutputLine(NULL, "　名乗らんかいおおぅッ！！」",
 		   NULL, " Quem você pensa que é?!\"", GetGlobalFlag(GLinemodeSp));
@@ -402,10 +402,10 @@ void main()
 		   NULL, "\"Ei, Houjou!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtk1_farmmb1013", 128, TRUE);
 	OutputLine(NULL, "　何ば抜かしよったんようも村を沈めちゃる言えるのぉ！！",
-		   NULL, " Como você ousa dizer que quer que o vilarejo afunde?!", Line_WaitForInput);
+		   NULL, " Você tá dizeno que quer que o vilarejo afunde?!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtk1_farmmb1014", 128, TRUE);
 	OutputLine(NULL, "　お前ぇ何ぼで村を売ったんッ？！」",
-		   NULL, " Quanto que eles tão te pagando?!\"", Line_Normal);
+		   NULL, " Quanto que eles tão te pagano?!\"", Line_Normal);
 	ClearMessage();
 
 	PlayBGM( 2, "kaze", 120, 0 );
@@ -416,10 +416,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>沙都子父</color>", NULL, "<color=#f5e6d3>Pai da Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtk1_satokof1005", 128, TRUE);
 	OutputLine(NULL, "「黙らんかい死に損ないがぁッ！！",
-		   NULL, "\"Cala a boca, um velho que nem você já deveria ter morrido!!", Line_WaitForInput);
+		   NULL, "\"Cala a boca, um velho que nem você já devia ter morrido!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtk1_satokof1006", 128, TRUE);
 	OutputLine(NULL, "　いいんか、雛見沢には貧乏人も大勢おるん、お前んとこみたいに、山に畑に唸るほど持ってる地主とはわけが違うんッ！！",
-		   NULL, " Escuta, tem muita gente pobre em Hinamizawa. Nem todo mundo é rico e tem campos cobrindo todas as montanhas como vocês!!", Line_Normal);
+		   NULL, " Escuta, tem muita gente pobre em Hinamizawa. Nem todo mundo é rico e tem campos cobrino todas as montanhas como vocês!!", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>沙都子父</color>", NULL, "<color=#f5e6d3>Pai da Satoko</color>", NULL, Line_ContinueAfterTyping); }
@@ -428,7 +428,7 @@ void main()
 		   NULL, "Eu tô satisfeito com a compensação do governo! Eles até ofereceram habitação pública na cidade!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtk1_satokof1008", 128, TRUE);
 	OutputLine(NULL, "　それをおんどれが全部ちゃぶ台引っくり返しよったん、台無しにしよったんじゃボケぇッ！！！",
-		   NULL, " Mas vocês tão estragando tudo, idiotas!!!", Line_WaitForInput);
+		   NULL, " Mas vocês tão estragano tudo, idiotas!!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtk1_satokof1009", 128, TRUE);
 	OutputLine(NULL, "　おどれら地主の都合で人まで巻き込むなや！",
 		   NULL, " Não finjam que são o mesmo que a gente! ", GetGlobalFlag(GLinemodeSp));
@@ -445,7 +445,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>沙都子父</color>", NULL, "<color=#f5e6d3>Pai da Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtk1_satokof1013", 128, TRUE);
 	OutputLine(NULL, "おとなしゅう、国からゼニをもろぅて職を斡旋してもろぅて、人生再設計ちゅうとこなんや。",
-		   NULL, "Eu tava planejando começar uma nova vida e sair daqui em paz depois de conseguir a compensação do governo e encontrar um trabalho em outro lugar.", Line_WaitForInput);
+		   NULL, "Eu tava planejano começar uma nova vida e sair daqui em paz depois de conseguir a compensação do governo e encontrar um trabalho em outro lugar.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtk1_satokof1014", 128, TRUE);
 	OutputLine(NULL, "それをおどれは何じゃ、いつからお前はわしの代表になったんじゃ！！",
 		   NULL, " Mas você... desde quando você se tornou a minha representante, hein?! ", GetGlobalFlag(GLinemodeSp));
@@ -473,7 +473,7 @@ void main()
 		   NULL, "\"Sim, e com prazer!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtk1_satokof1017", 128, TRUE);
 	OutputLine(NULL, "　もちろん、それに見合うゼニはお前が払うんじゃろうな？！",
-		   NULL, " Mas você vai me pagar, né?", Line_WaitForInput);
+		   NULL, " Mas você vai me pagar, né?!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtk1_satokof1018", 128, TRUE);
 	OutputLine(NULL, "　わしが国からもらい損ねたゼニ、きっちり都合つけてくれちゃるんじゃろなぁッ？！",
 		   NULL, " Você vai me pagar cada iene da compensação que eu ia receber do governo?! ", GetGlobalFlag(GLinemodeSp));
@@ -506,7 +506,7 @@ void main()
 		   NULL, "\"O que foi isso?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 17, "ps3/s20/17/vtk1_oryou1013", 128, TRUE);
 	OutputLine(NULL, "　今抜かしたのは誰じゃい？！",
-		   NULL, " Quem que falou isso?!", Line_WaitForInput);
+		   NULL, " Quem que falô isso?!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 17, "ps3/s20/17/vtk1_oryou1014", 128, TRUE);
 	OutputLine(NULL, "　名乗らんかいボケッ？！」",
 		   NULL, " Quem foi o imbecil?!\"", GetGlobalFlag(GLinemodeSp));
@@ -565,7 +565,7 @@ void main()
 		   NULL, "Morra, Houjou!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 17, "ps3/s20/17/vtk1_oryou1018", 128, TRUE);
 	OutputLine(NULL, "　村の空気を吸う資格はねぇ、今すぐ息止めて死ねッ！！」",
-		   NULL, " Você não merece respirar o ar do vilarejo!! Pare de respirar e morra sufocado!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Você não merece respirá o ar do vilarejo!! Pare de respirá e morra sufocado!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>沙都子父</color>", NULL, "<color=#f5e6d3>Pai da Satoko</color>", NULL, Line_ContinueAfterTyping); }
@@ -597,7 +597,7 @@ void main()
 		   NULL, " ......Eu não ficava puta assim há muito, muito tempo.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 17, "ps3/s20/17/vtk1_oryou1022", 128, TRUE);
 	OutputLine(NULL, "きっちりケジメ取らせてもらうかんの。",
-		   NULL, " Você ainda vai receber o que merece.", Line_WaitForInput);
+		   NULL, " Você ainda vai recebê o que merece.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 17, "ps3/s20/17/vtk1_oryou1023", 128, TRUE);
 	OutputLine(NULL, "あんじょう、楽しみに待っとれやッ…！！！」",
 		   NULL, " Só espere!!!\"", Line_Normal);
@@ -630,7 +630,7 @@ void main()
 		   NULL, "\"Então venha!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 17, "ps3/s20/17/vtk1_oryou1025", 128, TRUE);
 	OutputLine(NULL, "　おんしが出てこんかいなッ！！」",
-		   NULL, " Venha me pegar!!\"", Line_Normal);
+		   NULL, " Venha me pegá!!\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
