@@ -14,12 +14,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…悟史くんを悲しませたくないという気持ち。",
-		   NULL, "...Eu não quero que o Satoshi-kun fique triste.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...A sensação de não querer entristecer o Satoshi-kun.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　沙都子ちゃんの辛い境遇への同情。",
-		   NULL, "Eu sinto pena pelas circunstâncias crueis da Satoko-chan.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "A pena pelas circunstâncias crueis nas quais a Satoko-chan está.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -27,7 +27,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……そして、この研究のために非情なる責任を全うしなくてはならないという気持ちが、私の中で何度もせめぎあっていた。",
-		   NULL, "...Eu ainda estou incomodado com o quanto eu preciso sacrificar em prol desta pesquisa.", Line_Normal);
+		   NULL, "......E ainda, o incômodo do quanto será preciso sacrificar em prol desta pesquisa... Todos esses sentimentos estavam digladiando-se no âmago do meu ser.", Line_Normal);
 	ClearMessage();
 
 	ModSetLayerFilter(2, 256, "none");
