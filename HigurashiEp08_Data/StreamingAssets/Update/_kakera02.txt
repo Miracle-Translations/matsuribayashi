@@ -22,17 +22,17 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが、入江が並外れた集中力で実験に没頭した結果、北条沙都子が実験途中に錯乱、もしくは廃人になるということは回避され、",
-		   NULL, "Porém, a atenção e o foco extraordinário de Irie ao experimento evitou que Houjou Satoko alucinasse ou entrasse em estado vegatativo durante o experimento ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Porém, a atenção e o foco extraordinário de Irie ao experimento evitou que Houjou Satoko experienciasse insanidade mental ou entrasse em estado vegetativo durante o experimento ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "……なんと、Ｌ５に至りながら社会生活に復帰できる目処さえ立ちつつあった。",
-		   NULL, "...e, surpreendentemente, nós vemos indícios de que ela possa retornar à vida normal, mesmo tendo alcançado o N5.", Line_Normal);
+		   NULL, "......e, surpreendentemente, nós vemos indícios de que ela possa retornar à vida normal, mesmo tendo alcançado o N5.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 0, "s_page", 128, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　C103にはまだまだ検討課題を多く残しながらも、きめ細かく検体の体調を見ながら投与を調整することで、Ｌ５に至った人間ですら生還できるという快挙を成し遂げたのである。",
-		   NULL, "C103 ainda possui diversas falhas, mas este experimento provou que até mesmo uma pessoa que alcançou o N5 pode ser curada.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "C103 ainda possui diversas falhas, mas o experimento com este espécime provou que até mesmo uma pessoa que alcançou o N5 pode ser curada.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -40,7 +40,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…これについては、半ば馬鹿にしてはいたが、入江の努力を認めなければならない。",
-		   NULL, "Eu não acreditei de início, mas devo reconhecer os esforços de Irie.", Line_Normal);
+		   NULL, "...Eu não acreditei de início, mas devo reconhecer os esforços de Irie.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 0, "s_page", 128, 64 );
@@ -52,7 +52,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　甘えたヒューマニズムに苛まれ、両手を汚すことに未だ抵抗があるからこそ、北条沙都子を死すべき運命から救いたいという使命感に直結したのだろう。",
-		   NULL, "Ele estava sendo atormentado por seu humanismo tolo e não queria cometer erros, por isso ele se sentiu obrigado a curar Houjou Satoko.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ele estava sendo atormentado por seu humanismo tolo e não queria sujar as próprias mãos, por isso ele se sentiu obrigado a curar Houjou Satoko.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -91,7 +91,7 @@ void main()
 		   NULL, "\"Não,", Line_WaitForInput);
 	ModPlayVoiceLS(4, 10, "ps3/s20/10/vtk1_irie1049", 128, TRUE);
 	OutputLine(NULL, "私の研究者としての職務を果たしたに過ぎません。",
-		   NULL, " Eu só fiz o meu trabalho como pesquisador.", Line_WaitForInput);
+		   NULL, " eu não fiz nada mais que o meu trabalho como pesquisador.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 10, "ps3/s20/10/vtk1_irie1050", 128, TRUE);
 	OutputLine(NULL, "…その結果、医者としての職務も果たせたなら、私にとってはそれに勝ることはありません。」",
 		   NULL, " ...Se isso também significa cumprir o meu dever como um médico, então nada me agradaria mais.\"", GetGlobalFlag(GLinemodeSp));
@@ -115,7 +115,7 @@ void main()
 		   NULL, "\"...Isso é verdade.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 10, "ps3/s20/10/vtk1_irie1052", 128, TRUE);
 	OutputLine(NULL, "彼女を社会生活に復帰させ、経過を見ながら長期観察に切り替えていきます。",
-		   NULL, " Vamos permiti-la a voltar a sua vida e mantê-la em observação a longo prazo.", Line_WaitForInput);
+		   NULL, " Vamos permiti-la a voltar à sua vida normal enquanto apenas a mantemos em observação a longo prazo.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 10, "ps3/s20/10/vtk1_irie1053", 128, TRUE);
 	OutputLine(NULL, "彼女には毎週日曜日に、こちらに来てもらって検査を受けてもらえるよう話をするつもりです。」",
 		   NULL, " Eu a direi para vir aqui todos os domingos para fazer um check-up.\"", GetGlobalFlag(GLinemodeSp));
@@ -151,7 +151,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……どうやら入江は、意地でも北条沙都子を完治させるつもりのようだ。",
-		   NULL, "...Parece que o Irie está determinado em curar a Satoko a todo custo.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "......Parece que o Irie está determinado em curar a Satoko a todo custo.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -174,12 +174,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私は、北条沙都子が憎いわけじゃない。",
-		   NULL, "Eu não tenho nada contra Houjou Satoko.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Eu não tenho nada contra Houjou Satoko.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　研究のために、食えるものは何でも食うというだけのことだ。",
-		   NULL, "É só que eu a vejo como uma espécime de pesquisa.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "É só que, para essa pesquisa, qualquer coisa que eu possa sacrificar, irei sacrificar.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -218,7 +218,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 10, "ps3/s20/10/vtk1_irie1062", 128, TRUE);
 	OutputLine(NULL, "「それだけの予算はありますか？」",
-		   NULL, "\"Nós temos todo esse dinheiro?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"O nosso orçamento consegue cobrir isso?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
@@ -227,7 +227,7 @@ void main()
 		   NULL, "\"Claro.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s20/09/vtk1_takano1075", 128, TRUE);
 	OutputLine(NULL, "ジロウさんを納得させる資料を作りさえすれば。」",
-		   NULL, " Enquanto conseguirmos produzir documentos que convençam o Jirou-san.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Enquanto ainda conseguirmos produzir documentos que convençam o Jirou-san.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -239,13 +239,13 @@ void main()
 		   NULL, "\"Tudo bem, então eu vou.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 10, "ps3/s20/10/vtk1_irie1064", 128, TRUE);
 	OutputLine(NULL, "あと、沙都子ちゃんに心労を掛けないよう指導しておく必要もあります。",
-		   NULL, " E também, precisamos evitar que a Satoko-chan se estresse.", Line_WaitForInput);
+		   NULL, " E também, precisamos evitar que a Satoko-chan sofra mais estresse emocional.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 10, "ps3/s20/10/vtk1_irie1065", 128, TRUE);
 	OutputLine(NULL, "Ｌ５をぶり返すことになったら大変ですからね。",
 		   NULL, " Não queremos que ela retorne ao N5.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 10, "ps3/s20/10/vtk1_irie1066", 128, TRUE);
 	OutputLine(NULL, "……噂では、叔父夫婦はとても現金な方だとか。",
-		   NULL, " ...Eu ouvi falar que os tios dela são muito gananciosos. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ......Eu ouvi falar que os tios dela são muito gananciosos. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 10, "ps3/s20/10/vtk1_irie1067", 128, TRUE);
 	OutputLine(NULL, "金銭で丸め込むのは可能かもしれません。",
@@ -259,14 +259,14 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　沙都子ちゃんの新しい親である叔父夫婦との関係が、あまり良好ではないらしいという噂は聞いていた。",
-		   NULL, "Eu ouvi rumores que a relação entre a Satoko-chan e os seus tios não é boa.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eu ouvi rumores que a relação entre a Satoko-chan com os seus novos pais não é das melhores.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　しかし、それは私たちとは関係のないことだと思っていた。",
 		   NULL, "Nunca imaginei que isso nos afetaria de alguma forma.", Line_WaitForInput);
 	OutputLine(NULL, "それに入江がこうまで熱心に関わろうとするとは。",
-		   NULL, " Mas agora, Irie vai precisar lidar com eles.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Mas agora, Irie resolveu lidar com eles.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -317,7 +317,7 @@ void main()
 		   NULL, "\"...Na verdade, é irônico.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 10, "ps3/s20/10/vtk1_irie1072", 128, TRUE);
 	OutputLine(NULL, "彼女を錯乱から救う治療薬を作っていた研究所で、その傍らでは彼女を直ちに錯乱させる危険な薬が作られていたのですから。」",
-		   NULL, " Este mesmo centro de pesquisa que desenvolveu um medicamento para evitar que ela sofresse com alucinações também desenvolveu uma droga perigosa que pode induzi-las imediatamente.\"", Line_Normal);
+		   NULL, " Este mesmo centro de pesquisa que desenvolveu um medicamento para evitar que ela sofresse com paranoia também desenvolveu uma droga perigosa que pode induzi-la imediatamente.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -342,7 +342,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　この危険な試薬は、北条沙都子の脳を支配する病原体が、如何にして宿主を疑心暗鬼や錯乱に駆り立てていくかのメカニズムを解き明かす過程で作られたものだ。",
-		   NULL, "Este reagente perigoso foi desenolvido durante o processo de descobrir o mecanismo pelo qual o patógeno que controlava o cérebro de Houjou Satoko levava o portador à perturbação e à paranoia.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Este reagente perigoso foi desenvolvido durante o processo de descobrir o mecanismo pelo qual o patógeno que controlava o cérebro de Houjou Satoko levava o portador à desconfiança e à paranoia.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -350,7 +350,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　平たく言うと、H170は雛見沢症候群の感染者に投与することで、末期発症を強制的に引き起こせる。",
-		   NULL, "Simplificando, injetar o H170 em um paciente com a Síndrome de Hinamizawa o forçaria a expressar sintomas terminais.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Simplificando, injetar o H170 em alguém infectado com a Síndrome de Hinamizawa o forçaria a expressar sintomas terminais.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -360,7 +360,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　この危険な試薬の研究をさらに進めれば、我々は一般感染者を好きな時に末期発症させることが可能になるだろう。",
-		   NULL, "Se continuarmos pesquisando isso, será possível levar qualquer pessoa infectada ao nível máximo de insanidade a qualquer momento.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Se continuarmos pesquisando isso, será possível levar qualquer pessoa infectada ao nível máximo de insanidade a qualquer momento que desejarmos.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -383,17 +383,17 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　現時点ではまだまだ使い道は皆無と言えるだろうが、研究が進めば、無害な状態の病原体を対象とするコロニーに予め蔓延させ、",
-		   NULL, "No presente momento, ainda não uso algum.", Line_WaitForInput);
+		   NULL, "Atualmente, ainda não tem uso algum.", Line_WaitForInput);
 	OutputLine(NULL, "意図的なタイミングでH170を散布することである種のアクションを起こすことができるだろう。",
-		   NULL, " Entretanto, no momento em que nossa pesquisa avance um pouco mais, este H170 pode ser espalhado, no momento certo, e causar um certo tipo de reação.", Line_Normal);
+		   NULL, " Entretanto, assim que a nossa pesquisa avançar um pouco mais, este H170 pode ser espalhado no momento certo, causando um certo tipo de reação.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　殺人ウィルスに比べれば手間のかかる間抜けな病原体だが、",
-		   NULL, "Comparado a um vírus letal, parece um patógeno inútil. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Comparado a um vírus assassino, parece um patógeno inútil. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "死体からの検出は不可能で、しかも自発的に錯乱したように見える点で、おそらく何らかの用途があるに違いない。",
-		   NULL, "Mas não há forma alguma de detectá-lo em um cadáver, fazendo parecer com que a pessoa tenha ficado insana espontâneamente, então deve ter algumas aplicações muito úteis.", Line_Normal);
+		   NULL, "Mas não há forma alguma de detectá-lo em um cadáver, fazendo parecer com que a pessoa tenha ficado insana espontâneamente, então com certeza terá certas aplicações muito úteis.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -403,7 +403,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……あのような、歴史の分岐路となりかねない重要な事件は、殺人ウィルスのような不器用なものでは作れない。",
-		   NULL, "Um incidente historicamente importante como esse não poderia ter sido criado por um vírus letal.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "......Um incidente historicamente importante como esse não poderia ter sido criado por um vírus assassino qualquer.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -411,12 +411,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…でも、雛見沢症候群になら可能なのだ…。",
-		   NULL, "Mas seria possível com a Síndrome de Hinamizawa...", Line_Normal);
+		   NULL, "...Mas seria possível com a Síndrome de Hinamizawa...", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……この辺りはスポンサーであるアルファベットプロジェクトの老人たちが勝手に考えればいい。",
-		   NULL, "Os velhos que nos patrocinam, a Alphabet Project, podem pensar o que quiserem.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "......Os velhos que nos patrocinam, a Alphabet Project, podem pensar o que quiserem.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -470,7 +470,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 10, "ps3/s20/10/vtk1_irie1075", 128, TRUE);
 	OutputLine(NULL, "「……これだけの潤沢な資金を提供してくださるスポンサーさんには頭が上がりません。",
-		   NULL, "\"...Nós precisamos agradecer os patrocinadores por nos darem tantos fundos...", Line_WaitForInput);
+		   NULL, "\"......Não podemos nos enaltecer para os nossos patrocinadores...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 10, "ps3/s20/10/vtk1_irie1076", 128, TRUE);
 	OutputLine(NULL, "……これだけのお金が公費から出ているのですから…。」",
 		   NULL, " ...Todo esse dinheiro vem dos recursos públicos...\"", GetGlobalFlag(GLinemodeSp));
@@ -501,12 +501,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……とにかく、研究は極めて順調。",
-		   NULL, "De qualquer forma, a nossa pesquisa está progredindo extremamente bem.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "......De qualquer forma, a nossa pesquisa está progredindo extremamente bem.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　雛見沢症候群は私たち人類に何を示すのか。",
-		   NULL, "Não sabemos o que descobriremos sobre a Síndrome de Hinamizawa,", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Não sabemos o que descobrir mais da Síndrome de Hinamizawa dirá sobre nós como seres humanos,", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -519,7 +519,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　人間は単なる空っぽの器に過ぎず、私たちが自らの意思だと信じているものは、前頭葉に住まう特殊な寄生虫たちによるものかもしれない可能性を、雛見沢症候群は示してくれるのだ。",
-		   NULL, "O que a Síndrome de Hinamizawa indica é que humanos são simplesmente recipientes vazios, e o que nós acreditamos ser a nossa vontade pode ser o resultados das ações de parasitas que vivem nos nossos lobos frontais.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...O que a Síndrome de Hinamizawa pode indicar é que humanos são simplesmente recipientes vazios, e o que nós acreditamos ser a nossa vontade pode ser o resultado das ações de parasitas que vivem nos nossos lobos frontais.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -527,7 +527,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それを解き明かせたなら、………人類はこれまでに解き明かしてきたどんな神秘にも勝る衝撃を得ることになるだろう。",
-		   NULL, "Se esse mistério fosse resolvido... ele causaria um impacto maior do que qualquer outra coisa na história.", Line_Normal);
+		   NULL, "Se esse mistério fosse resolvido......... ele causaria um impacto maior do que qualquer outra coisa na história.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

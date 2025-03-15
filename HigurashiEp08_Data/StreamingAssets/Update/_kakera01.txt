@@ -97,7 +97,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　むしろ、隠し事をしてはいけないというのが、私なりの誠意の不文律だと思っていた。",
-		   NULL, "Na verdade, acho que é melhor ser sincero com ela.", Line_Normal);
+		   NULL, "Na verdade, ser completamente sincero com ela é uma norma imprescindível que eu decidi seguir.", Line_Normal);
 	ClearMessage();
 
 	ModFadeOutBGM( 1, 300, FALSE, 0 );
@@ -108,7 +108,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 10, "ps3/s20/10/vtk1_irie1010", 128, TRUE);
 	OutputLine(NULL, "「…………はい。",
-		   NULL, "\"......Sim.", Line_WaitForInput);
+		   NULL, "\"............Sim.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 10, "ps3/s20/10/vtk1_irie1011", 128, TRUE);
 	OutputLine(NULL, "両親との不仲と、その両親の突然の死。",
 		   NULL, " Os problemas quanto à relação dela com os pais, e as suas mortes repetinas...", Line_WaitForInput);
@@ -117,7 +117,7 @@ void main()
 		   NULL, " Foram tantas coisas de uma só vez que ela não pôde lidar com tudo.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 10, "ps3/s20/10/vtk1_irie1013", 128, TRUE);
 	OutputLine(NULL, "……それが引き金になったのかもしれません。」",
-		   NULL, " ...Talvez esse tenha sido o estopim.\"", Line_Normal);
+		   NULL, " ......Talvez esse tenha sido o estopim.\"", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "background/sinryou_sinsatu1", "maskright", 1, 0, 200 );
@@ -246,7 +246,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……いや、知っているのかもしれない。",
-		   NULL, "...Não, talvez ela realmente saiba.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "......Não, talvez ela realmente saiba.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -256,7 +256,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……彼女が見掛けより大人なら、少し考えれば解剖のこともわかるだろうから。",
-		   NULL, "...Ela é menos infantil do que parece, então seria fácil para ela descobrir.", Line_Normal);
+		   NULL, "......Ela é menos infantil do que parece, então seria fácil para ela descobrir.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -278,7 +278,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 10, "ps3/s20/10/vtk1_irie1026", 128, TRUE);
 	OutputLine(NULL, "……どちらも、それはあまりに過酷な運命です。」",
-		   NULL, "...Qualquer uma dessas possibilidades seria um destino cruel para ela.\"", Line_Normal);
+		   NULL, "......Qualquer uma dessas possibilidades seria um destino cruel para ela.\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -305,7 +305,7 @@ void main()
 		   NULL, " É como a Takano costuma dizer, nada é 100% na medicina.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s20/05/vtk1_rika1019", 128, TRUE);
 	OutputLine(NULL, "でも、このまま放置すれば沙都子を待ち受ける運命は１００％の、絶対の死しかない。",
-		   NULL, " Mas se não fizermos nada, é 100% certo de que a Satoko vai morrer.", Line_WaitForInput);
+		   NULL, " Mas se não fizermos nada, é 100% certo de que a Satoko está destinada a morrer.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s20/05/vtk1_rika1020", 128, TRUE);
 	OutputLine(NULL, "ならば、どちらに賭けるかは明白なはず。」",
 		   NULL, " Eu acho que é óbvio o que deveríamos fazer.\"", GetGlobalFlag(GLinemodeSp));
