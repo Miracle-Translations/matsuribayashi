@@ -235,7 +235,7 @@
 	},
 	{
 		"Id":27,
-		"Title":"A melancolia de um sacerdote xintoísta",
+		"Title":"A melancolia de um padre xintoísta",
 		"Description":"É necessário que Rika e Satoko tenham ido às compras.\nÉ necessário que o padre xintoísta tenha entrado em cotato com o Instituto Irie.",
 		"TitleJp":"神主の憂鬱",
 		"DescriptionJp":"梨花と沙都子のお買い物が必要です。\n神主と入江機関の接触が必要です。",
@@ -245,7 +245,7 @@
 	{
 		"Id":28,
 		"Title":"Sofrimento de um irmão mais velho",
-		"Description":"É necessário que konpeitou seja dado como gratificação.\nSão necessários os resultados detalhados do teste de Houjou Satoko.",
+		"Description":"É necessário que konpeito seja dado como gratificação.\nSão necessários os resultados detalhados do teste de Houjou Satoko.",
 		"TitleJp":"兄の苦悩",
 		"DescriptionJp":"お駄賃の金平糖が必要です。\n北条沙都子の精密検査結果が必要です。",
 		"Script":"_kakera28",

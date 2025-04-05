@@ -95,7 +95,15 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あと、富竹の発音のせいなのか、二佐がどうしても「リサ」と聞こえてしまう。",
-		   NULL, "Talvez seja por causa da forma como Tomitake pronuncia, mas ela continua ouvindo \"Risa\". (Tenente-coronel em japonês: Nisa)", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Talvez seja por causa da forma como Tomitake pronuncia, mas ela continua ouvindo \"<color=#7ef704>Risa</color>\".", GetGlobalFlag(GLinemodeSp));
+	
+	if (GetGlobalFlag(GLanguage) == 1) {
+    if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+    if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+    OutputLine(NULL, "",
+        NULL, "<color=#7ef704>Em japonês, a palavra para Tenente-coronel é \"nisa\", com uma pronúncia semelhante a \"Risa\", sendo esse o motivo da confusão de Takano.</color>", GetGlobalFlag(GLinemodeSp));
+    }
+	
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }

@@ -405,11 +405,19 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　いつの日にか地獄の閻魔が私を裁くだろう。",
-		   NULL, "Algum dia, Enma, o rei do inferno, me julgará.", Line_WaitForInput);
+		   NULL, "Algum dia, <color=#7ef704>Enma</color>, o rei do inferno, me julgará.", Line_WaitForInput);
 	OutputLine(NULL, "それが無罪であっても有罪であっても。",
 		   NULL, " Seja eu inocente ou culpado...", Line_WaitForInput);
 	OutputLine(NULL, "…私は甘んじて受け入れるつもりだ。",
-		   NULL, " terei de aceitar a decisão.", Line_Normal);
+		   NULL, " terei de aceitar a decisão.", GetGlobalFlag(GLinemodeSp));
+	
+	if (GetGlobalFlag(GLanguage) == 1) {
+    if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+    if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+    OutputLine(NULL, "",
+        NULL, "<color=#7ef704>Enma: também chamado de Yama, é, nas crenças budistas difundidas pelo Leste Asiático, o responsável por julgar os mortos e decidir, com base nos seus atos passados, se sua próxima vida será boa ou miserável.</color>", Line_Normal);
+    }
+
 	ClearMessage();
 
 	FadeOutBGM( 0, 300, FALSE );

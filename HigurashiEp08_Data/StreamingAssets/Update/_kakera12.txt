@@ -11,7 +11,15 @@ void main()
 	OutputLine(NULL, "　その夜。",
 		   NULL, "Naquela noite.", Line_WaitForInput);
 	OutputLine(NULL, "古手家頭首である神主は、家族会議があるといって妻と梨花を和室に集めた。",
-		   NULL, " O chefe da família Furude, o sacerdote, reuniu sua esposa e sua filha, Rika, para uma reunião familiar.", Line_Normal);
+		   NULL, " O chefe da família Furude, o <color=#7ef704>kannushi</color>, reuniu sua esposa e sua filha, Rika, para uma reunião familiar.", GetGlobalFlag(GLinemodeSp));
+
+	if (GetGlobalFlag(GLanguage) == 1) {
+    if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+    if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+    OutputLine(NULL, "",
+        NULL, "<color=#7ef704>Kannushi: pessoas responsáveis por cuidar dos santuários e servir de elo entre os deuses e os humanos comuns.</color>", Line_Normal);
+    }
+	
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -56,7 +64,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　妻は神主が切り出そうとしている話は、それに絡むものに違いないと思った。",
-		   NULL, "A esposa pressupôs que aquilo que o sacerdote queria falar teria relação com a represa.", Line_Normal);
+		   NULL, "A esposa pressupôs que aquilo que o kannushi queria falar teria relação com a represa.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -82,7 +90,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　古手家は代々、神職にあり、村の守り神であるオヤシロさまを祀ってきた。",
-		   NULL, "A família Furude foi composta de sacerdote por gerações, sempre adorando a Oyashiro-sama, a divindade guardiã do vilarejo.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "A família Furude foi composta de kannushi por gerações, sempre adorando a Oyashiro-sama, a divindade guardiã do vilarejo.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -173,7 +181,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　神主は、妻が落ち着きを取り戻すまで待った後、語り始めた…。",
-		   NULL, "O sacerdote começou a falar quando sua esposa se acalmou...", Line_Normal);
+		   NULL, "O kannushi começou a falar quando sua esposa se acalmou...", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の父</color>", NULL, "<color=#f5e6d3>Pai da Rika</color>", NULL, Line_ContinueAfterTyping); }
