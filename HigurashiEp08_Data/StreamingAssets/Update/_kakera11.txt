@@ -672,7 +672,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　先ほどのやりとりは、鷹野さんらしくもなく感情的だった。",
-		   NULL, "Discussões emotivas como essa de agora há pouco não eram o tipo de desavença que ele esperaria da Takano-san.", Line_Normal);
+		   NULL, "Discussões emotivas como essa de agora há pouco não eram o tipo de desavença que combinavam com a Takano-san.", Line_Normal);
 	ClearMessage();
 
 	CallScript( "&eye" );
