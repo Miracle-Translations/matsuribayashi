@@ -118,7 +118,7 @@
 	},
 	{
 		"Id":14,
-		"Title":"Acidente de queda no parque Shirakawa",
+		"Title":"Acidente da queda no Parque Shirakawa",
 		"Description":"É necessário que a irmã de Houjou Satoshi recuse suas visitas na clínica.\nÉ necessário o senso de responsabilidade de Houjou Satoshi como um irmão mais velho.",
 		"TitleJp":"白川公園転落事故",
 		"DescriptionJp":"北条悟史の見舞いの謝絶が必要です。\n北条悟史の兄としての使命感が必要です。",
