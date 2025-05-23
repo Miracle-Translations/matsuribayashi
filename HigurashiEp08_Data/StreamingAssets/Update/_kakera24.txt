@@ -683,7 +683,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　雛見沢を影から牛耳り、ダム戦争と称する集団犯罪を煽り立てて来た、",
-		   NULL, "Eles estão controlando Hinamizawa das sombras e causando esse crime coletivo que chamam de guerra da represa...", Line_ContinueAfterTyping);
+		   NULL, "Eles estão controlando Hinamizawa das sombras e causando esse crime coletivo que chamam de conflito da represa...", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
 	Wait( 800 );
 	SetValidityOfInput( TRUE );
