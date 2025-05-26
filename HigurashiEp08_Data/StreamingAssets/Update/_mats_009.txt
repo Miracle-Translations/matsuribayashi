@@ -1619,7 +1619,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s13/05/ds41050011", 128, TRUE);
 	OutputLine(NULL, "「……みー！",
-		   NULL, "\"......Meep~!", Line_WaitForInput);
+		   NULL, "\"......Mii—!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s13/05/ds41050012", 128, TRUE);
 	OutputLine(NULL, "　誰かの罰ゲームをかわいそかわいそしないと、ボクも退屈してしまいますです。」",
 		   NULL, " I've been bored because I haven't rubbed a loser's head in a while.\"", GetGlobalFlag(GLinemodeSp));
@@ -1917,7 +1917,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s13/05/ds41050013", 128, TRUE);
 	OutputLine(NULL, "「……みー。」",
-		   NULL, "\"......Meep.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"......Mii—.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -2899,7 +2899,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s13/05/ds41050021", 128, TRUE);
 	OutputLine(NULL, "「……みー。",
-		   NULL, "\"...Meep.", Line_WaitForInput);
+		   NULL, "\"......Mii—.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s13/05/ds41050022", 128, TRUE);
 	OutputLine(NULL, "圭一は自分の入部試験の恨みが混じりまくりなのです。」",
 		   NULL, " Keiichi is putting his leftover grudge from his own entrance exam into this game.\"", Line_Normal);

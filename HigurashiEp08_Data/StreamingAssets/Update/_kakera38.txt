@@ -129,7 +129,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s20/05/vtk2_rika2038", 128, TRUE);
 	OutputLine(NULL, "「……みー？",
-		   NULL, "\"......Mii?", Line_WaitForInput);
+		   NULL, "\"......Mii—?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s20/05/vtk2_rika2039", 128, TRUE);
 	OutputLine(NULL, "　お持ち帰りだったのですか。",
 		   NULL, " É pra levar pra casa?", Line_WaitForInput);
@@ -187,7 +187,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s20/05/vtk2_rika2041", 128, TRUE);
 	OutputLine(NULL, "「……みー。",
-		   NULL, "\"......Mii.", Line_WaitForInput);
+		   NULL, "\"......Mii—.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s20/05/vtk2_rika2042", 128, TRUE);
 	OutputLine(NULL, "ボクだってスイカくらい持てますのですよ？」",
 		   NULL, " Mas eu consigo levar a melancia.\"", Line_Normal);
@@ -344,7 +344,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s20/05/vtk2_rika2045", 128, TRUE);
 	OutputLine(NULL, "「……みー。",
-		   NULL, "\"......Mii.", Line_WaitForInput);
+		   NULL, "\"......Mii—.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s20/05/vtk2_rika2046", 128, TRUE);
 	OutputLine(NULL, "ボクは子供扱いなのです。」",
 		   NULL, " Então eles me tratam como criança.\"", Line_Normal);

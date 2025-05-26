@@ -560,7 +560,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s13/05/ds41050362", 128, TRUE);
 	OutputLine(NULL, "「み、みー、赤坂は別にそういうわけではないのです…。」",
-		   NULL, "\"M-Meep, it's not like that though...\"", Line_Normal);
+		   NULL, "\"M-Mii—, it's not like that though...\"", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "background/heya1", 300 );
@@ -1457,7 +1457,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s13/05/ds41050379", 128, TRUE);
 	OutputLine(NULL, "「……み、みーーー、",
-		   NULL, "\"...M-Meeeeeep,", Line_Continue);
+		   NULL, "\"...M-Mii———,", Line_Continue);
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 2000 );
 	// (backup) SetValidityOfInput( TRUE );
@@ -1573,7 +1573,7 @@ void main()
 		   NULL, " ...Hmm, so I need to outrun them for those 48 hours?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s13/05/ds41050383", 128, TRUE);
 	OutputLine(NULL, "　みー、みーー…。」",
-		   NULL, " Meep, meeeep...\"", Line_Normal);
+		   NULL, " Mii—, mii——...\"", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "background/heya1", 300 );
@@ -2330,7 +2330,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s13/05/ds41050390", 128, TRUE);
 	OutputLine(NULL, "「……みー。",
-		   NULL, "\"......Meep.", Line_WaitForInput);
+		   NULL, "\"......Mii—.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s13/05/ds41050391", 128, TRUE);
 	OutputLine(NULL, "だって羽入は本当はボクよりずっとタヌキなのですよ。」",
 		   NULL, " She's even more sly than I am.\"", Line_Normal);
@@ -2437,13 +2437,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s13/05/ds41050392", 128, TRUE);
 	OutputLine(NULL, "「……みー。",
-		   NULL, "\"......Meep.", Line_WaitForInput);
+		   NULL, "\"......Mii—.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s13/05/ds41050393", 128, TRUE);
 	OutputLine(NULL, "部活メンバーに協力する以上、そうじゃないと大石が可哀想なのです。",
 		   NULL, " If he is going to help us, we have to do that for Ooishi.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s13/05/ds41050394", 128, TRUE);
 	OutputLine(NULL, "…みー。」",
-		   NULL, " ...Meep.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...Mii—.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();

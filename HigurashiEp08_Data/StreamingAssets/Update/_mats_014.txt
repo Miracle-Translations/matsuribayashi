@@ -1717,7 +1717,7 @@ void main()
 		   NULL, " ...Seeing you... brought back so many memories that I lost my cool.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s13/05/ds41050271", 128, TRUE);
 	OutputLine(NULL, "……みー。」",
-		   NULL, " ...Meep.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ......Mii—.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

@@ -215,7 +215,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s20/05/vtk2_rika2001", 128, TRUE);
 	OutputLine(NULL, "「……みー。",
-		   NULL, "\"......Meep.", Line_WaitForInput);
+		   NULL, "\"......Mii—.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s20/05/vtk2_rika2002", 128, TRUE);
 	OutputLine(NULL, "とか何とか小難しいことを言いながら、変な不審者がボクたちをじっと見ていますのです。」",
 		   NULL, " There's a suspicious person who's mumbling some weird stuff over there.\"", GetGlobalFlag(GLinemodeSp));

@@ -591,7 +591,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s20/05/vtk1_rika1052", 128, TRUE);
 	OutputLine(NULL, "「……みー。」",
-		   NULL, "\"......Mii.\"", Line_Normal);
+		   NULL, "\"......Mii—.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の母</color>", NULL, "<color=#f5e6d3>Mãe da Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -662,7 +662,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s20/05/vtk1_rika1053", 128, TRUE);
 	OutputLine(NULL, "「……みー。」",
-		   NULL, "\"......Mii.\"", Line_Normal);
+		   NULL, "\"......Mii—.\"", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "black", 200 );

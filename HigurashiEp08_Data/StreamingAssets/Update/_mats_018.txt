@@ -3642,7 +3642,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s13/05/ds41050408", 128, TRUE);
 	OutputLine(NULL, "「……みー。",
-		   NULL, "\"......Meep.", Line_WaitForInput);
+		   NULL, "\"......Mii—.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s13/05/ds41050409", 128, TRUE);
 	OutputLine(NULL, "にゃーにゃーが出て来るかもなのです。」",
 		   NULL, " Maybe they'll become kittens.\"", GetGlobalFlag(GLinemodeSp));

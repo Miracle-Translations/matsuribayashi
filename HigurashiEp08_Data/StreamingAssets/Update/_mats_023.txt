@@ -517,7 +517,7 @@ void main()
 		   NULL, "\"Poor thing, poor thing.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s13/05/ds41050499", 128, TRUE);
 	OutputLine(NULL, "なでなで、みーみー☆」",
-		   NULL, " Pat, pat, meep meep~☆.\"", Line_Normal);
+		   NULL, " Pat, pat, mii— mii—☆.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -639,7 +639,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s13/05/ds41050500", 128, TRUE);
 	OutputLine(NULL, "「……みー、みー、みー。",
-		   NULL, "\"...Meep, meep, meep.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"......Mii—, mii—, mii—.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -654,7 +654,7 @@ void main()
 		   NULL, " I feel something coming towards us from that direction.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s13/05/ds41050503", 128, TRUE);
 	OutputLine(NULL, "……みー、みー、みー、",
-		   NULL, " ...Meep, meep, meep,", Line_WaitForInput);
+		   NULL, " ......Mii—, mii—, mii—,", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s13/05/ds41050504", 128, TRUE);
 	OutputLine(NULL, "反応は２、",
 		   NULL, " there are two,", Line_WaitForInput);
