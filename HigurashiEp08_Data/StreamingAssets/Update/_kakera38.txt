@@ -569,7 +569,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　………もうダム戦争は終わりましたから仲良くしましょう、なんて誰かがひとり言ったところで、焼け石に水にもなりゃしないのだ。",
-		   NULL, ".........Não bastaria uma única pessoa sugerir que a hostilidade deveria acabar porque o conflito da represa acabou. Seria como tentar apagar um incêndio com um copo d'água...", Line_WaitForInput);
+		   NULL, ".........Não bastaria uma única pessoa sugerir que a hostilidade deveria acabar porque a guerra da represa acabou. Seria como tentar apagar um incêndio com um copo d'água...", Line_WaitForInput);
 	OutputLine(NULL, "…それどころか後ろ指をさされかねないのだから。",
 		   NULL, " Fazer isso só colocaria essa pessoa na mesma posição deles.", Line_Normal);
 	ClearMessage();
@@ -604,7 +604,7 @@ void main()
 		   NULL, "\"...............Não sei.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/vtk2_mion2060", 128, TRUE);
 	OutputLine(NULL, "ダム戦争は数年に及んだ。",
-		   NULL, " O conflito da represa durou vários anos.", Line_WaitForInput);
+		   NULL, " A guerra da represa durou vários anos.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/vtk2_mion2061", 128, TRUE);
 	OutputLine(NULL, "その時に押された烙印を払拭するんだから、",
 		   NULL, " Pra se livrar de um rótulo que eles receberam nessa época...... ", Line_Continue);
@@ -685,9 +685,9 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　仮に園崎本家が、ダム戦争はもう終わりました、北条家と仲良くしましょうと宣言を出したとしても、",
-		   NULL, "Mesmo se a família Sonozaki declarasse que o conflito da represa terminou, então a família Houjou não seria mais inimiga...", Line_WaitForInput);
+		   NULL, "A família Sonozaki declarar oficialmente que a guerra da represa terminou, fazendo a família Houjou não ser mais considerada inimiga...", Line_WaitForInput);
 	OutputLine(NULL, "そんなことくらいで解決するものじゃない。",
-		   NULL, " Uma solução simples com essa ainda não seria o suficiente.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Uma solução simples como essa ainda não seria o suficiente.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -848,7 +848,7 @@ void main()
 		   NULL, "\"Sim", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/vtk2_mion2074", 128, TRUE);
 	OutputLine(NULL, "ダム戦争も終わったんだから、また分譲地に外から人が引っ越してきてくれるといいね。",
-		   NULL, " Agora que o conflito da represa acabou, seria bom se mais pessoas se mudassem pros terrenos que tão à venda.", Line_WaitForInput);
+		   NULL, " Agora que a guerra da represa acabou, seria bom se mais pessoas se mudassem pros terrenos que tão à venda.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/vtk2_mion2075", 128, TRUE);
 	OutputLine(NULL, "近い歳の転校生とかくれば楽しいだろうに。」",
 		   NULL, " Seria legal se viesse uma família com uma criança da nossa idade.\"", GetGlobalFlag(GLinemodeSp));

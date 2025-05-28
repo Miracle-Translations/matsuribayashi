@@ -9,7 +9,7 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　北条家と言えば、ダム戦争時に村全体と対立していた名物一家だ。",
-		   NULL, "A família Houjou ficou muito conhecida por ter ido contra todo o vilarejo na época do conflito da represa.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "A família Houjou ficou muito conhecida por ter ido contra todo o vilarejo na época da guerra da represa.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

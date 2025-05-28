@@ -37,7 +37,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だとしたら、ダム戦争の時の戦犯はまだ何人かいるはずだ。",
-		   NULL, "Se isso fosse verdade, ainda teria sobrado alguns inimigos.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Se isso fosse verdade, ainda haveria sobrado alguns inimigos.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -389,7 +389,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……神主は、ダム戦争の当時、大騒ぎしなくてもいずれダム工事はなくなると日和見的な発言をしてひんしゅくを買ったことがあったからだ。",
-		   NULL, "......Durante o conflito da represa, o kannushi foi alvo de críticas por falar que todo o alarde era desnecessário, porque a construção da represa seria cancelada de qualquer forma.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "......Durante a guerra da represa, o kannushi foi alvo de críticas por falar que todo o alarde era desnecessário, porque a construção da represa seria cancelada de qualquer forma.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

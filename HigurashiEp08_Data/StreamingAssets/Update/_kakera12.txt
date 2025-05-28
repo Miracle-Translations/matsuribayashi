@@ -289,11 +289,11 @@ void main()
 		   NULL, " Então, se continuasse assim, ela desapareceria em algum momento.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtk1_rikaf1047", 128, TRUE);
 	OutputLine(NULL, "……だがそれが、ダム戦争のせいでおかしくなったらしい。",
-		   NULL, " ......Mas o conflito da represa interrompeu esse processo. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ......Mas a guerra da represa interrompeu esse processo. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の父</color>", NULL, "<color=#f5e6d3>Pai da Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtk1_rikaf1048", 128, TRUE);
 	OutputLine(NULL, "……ダム戦争で、今、村中が熱に浮かされたように興奮している状態にあるのは、みんなもわかっているだろう。",
-		   NULL, "......Todos sabiam que o conflito fez todo o vilarejo ficar ardendo de agitação.", Line_WaitForInput);
+		   NULL, "......Todos sabiam que a guerra fez todo o vilarejo ficar ardendo de agitação.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtk1_rikaf1049", 128, TRUE);
 	OutputLine(NULL, "…そういう興奮状態や情緒不安定な状態は、この病気を悪化させてしまうらしいのだ。」",
 		   NULL, " ...Toda essa empolgação e instabilidade emocional fazer a doença ficar mais forte.\"", GetGlobalFlag(GLinemodeSp));

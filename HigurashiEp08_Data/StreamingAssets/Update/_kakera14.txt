@@ -129,7 +129,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　彼は、ダム戦争から昨年の現場監督バラバラ殺人事件までを、村の御三家が暗躍する組織犯罪と捉えており、",
-		   NULL, "Ele acha que tudo, desde o conflito da represa até o desmembramento do supervisor da construção, é um crime organizado secretamente pelas Três Famílias do vilarejo. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ele acha que tudo, desde a guerra da represa até o desmembramento do supervisor da construção, é um crime organizado secretamente pelas Três Famílias do vilarejo. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "今年の祟りと称されている沙都子ちゃんの両親の転落事故も何かの事件性があるのではないかと確信し、渦中の人物である沙都子ちゃんにしつこく付きまとってくるのだった…。",
 		   NULL, "Ele também acredita que o acidente envolvendo os pais da Satoko-chan, que está sendo apontado como a maldição deste ano, foi proposital e está relacionado com algum crime, por isso, ele começou a vir frequentemente para questioná-la...", Line_Normal);
@@ -194,7 +194,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 10, "ps3/s20/10/vtk1_irie1120", 128, TRUE);
 	OutputLine(NULL, "「北条夫妻がダム戦争以来、村中から嫌われているという話は知っています。",
-		   NULL, "\"Eu sei que o casal Houjou era odiado por todo o vilarejo desde o conflito da represa.", Line_WaitForInput);
+		   NULL, "\"Eu sei que o casal Houjou era odiado por todo o vilarejo desde a guerra da represa.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 10, "ps3/s20/10/vtk1_irie1121", 128, TRUE);
 	OutputLine(NULL, "ですが、わざわざ旅行先まで追いかけて突き落とすというのは、少々、突飛過ぎはしませんか？」",
 		   NULL, " Mas quem chegaria a ponto de segui-los pelo caminho da viagem só para empurrá-los? Você não acha isso absurdo?\"", Line_Normal);

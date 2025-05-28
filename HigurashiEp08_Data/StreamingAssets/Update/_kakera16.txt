@@ -401,7 +401,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　連続怪死事件によって、ダム戦争以来の村の結束は一層引き締められた。",
-		   NULL, "Como resultado da série de mortes misteriosas, o vilarejo ficou fortemente unido desde os protestos da represa.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Como resultado da série de mortes misteriosas, o vilarejo ficou fortemente unido desde a guerra da represa.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
