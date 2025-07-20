@@ -32,7 +32,7 @@ void dialog002()
 {
 	ModPlayVoiceLS(4, 10, "ps3/s13/10/ds41100432", 128, TRUE);
 	OutputLine(NULL, "　それを混ぜるとなぜかメイドでなく家政婦さんになり、",
-		   NULL, " Se misturá-las, você tem uma governanta, não uma empregada,", Line_Continue);
+		   NULL, " Se misturá-las, você tem uma governanta, não uma maid,", Line_Continue);
 	Wait( 3000 );
 	PlaySE( 0, "s_daidageki", 128, 64 );
 	StartShakingOfWindow( 241, 40, 0, 0, 4*2, FALSE );
@@ -45,7 +45,7 @@ void dialog003()
 {
 	ModPlayVoiceLS(4, 10, "ps3/s13/10/ds41100436", 128, TRUE);
 	OutputLine(NULL, "　全世界を偉大なるメイドカチューシャが覆いし時、真のメイド世界が開かれる！！",
-		   NULL, " Quando as grandes tiaras de empregadas cobrirem todo o globo, o verdadeiro mundo das empregadas surgirá!!", Line_Continue);
+		   NULL, " Quando as grandes tiaras de maids cobrirem todo o globo, o verdadeiro mundo das maids surgirá!!", Line_Continue);
 	Wait( 3800 );
 	PlaySE( 0, "s_Kyupiin", 128, 64 );
 	DrawBustshot(5, "background/furiker_c", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 5, 50, TRUE );
@@ -75,7 +75,7 @@ void dialog003()
 
 	ModPlayVoiceLS(4, 10, "ps3/s13/10/ds41100438", 128, TRUE);
 	OutputLine(NULL, "　メイドの魂よ、ここに集うのだッ！！！",
-		   NULL, " Espíritos de todas as empregadas, reúnam-se aqui!!!", Line_Continue);
+		   NULL, " Espíritos de todas as maids, reúnam-se aqui!!!", Line_Continue);
 }
 
 void dialog004()

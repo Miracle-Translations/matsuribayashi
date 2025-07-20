@@ -15,7 +15,7 @@ void main()
 		   NULL, "\"Hello?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>主婦</color>", NULL, "<color=#f5e6d3>Housewife</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>主婦</color>", NULL, "<color=#f5e6d3>Dona de casa</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtk2_shuhua2001", 128, TRUE);
 	OutputLine(NULL, "「はいはいはい、あらあらこんにちは。",
 		   NULL, "\"Hello hello, good afternoon.", Line_WaitForInput);
@@ -39,7 +39,7 @@ void main()
 		   NULL, " Pleased to meet you.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>主婦</color>", NULL, "<color=#f5e6d3>Housewife</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>主婦</color>", NULL, "<color=#f5e6d3>Dona de casa</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtk2_shuhua2003", 128, TRUE);
 	OutputLine(NULL, "「あらあらあら！",
 		   NULL, "\"Oh my, oh my!", Line_WaitForInput);
@@ -57,7 +57,7 @@ void main()
 		   NULL, " Our new neighbor is here to say hello!!\"", Line_Normal);
 	ClearMessage();
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>老婆</color>", NULL, "<color=#f5e6d3>Old Woman</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>老婆</color>", NULL, "<color=#f5e6d3>Velha</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtk2_roubaa2001", 128, TRUE);
 	OutputLine(NULL, "「でっけぇ声出さんでも聞こえてぇんな！",
 		   NULL, "\"Don't yell like that!", Line_WaitForInput);
@@ -66,7 +66,7 @@ void main()
 		   NULL, " Thank you for taking time to come over.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>主婦</color>", NULL, "<color=#f5e6d3>Housewife</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>主婦</color>", NULL, "<color=#f5e6d3>Dona de casa</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtk2_shuhua2008", 128, TRUE);
 	OutputLine(NULL, "「竜宮さんだって。",
 		   NULL, "\"They're the Ryuugu family.", Line_WaitForInput);
@@ -75,7 +75,7 @@ void main()
 		   NULL, " They just moved into the empty house next door.\"", Line_Normal);
 	ClearMessage();
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>老婆</color>", NULL, "<color=#f5e6d3>Old Woman</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>老婆</color>", NULL, "<color=#f5e6d3>Velha</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtk2_roubaa2003", 128, TRUE);
 	OutputLine(NULL, "「…………ああぁああぁ！！",
 		   NULL, "\"......Aaahhhh!!", Line_WaitForInput);
@@ -99,13 +99,13 @@ void main()
 		   NULL, " Thank you for remembering, hauu...\"", Line_Normal);
 	ClearMessage();
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>主婦</color>", NULL, "<color=#f5e6d3>Housewife</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>主婦</color>", NULL, "<color=#f5e6d3>Dona de casa</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtk2_shuhua2010", 128, TRUE);
 	OutputLine(NULL, "「なぁんね、お母ちゃん、知ってるのかい？！」",
 		   NULL, "\"Mom, do you know her?!\"", Line_Normal);
 	ClearMessage();
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>老婆</color>", NULL, "<color=#f5e6d3>Old Woman</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>老婆</color>", NULL, "<color=#f5e6d3>Velha</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtk2_roubaa2006", 128, TRUE);
 	OutputLine(NULL, "「知ってるもなぁんと！",
 		   NULL, "\"Of course I do!", Line_WaitForInput);
@@ -132,7 +132,7 @@ void main()
 		   NULL, " but I feel this is where I belong.\"", Line_Normal);
 	ClearMessage();
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>主婦</color>", NULL, "<color=#f5e6d3>Housewife</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>主婦</color>", NULL, "<color=#f5e6d3>Dona de casa</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtk2_shuhua2011", 128, TRUE);
 	OutputLine(NULL, "「なら馴染むのは早いねぇ！",
 		   NULL, "\"Then you'll fit right in!", Line_WaitForInput);
@@ -359,7 +359,7 @@ void main()
 		   NULL, "Although I hardly remember Hinamizawa, my father remembers things very clearly.", Line_Normal);
 	ClearMessage();
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>レナ父</color>", NULL, "<color=#f5e6d3>Rena's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>レナ父</color>", NULL, "<color=#f5e6d3>Pai da Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtk2_renaf2001", 128, TRUE);
 	OutputLine(NULL, "「お父さんたちが雛見沢に住んでた頃にもあったんだけど、今は綿流しという行事がとても大きなお祭りになってるらしい。",
 		   NULL, "\"Although it was around when we lived here before, the Watanagashi festival has grown huge these days.", Line_WaitForInput);
@@ -374,7 +374,7 @@ void main()
 		   NULL, "\"Watanagashi?\"", Line_Normal);
 	ClearMessage();
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>レナ父</color>", NULL, "<color=#f5e6d3>Rena's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>レナ父</color>", NULL, "<color=#f5e6d3>Pai da Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtk2_renaf2003", 128, TRUE);
 	OutputLine(NULL, "「お父さんも見たことないんでわからないんだけど、体に付いた穢れを、綿に吸い取らせて沢に流す行事らしい。」",
 		   NULL, "\"I've never seen it myself, so I don't know too much about it. But supposedly people let cotton absorb the filth on their bodies and drift it down the stream.\"", GetGlobalFlag(GLinemodeSp));
@@ -396,7 +396,7 @@ void main()
 		   NULL, "\"You can wash your filth down the stream, huh?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>レナ父</color>", NULL, "<color=#f5e6d3>Rena's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>レナ父</color>", NULL, "<color=#f5e6d3>Pai da Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtk2_renaf2004", 128, TRUE);
 	OutputLine(NULL, "「あはははは、そりゃそうだ。",
 		   NULL, "\"Aha ha ha ha, of course.", Line_WaitForInput);
@@ -515,7 +515,7 @@ void main()
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>レナ父</color>", NULL, "<color=#f5e6d3>Rena's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>レナ父</color>", NULL, "<color=#f5e6d3>Pai da Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtk2_renaf2008", 128, TRUE);
 	OutputLine(NULL, "「そういうのをな、禊（みそぎ）って言うんだ。」",
 		   NULL, "\"It's called a purification ceremony.\"", Line_Normal);
@@ -532,21 +532,21 @@ void main()
 		   NULL, " I've heard of those before.\"", Line_Normal);
 	ClearMessage();
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>レナ父</color>", NULL, "<color=#f5e6d3>Rena's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>レナ父</color>", NULL, "<color=#f5e6d3>Pai da Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtk2_renaf2009", 128, TRUE);
 	OutputLine(NULL, "「日本文化というのは、穢れというものにものすごく厳格だろう。",
 		   NULL, "\"Japanese culture is very strict about filth.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtk2_renaf2010", 128, TRUE);
 	OutputLine(NULL, "穢れを残したまま、表舞台に留まることを許さない。",
 		   NULL, " You aren't allowed to remain in the spotlight if you accumulate too much. ", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>レナ父</color>", NULL, "<color=#f5e6d3>Rena's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>レナ父</color>", NULL, "<color=#f5e6d3>Pai da Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtk2_renaf2011", 128, TRUE);
 	OutputLine(NULL, "ほら、政治家や社長で汚職があると、すぐに辞職するのもそういうことだ。",
 		   NULL, "See, that's the reason why politicians and company presidents resign immediately once people find out about their dirty deeds.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtk2_renaf2012", 128, TRUE);
 	OutputLine(NULL, "穢れた人は表舞台を去らなければならない。",
 		   NULL, " You must leave the spotlight if you're filthy. ", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>レナ父</color>", NULL, "<color=#f5e6d3>Rena's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>レナ父</color>", NULL, "<color=#f5e6d3>Pai da Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtk2_renaf2013", 128, TRUE);
 	OutputLine(NULL, "……悪く言うと、穢れを誰か一人に押し付けて引責させるわけだな。」",
 		   NULL, "To put it in a bad way, the filth is basically pushed onto someone else, and they are held responsible for it.\"", Line_Normal);

@@ -19,7 +19,7 @@ void dialog001()
 {
 	ModPlayVoiceLS(4, 10, "ps3/s13/10/ds41100430", 128, TRUE);
 	OutputLine(NULL, "　今までＨビデオコーナーではキワモノ扱いだったオバサンシリーズがやがては一大コーナーを築くようになるのです！！",
-		 NULL, " Até agora, as séries de mulheres mais velhas eram tratadas como um nicho nas lojas pornográficas, mas ainda ocuparão um grande espaço!!", Line_Continue);
+		 NULL, " Até agora, as séries das coroas eram um nicho nas lojas de pornô, mas ainda ocuparão um grande espaço!!", Line_Continue);
 	Wait( 3700 );
 	PlaySE( 0, "s_daidageki", 128, 64 );
 	DrawBustshot(5, "white", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 5, 50, TRUE );
@@ -32,20 +32,20 @@ void dialog002()
 {
 	ModPlayVoiceLS(4, 10, "ps3/s13/10/ds41100432", 128, TRUE);
 	OutputLine(NULL, "　それを混ぜるとなぜかメイドでなく家政婦になり、",
-		 NULL, " Se misturá-las, você tem uma governanta, não uma empregada,", Line_Continue);
+		 NULL, " Se misturá-las, você tem uma governanta, não uma maid,", Line_Continue);
 	Wait( 3000 );
 	PlaySE( 0, "s_daidageki", 128, 64 );
 	StartShakingOfWindow( 241, 40, 0, 0, 4*2, FALSE );
 	StartShakingOfAllObjects( 241, 40, 0, 0, 4*2, FALSE );
 	OutputLine(NULL, "家政婦は見ていたシリーズになっちゃうのです！！",
-		 NULL, " e governantas vão ser a série de vídeos que as pessoas assistem!! ", GetGlobalFlag(GLinemodeSp));
+		 NULL, " e governantas vão ser a série de vídeos que as pessoas mais assistem!! ", GetGlobalFlag(GLinemodeSp));
 }
 
 void dialog003()
 {
 	ModPlayVoiceLS(4, 10, "ps3/s13/10/ds41100436", 128, TRUE);
 	OutputLine(NULL, "　全世界を偉大なるメイドカチューシャが覆いし時、真のメイド王が復活する！！",
-		 NULL, " Quando as grandes tiaras de empregadas cobrirem todo o mundo, o verdadeiro Rei das Empregadas reviverá!!", Line_Continue);
+		 NULL, " Quando as grandes tiaras de maids cobrirem todo o mundo, o verdadeiro Rei das Maids reviverá!!", Line_Continue);
 	Wait( 3800 );
 	PlaySE( 0, "s_Kyupiin", 128, 64 );
 	DrawBustshot(5, "background/furiker_c", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 5, 50, TRUE );
@@ -58,7 +58,7 @@ void dialog003()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 10, "ps3/s13/10/ds41100437", 128, TRUE);
 	OutputLine(NULL, "　ふはははお静かに、諸君はメイド王の前にいるのだ！！",
-		 NULL, "Fu ha ha ha, ouça com atenção, você está diante do Rei das Empregadas!!", Line_Continue);
+		 NULL, "Fu ha ha ha, ouça com atenção, você está diante do Rei das Maids!!", Line_Continue);
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 600 );
 	// (backup) SetValidityOfInput( TRUE );
@@ -101,5 +101,5 @@ void dialog004()
 	// (backup) SetValidityOfInput( TRUE );
 	PlaySE( 0, "s_boyoon", 128, 64 );
 	OutputLine(NULL, "メイドッ！！",
-		 NULL, " Empregada!! ", GetGlobalFlag(GLinemodeSp));
+		 NULL, " Maid!! ", GetGlobalFlag(GLinemodeSp));
 }
