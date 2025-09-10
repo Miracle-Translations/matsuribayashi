@@ -281,7 +281,7 @@
 	{
 		"Id":32,
 		"Title":"Sons de passos no quarto ano",
-		"Description":"É necessário que Houjou Satoshi tenha consciência de seus pecados.\nÉ necessário que os pecados de Ryuugu Rena sejam perdoados.",
+		"Description":"É necessário que Houjou Satoshi tenha consciência de seus pecados.\nÉ necessário que \"algo\" perdoe os pecados de Ryuugu Rena.",
 		"TitleJp":"四年目の足音",
 		"DescriptionJp":"北条悟史に罪の意識が必要です。\n竜宮レナに罪を許すナニカが必要です。",
 		"Script":"_kakera32",
@@ -443,7 +443,7 @@
 	{
 		"Id":50,
 		"Title":"Um Fragmento de Matsuribayashi",
-		"Description":"São necessários sete Fragmentos.",
+		"Description":"São necessários 7 Fragmentos.",
 		"TitleJp":"祭囃し編のカケラ",
 		"DescriptionJp":"７つのカケラが必要です。",
 		"Script":"_kakera50",
@@ -461,7 +461,7 @@
 	{
 		"Id":52,
 		"Title":"Bandeiras das refeições infantis",
-		"Description":"...É necessário salvá-la também.",
+		"Description":"......É necessário salvá-la também.",
 		"TitleJp":"お子様ランチの旗",
 		"DescriptionJp":"……彼女にだって救いが、必要です。",
 		"Script":"_kakera52",
