@@ -142,7 +142,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　梨花は神主から百円玉をもらうと、廊下へ飛び出していった。",
-		   NULL, "Rika pegou a moeda de 100 ienes que seu pai ofereceu e foi para o corredor.", Line_Normal);
+		   NULL, "Rika pegou a moeda de 100 ienes que o kannushi a ofereceu e saiu voando até o corredor.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
@@ -221,7 +221,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 10, "ps3/s20/10/vtk1_irie1156", 128, TRUE);
 	OutputLine(NULL, "また、…場合によっては彼女の頭蓋に穿孔を空け、直接頭部の中を検査させていただくことになるかもしれません。」",
-		   NULL, "Inclusive... também existe a chance de precisarmos fazer um furo no crânio dela para examinar por dentro da cabeça.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Inclusive, também existe a chance de precisarmos fazer um furo no crânio dela para examinar por dentro da cabeça.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の父</color>", NULL, "<color=#f5e6d3>Pai da Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -248,7 +248,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s20/09/vtk1_takano1115", 128, TRUE);
 	OutputLine(NULL, "「もちろん、梨花ちゃんは女の子ですもの。",
-		   NULL, "\"Claro, já que a Rika-chan é uma menina...", Line_WaitForInput);
+		   NULL, "\"Claro, já que a Rika-chan é uma menina,", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s20/09/vtk1_takano1116", 128, TRUE);
 	OutputLine(NULL, "頭部穿孔周辺の頭髪には気を遣いますので、丸坊主にしてしまうようなことはありません。",
 		   NULL, " nós não vamos raspar toda a cabeça dela.", Line_WaitForInput);
