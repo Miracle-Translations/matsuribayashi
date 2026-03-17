@@ -25,40 +25,40 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私、前原伊知郎は今、極めて絶好調に素晴らしく、",
-		   NULL, "My name is Maebara Ichirou, and I am", Line_ContinueAfterTyping);
+		   NULL, "Eu, Maebara Ichirou, estou...", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
 	Wait( 800 );
 	SetValidityOfInput( TRUE );
 	OutputLine(NULL, "…困っている。",
-		   NULL, " hopelessly lost.", Line_Normal);
+		   NULL, " completamente perdido.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　この雛見沢へは、別荘地分譲のための見学ツアーでやって来た。",
-		   NULL, "I came to Hinamizawa on a tour to find a lot for a vacation home.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eu vim para Hinamizawa em um tour de venda de terrenos, procurando por terreno para uma casa de férias.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それで不動産屋さんの説明が終わり、皆さん、お時間までどうか散策を楽しまれてください、なんて言われて。",
-		   NULL, "When the realtor finished explaining some details, he told us to take a walk until the departure time.", Line_Normal);
+		   NULL, "Quando o corretor terminou a explicação, ele disse \"Pessoal, vocês podem andar por aí e aproveitar a viagem enquanto esperam a hora de ir embora\".", Line_Normal);
 	ClearMessage();
 
 	SetSpeedOfMessage( TRUE, 128 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　………あまりに美しい新緑の景色と美味しい空気、",
-		   NULL, "Such beautiful scenery and fresh air...", Line_ContinueAfterTyping);
+		   NULL, ".........Com a vista de uma vegetação tão bonita e um ar tão fresco...", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
 	Wait( 800 );
 	SetValidityOfInput( TRUE );
 	OutputLine(NULL, "そしてとめどなく湧き上がるインスピレーションに誘われるまま、ふらふらと歩いていたら、",
-		   NULL, " I let my senses guide me and...", Line_ContinueAfterTyping);
+		   NULL, " me deixei levar pela inspiração imparável e caminhei sem rumo......", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
 	Wait( 1000 );
 	SetValidityOfInput( TRUE );
 	OutputLine(NULL, "……その。",
-		   NULL, " Here I am.", Line_WaitForInput);
+		   NULL, " Assim, eu acabei aqui...", Line_WaitForInput);
 	OutputLine(NULL, "…ここはどこだろう。",
-		   NULL, " Where am I?", Line_ContinueAfterTyping);
+		   NULL, " Onde eu estou?", Line_ContinueAfterTyping);
 	OutputLineAll(NULL, "", Line_Normal);
 
 	ClearMessage();
@@ -68,17 +68,17 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　集合の時間までまだ少しあるが、……完全に迷ってしまっている。",
-		   NULL, "I still have a little time before the departure, but I am completely lost.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ainda tem um tempinho até o momento de voltarmos...... mas eu estou completamente perdido.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　田舎とは言え、人里だ。",
-		   NULL, "This is basically the middle of nowhere, but people actually do live here.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Aqui é uma área rural, mas ainda tem gente vivendo.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　適当に歩いてれば誰かに会えるだろうし道を聞けるだろう。",
-		   NULL, "If I keep walking, I should run into somebody. Then I can ask for directions.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Se eu continuar andando, devo encontrar alguém que posso pedir informações.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -86,29 +86,29 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　焦らない焦らない、",
-		   NULL, "Don't worry,", Line_ContinueAfterTyping);
+		   NULL, "Tá tudo bem, tá tudo bem,", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
 	Wait( 700 );
 	SetValidityOfInput( TRUE );
 	OutputLine(NULL, "はっはっは。",
-		   NULL, " ha ha ha.", Line_WaitForInput);
+		   NULL, " ha ha ha.........", Line_WaitForInput);
 	OutputLine(NULL, "………ちょっとコワイのは新幹線の時間くらいだ。",
-		   NULL, " The only thing I need to keep in mind is the departure time for the bullet train.", Line_Normal);
+		   NULL, " A única coisa que ainda me assusta um pouco é o horário do trem bala.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　しかし、誰かに会えるだろう、道を聞けるだろうというのは、少し楽観が過ぎたかもしれない。",
-		   NULL, "But the more time passes, the more I start to think I was being too optimistic about running into somebody.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Só que, quanto mais o tempo passa, mais eu penso que talvez eu tenha sido um pouco otimista demais em achar que encontraria alguém para pedir informações.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…だって、さっきから誰にも出会わないのだ。",
-		   NULL, "...Because I can't find anybody at all.", Line_Normal);
+		   NULL, "...Porque eu não encontrei ninguém.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…私は、都会人特有の無用心さで、実はいつの間にか人里を離れてしまっていて、遭難直前な状態なのでは…。",
-		   NULL, "Maybe I'm walking farther and farther away from where people are, in which case I'm in serious trouble.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Talvez eu esteja me afastando mais e mais de onde as pessoas estão, o que seria um problemão...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -116,19 +116,19 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だから、人の声が聞こえたので、とてもほっとしたのだ。",
-		   NULL, "So upon hearing someone's voice, I feel immensely relieved.", Line_Normal);
+		   NULL, "Foi por isso que, quando ouvi a voz de alguém, fiquei muito aliviado.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それは小さな女の子たちが、遊ぶような声。",
-		   NULL, "It sounds like little girls are playing nearby.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Pareciam ser vozes de garotinhas brincando.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……子供が遊んでいるような場所なのだから、そこは安全な場所に違いない。",
-		   NULL, "If it's a place where little kids can play, it must be a safe village.", Line_WaitForInput);
+		   NULL, "......Se é um lugar onde crianças podem brincar, deve ser um lugar seguro.", Line_WaitForInput);
 	OutputLine(NULL, "私は自然とそこへ足を誘われた。",
-		   NULL, " I followed those voices.", Line_Normal);
+		   NULL, " Eu segui aquelas vozes.", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "black", "maskright", 1, 0, 300 );
@@ -142,12 +142,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　手入れされていない生え放題のススキの茂みを回りこむと、そこはとても美しい野原だった。",
-		   NULL, "Upon rounding the wild pampas grass, I can see a beautiful field.", Line_Normal);
+		   NULL, "Após contornar um matagal de susuki mal cuidado e descontroladamente crescido, eu vi um belo campo.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そこには、２人の少女が戯れていた。",
-		   NULL, "Two girls are playing there.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "2 garotas estavam bricando lá.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -717,7 +717,7 @@ void main()
 
 	DrawScene( "background/sora5", 400 );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不動産屋</color>", NULL, "<color=#f5e6d3>Real Estate Agent</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不動産屋</color>", NULL, "<color=#f5e6d3>Corretor de Imóveis</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtk2_hudou2001", 128, TRUE);
 	OutputLine(NULL, "「ぁーー！！",
 		   NULL, "\"Oh,", Line_WaitForInput);
