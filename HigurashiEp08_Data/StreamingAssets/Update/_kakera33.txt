@@ -352,7 +352,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　圭一のことを何も理解せず、その心の悩みを何も汲み取れずに、最後の最後まで放置してしまったのだ。",
-		   NULL, "Não entemos os problemas que o Keiichi estava tendo e deixamos ele sozinho até o fim.", Line_Normal);
+		   NULL, "Não entendemos os problemas que o Keiichi estava tendo e deixamos ele sozinho até o fim.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
