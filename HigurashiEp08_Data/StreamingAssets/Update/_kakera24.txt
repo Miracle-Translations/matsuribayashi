@@ -107,7 +107,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/vtk1_oishi1043", 128, TRUE);
 	OutputLine(NULL, "「おやっさんだったら、やかましいって言ってゲンコツのひとつも食らわしてるところです。」",
-		   NULL, "\"Se fosse o velho, ele teria levado um tapa for fazer tanto barulho.\"", Line_Normal);
+		   NULL, "\"Se fosse o velho, ele teria levado um tapa por fazer tanto barulho.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鑑識</color>", NULL, "<color=#f5e6d3>Investigador Forense</color>", NULL, Line_ContinueAfterTyping); }
