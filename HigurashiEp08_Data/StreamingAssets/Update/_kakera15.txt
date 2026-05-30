@@ -499,7 +499,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが、入江は単なる村医者に過ぎず、どちらかというと駒に過ぎない。",
-		   NULL, "Mas ele é só o médico do vilarejo, então ele não é nada mnais do que o peão deles.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Mas ele é só o médico do vilarejo, então ele não é nada mais do que o peão deles.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -536,7 +536,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…これこそが犯人の目的のような気がする。",
-		   NULL, "...Esse parece ser o objtivo do culpado.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Esse parece ser o objetivo do culpado.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -549,7 +549,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……その威厳か何かを取り戻すために、何者かが儀式めいた殺人を犯しているのではないか。",
-		   NULL, "......Será que alguém está comentendo esses assassinatos como um ritual para recuperar a dignidade desse deus?", Line_Normal);
+		   NULL, "......Será que alguém está cometendo esses assassinatos como um ritual para recuperar a dignidade desse deus?", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM( 0, 300, FALSE );
