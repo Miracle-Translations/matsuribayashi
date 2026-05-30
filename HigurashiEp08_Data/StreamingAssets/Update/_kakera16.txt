@@ -312,7 +312,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……そいつをひっ捕らえ、未だ見付からないおやっさんの右腕を見付け出す。",
-		   NULL, "......Eu tenho que encontrar ele, e encontrar aquele braço direito perdido .", GetGlobalFlag(GLinemodeSp));
+		   NULL, "......Eu tenho que encontrar ele, e encontrar aquele braço direito perdido.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -406,7 +406,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…裏切り者には祟りという名の制裁があることが、きっちりと示されたからだ。",
-		   NULL, "...Isso porque os disseram que os traidores seriam punidos pela maldição.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Porque isso deixou bem claro que os traidores seriam punidos pela maldição.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
