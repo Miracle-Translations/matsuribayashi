@@ -65,7 +65,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　とにかく、この責任をどう取るのかと彼らに釈明させることにする。",
-		   NULL, "Enfim, eu preciso fazer eles deixarem bem claro sobre como vão se resposabilizar por isso.", Line_Normal);
+		   NULL, "Enfim, eu preciso fazer eles deixarem bem claro sobre como vão se responsabilizar por isso.", Line_Normal);
 	ClearMessage();
 
 
