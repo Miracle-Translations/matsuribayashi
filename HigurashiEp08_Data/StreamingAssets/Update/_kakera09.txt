@@ -123,7 +123,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　今日は単なる挨拶で、明日がミーティングの日になっていた。",
-		   NULL, "Hoje foi só uma reunião de interação, amanhã foi o verdadeiro encontro.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Hoje foi só uma reunião de interação, amanhã será o verdadeiro encontro.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -432,7 +432,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……建設省に圧力を掛けられるコネクションについては、あまり得意ではないに違いない。",
-		   NULL, "......Encontrar uma forma de pressionar o Ministro da Construção era o segundo caso.", Line_Normal);
+		   NULL, "......Encontrar uma forma de pressionar o Ministro da Construção era exatamente onde eles não eram tão fortes.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
