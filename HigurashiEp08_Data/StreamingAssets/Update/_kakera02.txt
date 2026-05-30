@@ -142,7 +142,7 @@ void main()
 		   NULL, " Acho que vou dizê-la que preciso de ajuda com a minha pesquisa.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 10, "ps3/s20/10/vtk1_irie1056", 128, TRUE);
 	OutputLine(NULL, "栄養剤の注射を毎日してもらい、毎週日曜日にその効果を検査する。",
-		   NULL, " Ela precisa aplicar doses em si mesma diariamentre e vir aqui todos os domingos para fazer um check-up. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Ela precisa aplicar doses em si mesma diariamente e vir aqui todos os domingos para fazer um check-up. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 10, "ps3/s20/10/vtk1_irie1057", 128, TRUE);
 	OutputLine(NULL, "その代わりに研究協力費としていくらかを支払う、という感じです。」",
