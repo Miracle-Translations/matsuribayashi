@@ -126,9 +126,9 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　なら、……せめてそれに協力してやりたい。",
-		   NULL, "Se for, então...... eu quero ajudá-lo, pelo menos menos com isso.", Line_WaitForInput);
+		   NULL, "Se for, então...... eu quero ajudá-lo, pelo menos com isso.", Line_WaitForInput);
 	OutputLine(NULL, "そう思った。",
-		   NULL, " É assim que em sinto.", Line_Normal);
+		   NULL, " É assim que me sinto.", Line_Normal);
 	ClearMessage();
 
 	PlayBGM( 1, "higurashi", 120, 0 );
