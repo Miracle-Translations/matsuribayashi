@@ -92,7 +92,7 @@
 	{
 		"Id":11,
 		"Title":"Desconfiança da mãe da rainha",
-		"Description":"São necessários os resultados da pesquisa na C103 e no H107.\nÉ necessário saber sobre a verdade do acidente do parque Shirakawa.",
+		"Description":"São necessários os resultados da pesquisa na C103 e no H170.\nÉ necessário saber sobre a verdade do acidente do parque Shirakawa.",
 		"TitleJp":"女王の母の不信",
 		"DescriptionJp":"C103とH170の研究成果が必要です。\n白川公園転落事故の真実が必要です。",
 		"Script":"_kakera11",
