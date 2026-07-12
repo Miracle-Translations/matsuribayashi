@@ -7,22 +7,22 @@ void main()
 	PlayBGM( 0, "Iru", 120, 0 );
 
 	ClearMessage();
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不動産屋</color>", NULL, "<color=#f5e6d3>Real Estate Agent</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不動産屋</color>", NULL, "<color=#f5e6d3>Corretor de Imóveis</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtk2_hudou2005", 128, TRUE);
 	OutputLine(NULL, "「それじゃ、俺はそろそろお暇しますわ。",
-		   NULL, "\"Okay, I'll get going.", Line_WaitForInput);
+		   NULL, "\"Agora, irei embora.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtk2_hudou2006", 128, TRUE);
 	OutputLine(NULL, "どうもご馳走様でした。」",
-		   NULL, " Thank you!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Sou imensamente grato pela refeição.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#d7e6de>お魎</color>", NULL, "<color=#d7e6de>Oryou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 17, "ps3/s20/17/vtk2_oryou2001", 128, TRUE);
 	OutputLine(NULL, "「えぇんねえぇんね。",
-		   NULL, "\"Don't mention it.", Line_WaitForInput);
+		   NULL, "\"Não foi nada.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 17, "ps3/s20/17/vtk2_oryou2002", 128, TRUE);
 	OutputLine(NULL, "また来たってぇな。」",
-		   NULL, " Come back anytime, okay?\"", Line_Normal);
+		   NULL, " Volte sempre, viu?\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -32,25 +32,25 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/vtk2_mion2001", 128, TRUE);
 	OutputLine(NULL, "「ただいまー！",
-		   NULL, "\"Hi, I'm home!", Line_WaitForInput);
+		   NULL, "\"Cheguei!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/vtk2_mion2002", 128, TRUE);
 	OutputLine(NULL, "　って、あれ、弘叔父さん。",
-		   NULL, " Hey, Uncle Hiroshi.", Line_WaitForInput);
+		   NULL, " Ah, ei, Tio Hiroshi.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/vtk2_mion2003", 128, TRUE);
 	OutputLine(NULL, "お久し振りですー！」",
-		   NULL, " Long time no see!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Já faz tanto tempo!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不動産屋</color>", NULL, "<color=#f5e6d3>Real Estate Agent</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不動産屋</color>", NULL, "<color=#f5e6d3>Corretor de Imóveis</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtk2_hudou2007", 128, TRUE);
 	OutputLine(NULL, "「おう、魅音ちゃん。",
-		   NULL, "\"Hey, Mion-chan.", Line_WaitForInput);
+		   NULL, "\"E aí, Mion-chan.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtk2_hudou2008", 128, TRUE);
 	OutputLine(NULL, "今、帰りかい。",
-		   NULL, " Are you going home?", Line_WaitForInput);
+		   NULL, " Tá voltando pra casa, é?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtk2_hudou2009", 128, TRUE);
 	OutputLine(NULL, "叔父さんは今から送迎だよ。」",
-		   NULL, " I have to give my clients a ride.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Eu vou levar eles de volta agora.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -59,10 +59,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/vtk2_mion2004", 128, TRUE);
 	OutputLine(NULL, "「送迎？",
-		   NULL, "\"A ride?", Line_WaitForInput);
+		   NULL, "\"Levar quem de volta?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/vtk2_mion2005", 128, TRUE);
 	OutputLine(NULL, "　あぁ、不動産屋さんのお仕事？」",
-		   NULL, " Ah, you're talking about your realtor business, huh?\"", Line_Normal);
+		   NULL, " Ahh, você tá falando do seu trabalho de corretor de imóveis, né?\"", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "black", 400 );
@@ -137,7 +137,7 @@ void main()
 	DrawSceneWithMask( "black", "maskright", 1, 0, 300 );
 	DrawSceneWithMask( "background/so_g1", "maskright", 1, 0, 300 );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不動産屋</color>", NULL, "<color=#f5e6d3>Real Estate Agent</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不動産屋</color>", NULL, "<color=#f5e6d3>Corretor de Imóveis</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtk2_hudou2010", 128, TRUE);
 	OutputLine(NULL, "「じゃあね、駅前に寄った時はぜひ遊びにおいでよ。",
 		   NULL, "\"Okay, if you're ever near the station, be sure to stop by.", Line_WaitForInput);
@@ -155,7 +155,7 @@ void main()
 		   NULL, " So how is your business going?\"", Line_Normal);
 	ClearMessage();
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不動産屋</color>", NULL, "<color=#f5e6d3>Real Estate Agent</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不動産屋</color>", NULL, "<color=#f5e6d3>Corretor de Imóveis</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtk2_hudou2012", 128, TRUE);
 	OutputLine(NULL, "「都会の人が案外、興味を持ってくれたからびっくりだわ！",
 		   NULL, "\"I'm surprised there are actually city folks who are interested!", Line_WaitForInput);
@@ -170,7 +170,7 @@ void main()
 		   NULL, "\"Well, I guess some people are curious!\"", Line_Normal);
 	ClearMessage();
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不動産屋</color>", NULL, "<color=#f5e6d3>Real Estate Agent</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不動産屋</color>", NULL, "<color=#f5e6d3>Corretor de Imóveis</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtk2_hudou2014", 128, TRUE);
 	OutputLine(NULL, "「一軒、別荘じゃなくて、引越しで検討されてるお宅があったね。",
 		   NULL, "\"There's one family seeking to move here, not purchase a villa.", Line_WaitForInput);
@@ -188,7 +188,7 @@ void main()
 		   NULL, " That's great!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不動産屋</color>", NULL, "<color=#f5e6d3>Real Estate Agent</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>不動産屋</color>", NULL, "<color=#f5e6d3>Corretor de Imóveis</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtk2_hudou2016", 128, TRUE);
 	OutputLine(NULL, "「おっと、いけねぇわ！",
 		   NULL, "\"Oh, gosh!", Line_WaitForInput);

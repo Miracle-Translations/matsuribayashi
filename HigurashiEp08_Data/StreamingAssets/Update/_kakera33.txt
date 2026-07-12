@@ -534,7 +534,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そんな私の心を再び見透かしたように、少女は言った。",
-		   NULL, "Como se estivesse lendo a minha mente, uma das meninas falou.", Line_Normal);
+		   NULL, "Como se estivesse lendo a minha mente outra vez, uma das meninas falou.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
