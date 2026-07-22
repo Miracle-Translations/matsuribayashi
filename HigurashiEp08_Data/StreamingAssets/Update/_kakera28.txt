@@ -42,7 +42,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　雛見沢の学校は、本来は営林署で、その敷地を間借りしているに過ぎない。",
-		   NULL, "A escola de Hinamizawa é, na verdade, uma propriedade do serviço florestal que está sendo emprestada.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "A escola de Hinamizawa é, na verdade, o prédio do Serviço Florestal que está sendo emprestado.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

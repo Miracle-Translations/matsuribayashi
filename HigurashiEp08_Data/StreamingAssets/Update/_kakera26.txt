@@ -31,7 +31,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>村人</color>", NULL, "<color=#f5e6d3>Morador do Vilarejo</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtk1_farmmb1009", 128, TRUE);
 	OutputLine(NULL, "「俺らの誰の断りがあって、ダムなんか作ろうって言い出したかって聞いてんだ！」",
-		   NULL, "\"Quem que deu permissão pra vocês construírem uma represa aqui?!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Quem daqui deu permissão pra vocês construírem uma represa?!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	PlaySE( 0, "s_Down", 128, 64 );
