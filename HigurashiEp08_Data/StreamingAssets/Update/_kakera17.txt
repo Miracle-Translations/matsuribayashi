@@ -9,7 +9,7 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　医者になろうという動機は、子供の頃にありがちな非常に不純なものだった。",
-		   NULL, "I've wanted to become a doctor ever since I was little.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Minha motivação para virar médico era uma bem desonesta, típica da infância.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -17,21 +17,21 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　お医者さんになれば儲かる。",
-		   NULL, "Doctors make a lot of money.", Line_WaitForInput);
+		   NULL, "Médicos ganham bastante dinheiro.", Line_WaitForInput);
 	OutputLine(NULL, "尊敬される。",
-		   NULL, " People look up to doctors.", Line_WaitForInput);
+		   NULL, " Eles são respeitados.", Line_WaitForInput);
 	OutputLine(NULL, "…そんな程度が原点だった気がする。",
-		   NULL, " I think those are the kind of reasons I had.", Line_Normal);
+		   NULL, " ...Acho que esses eram os meus motivos no início.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だから、近所の子供たちと遊ぶ時にも、自分は常に医者として振舞った。",
-		   NULL, "So when I played with my friends, I always acted like a doctor.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Então, quando brincava com os meus amigos, eu sempre agia como um médico.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　付け焼刃の知識で、転んだ子の傷口を洗ったり、捻挫を冷やしたりしてあげていたっけ。",
-		   NULL, "I cleaned their wounds and applied ice packs when my friends sprained their ankles, using what I learned from household medical books.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eu limpava as feridas deles e aplicava pacotes de gelo quando eles torciam o tornozelo, usando o meu conhecimento superficial.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -39,24 +39,24 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　自分も周りも、京介くんは将来、きっとお医者さんになると信じていたんだ。",
-		   NULL, "Everyone, including me, believed that I'd be a doctor one day.", Line_Normal);
+		   NULL, "Todos, incluindo eu mesmo, pensavam: \"O Kyousuke-kun vai se tornar médico no futuro\".", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "black", "maskdown", 1, 0, 300 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　家は貧乏だったから、私のその志をとても喜んだらしい。",
-		   NULL, "My family was poor, so they praised me for that goal.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Minha família era pobre, então eles ficaram bem felizes por causa do meu objetivo.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　医者になるにはたくさんの勉強が必要だと教えてくれ、貸本屋さんから医学書もどきを借りて来ては読ませてくれたっけ。",
-		   NULL, "They told me that I needed to study a lot to become a doctor, so they borrowed some pseudo-medical books from the local library for me.", Line_Normal);
+		   NULL, "Eles me disseram que eu precisava estudar bastante para virar um médico, então pegaram emprestado alguns livros de pseudo-medicina da biblioteca para mim.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　一冊の借り賃も決して安くない。",
-		   NULL, "The rental fees weren't cheap.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "A taxa de aluguel de um lirvo não era barata.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -65,7 +65,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-3>", Line_Continue); }
 	OutputLine(NULL, "　だから、借りた一冊を一日で斜め読みし、翌日に両親がそれを「以前に借りた本と重複してしまったので、本を変更したい」なんて言って、タダで二冊目を借りて来てもらったりしたっけ。",
-		   NULL, "So I would speed-read one book in a day and the next day, my parents would go back to the store to exchange it for a different book, saying they accidentally borrowed a book they already borrowed before. By doing so, my parents borrowed two books for the price of one.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Então, eu folheava o livro inteiro em um único dia e, no dia seguinte, meus pais voltavam e diziam que \"tinham escolhido um livro que já leram antes por acidente e queriam trocar por um diferente\". Fazendo assim, meus pais pegavam emprestado dois livros pelo preço de um.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -73,19 +73,19 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　もっとも、そんな知識は、実際には大して役に立たないのだが、将来はきっと医者になるというモチベーションを盛り上げる意味では、とても有意義だったと思う。",
-		   NULL, "Of course, now I know those books were rather useless, but they were highly motivational just the same.", Line_Normal);
+		   NULL, "Claro, agora eu sei que aqueles livros não eram muito úteis na prática, mas ainda serviram para aumentar a minha motivação.", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "background/juku1_01", "maskc", 1, 0, 300 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　近所ではお医者の京介くんと呼ばれたし、クラスでも必ず保険委員に推薦された。",
-		   NULL, "My neighbors called me Dr. Kyousuke-kun, and I was always picked for class health officer at school.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Na minha vizinhança, eu era chamavado de Dr. Kyousuke-kun e, na escola, eu sempre era escolhido para ser um membro do comitê de saúde da classe.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　先生も、医者になるためにはどう進学すればいいか相談に乗ってくれた。",
-		   NULL, "Even my teachers helped me with the classes I needed to take to become a doctor.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Até o meu professor me aconselhava sobre o tipo de formação que eu precisaria para me tornar um médico.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -93,26 +93,26 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　もちろん、夢だけで医者になれるほど現実は甘くない。",
-		   NULL, "Of course, in reality, becoming a doctor isn't as easy as it might seem.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Claro que, na realidade, se tornar um médico não é tão fácil quanto parece.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　勉強も大変だったし、決して楽な道のりではなかった。",
-		   NULL, "I had to study diligently, and the path was most definitely rough.", Line_Normal);
+		   NULL, "Eu tive que estudar muito e o caminho certamente não foi tranquilo.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "black", 400 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　医者の門を叩くには大学に入るのが欠かせない。",
-		   NULL, "To become a doctor, one must attend college.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Para se tornar médico, é necessário entrar em uma faculdade.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが、家が貧乏だったため、学費のかかる私大は認めないと言われた。",
-		   NULL, "Since my family was poor, I was told I wasn't allowed to go to an expensive private school.", Line_WaitForInput);
+		   NULL, "Já que a minha família era pobre, me disseram que eu não podia ir a uma faculdade privada cara.", Line_WaitForInput);
 	OutputLine(NULL, "となれば、国立大学しかない。",
-		   NULL, " So I had to be admitted to a national public university.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Então, a minha única escolha era uma faculdade nacional pública.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -120,12 +120,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私の成績は決して悪くはなかったが、国立大学は極めて狭き門だった。",
-		   NULL, "My grades weren't bad, but the admission rate to national public universities is very marginal.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Minhas notas não eram ruins, mas a nota de corte era extremamente alta.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その上、医学部ともなれば、その門はさらに狭まる。",
-		   NULL, "Especially since I wanted to go to a medical school, my chances were even smaller.", Line_Normal);
+		   NULL, "E, ainda por cima, por eu querer entrar no departamento de medicina, minhas chances eram ainda menores.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "white", 1000 );
@@ -133,12 +133,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…懸命に勉強した。",
-		   NULL, "...I studied like crazy.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Eu estudei fervorosamente.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　原動力は、子供の頃の夢。",
-		   NULL, "My only driving force was my childhood dream of becoming a doctor.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Minha única motivação era o meu sonho de infância.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -146,29 +146,29 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　自分はお医者さんになって、みんなに尊敬されるんだ、という本当に安っぽい子供の頃の夢だけが私の背中を押してくれたのだ。",
-		   NULL, "The dream of becoming a doctor and to be looked up to by everyone kept me going.", Line_Normal);
+		   NULL, "Me tornar um médico e ser respeitado por todos foi o que me manteve firme.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……そして合格。",
-		   NULL, "...And I was admitted.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "......Então, eu passei.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　順位は決してよくなかったが、それでも辿り着いたのだ。子供の頃の夢を叶える、そのスタートラインにようやく。",
-		   NULL, "I wasn't at the top of the list, but I made it in. I was finally at the starting point of making my childhood dream come true.", Line_Normal);
+		   NULL, "Eu não estava no topo da lista, mas eu consegui. Eu finalmente estava no início da minha jornada para realizar o meu sonho de infância.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "black", 1000 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　両親は大喜びだった。",
-		   NULL, "My parents were thrilled.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Meus pais ficaram muito felizes.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…父も母も学歴は低かったから、自分の息子が医学部合格を成し遂げた快挙に、親類中を呼んでお祝いしてくれた。",
-		   NULL, "Neither my father nor mother went to college, so they were proud of their son getting into a public medical school. They invited our relatives over to celebrate.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Nem meu pai, nem minha mãe fizeram faculdade, então eles estavam orgulhosos que o filho deles tinha entrado em uma de medicina. Eles chamaram nossos parentes para comemorar.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -176,12 +176,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　たとえ国立と言えど安くない学費を承知の上で、盛大にお祝いしてくれた。",
-		   NULL, "Although it was a public university, tuition wasn't cheap. But they still had an extravagant celebration anyway.", Line_Normal);
+		   NULL, "Mesmo sendo uma faculdade pública, a mensalidade não era barata. Mas eles ainda fizeram uma comemoração extravagante.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　父は、感情を表に出さないタイプだった。",
-		   NULL, "My father didn't express his emotions much.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Meu pai era do tipo de pessoa que não expressava tanto as emoções.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -189,29 +189,29 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　何があっても仏頂面。",
-		   NULL, "He always kept a straight face.", Line_WaitForInput);
+		   NULL, "Ele sempre tinha uma cara fechada.", Line_WaitForInput);
 	OutputLine(NULL, "自分の意見を述べることもなく、率先することもない。",
-		   NULL, " He rarely voiced his opinion or took initiative on anything.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Ele raramente dava a própria opinião ou tomava alguma iniciativa.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　母に促されお膳立てをしてもらい、最後に現れて無言で去っていく、あの時代に多かった無言頑固タイプだった。",
-		   NULL, "My mother took care of everything, and he showed up last and left without saying a word. He was the typical stern and silent Japanese father of the time.", Line_Normal);
+		   NULL, "Minha mãe cuidava de tudo, ele aparecia por último e saía sem dizer nada. Ele era o típico calado e teimoso da época.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その親父が、涙を浮かべながら歓喜する姿がとても嬉しくて、自分も涙をもらってしまったことを思い出す。",
-		   NULL, "That's why I was surprised to see him shedding tears of joy, and I cried along with him.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ainda lembro que, quando vi ele com o rosto tão alegre e com lágrimas nos olhos, acabei me surpreendendo e chorando junto.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私の背中を何度も叩きながら親類に、こんな息子を持てて俺は幸せだと何度も繰り返し、私に面と向って、これまでの努力を讃えてくれたのだ。",
-		   NULL, "He went around to all my relatives while repeatedly slapping my back saying how proud and lucky he was to have a son like me. He bragged about my achievements to all who would hear them.", Line_Normal);
+		   NULL, "Ele falou com todos os meus parentes enquanto dava vários tapinhas nas minhas costas, dizendo o quão orgulhoso e sortudo era de ter um filho como eu. Ele olhava para mim e elogiava todo o meu esforço até então.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして、それは私を東京へ送り出す壮行会ともなった。",
-		   NULL, "The celebration became my farewell party as I was about to leave for Tokyo.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Essa celebração também acabou se tornando a minha festa de despedida, já que eu estava prestes a partir para Tóquio.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -219,7 +219,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　駅で父は、辺りに構わず万歳を連呼して見送ってくれた。",
-		   NULL, "My father yelled \"banzai\" repeatedly at the station as the train pulled away.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Enquanto o trem partia da estação, meu pai gritou \"banzai\" repetidas vezes, sem se importar com quem estava em volta.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
